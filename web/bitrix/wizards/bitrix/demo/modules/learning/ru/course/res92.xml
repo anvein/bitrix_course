@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>962</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>500</sort>
+<timestamp_x>1406636856</timestamp_x>
+<date_create>1406636856</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Добавление динамической информации в компонентах</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<p>Добавление, изменение и удаление динамической информации в компонентах осуществляется при включенном режиме <b>Правка</b>. Именно в этом режиме появляются Панели команд компонентов, с помощью которых и происходит управление информацией.</p>
+
+<p><img src="cid:resources/res92/gLFbL.rOYT3.add_news.png" width="576" height="442"></p>
+
+<p>При наведении указателя мыши на название раздела появляются команды управления содержанием раздела. При наведении указателя мыши на название элемента раздела появляются команды  управления содержанием элемента.</p>
+
+<p>С помощью этих команд вызываются формы создания/редактирования разделов и элементов.</p>]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>500</edge_sort>
+<id>962</id>
+</content>

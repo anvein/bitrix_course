@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="CHA"><lesson_id>1000</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>2</childs_cnt>
+<is_childs>1</is_childs>
+<sort>500</sort>
+<timestamp_x>1406636858</timestamp_x>
+<date_create>1406636858</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Публикация сообщений в блогах из других программ</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<div class="note"><b>Блог</b> (англ. blog, от «web log» — сетевой журнал или дневник событий) — веб-сайт (или раздел сайта), основное содержимое которого — регулярно добавляемые записи выражающее мнение автора о той или иной проблеме. Отличия блога от традиционного дневника обусловливаются тем, что блоги обычно публичны и предполагают сторонних читателей, которые могут вступить в публичную полемику с автором (в комментарии к блогозаписи или своих блогах).</div>
+
+
+<p>Для облегчения повседневной публикации сообщений в блогах сайтов, созданных на продуктах компании &quot;1С-Битрикс&quot; можно использовать любые текстовые редакторы, поддерживающие <b>MetaWeblog API</b>.</p>
+
+<p><b>MetaWeblog API (MWA)</b> является интерфейсом, который позволяет внешним программам управлять сообщениями в блоге. Интерфейс построен на XML-RPC протоколе.</p>
+
+<p>Использование MetaWeblog API предоставляет следующие возможности:</p>
+<ul>
+<li> Управление сообщениями блога одного или нескольких сайтов из blog-клиента или текстового редактора (большинство поддерживают <b>MetaWeblog API</b>).</li>
+<li>Возможность добавить свой функционал (который будет управлять вашими сайтами), не вдаваясь в логику работы продуктов &quot;1С-Битрикс&quot;, а используя <b>MetaWeblog API</b>.
+В курсе будет рассмотрена настройка таких редакторов на блоги сайта на примере программы <b>MS Word</b>.
+<p>Описанные методы публикаций можно использовать как для сайтов, созданных на платформе PHP, так и для сайтов созданных на платформе ASP.NET.</p>
+]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>500</edge_sort>
+<id>1000</id>
+</content>

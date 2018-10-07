@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>947</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>200</sort>
+<timestamp_x>1406636856</timestamp_x>
+<date_create>1406636856</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Загрузка изображений</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<p>Упрощенный HTML-редактор позволяет загружать графику и размещать ее на странице. Процесс размещения изображения очень прост:</p>
+<ul>
+  <li>Выберите место для изображения на странице, установив туда курсор, и нажмите кнопку <img src="cid:resources/res77/VMEpd.g1BdN.but_image.png" height="22" width="22" alt="Параметры изображения"> на панели инструментов. Откроется диалог <b>Параметры изображения</b>:</li>
+  <p><img src="cid:resources/res77/vct0b.TPO2b.light_editor_new_image_11.png" height="539" width="527"></p>
+  <li>Укажите расположение картинки в поле <b>Путь к изображению</b>. (Вручную или с помощью кнопки <img height="34" width="49" src="cid:resources/res77/xTg5g.fvF2N.dot_new.png"/>. С помощью этой кнопки можно выбрать изображения только из <b>Медиабиблиотеки</b>.)</li>
+
+  <li>В поле <b>Всплывающая подсказка</b> укажите текст, который будет отображен при наведении курсора мыши на изображение.</li>
+  <li>Задайте <b>Выравнивание</b> изображения.</li>
+ 
+  <li>Если отмечена опция <b>Сохранять пропорции</b>, то значения полей <b>Размеры (Ш х В)</b> будут заполнены автоматически. Также можно указать другие размеры.</li>
+
+  <li>Нажмите кнопку <b>Сохранить</b>.</li>
+</ul>
+<p>В результате добавленное изображение будет отображено в упрощенном редакторе:</p>
+<p><img src="cid:resources/res77/1ZAN4.v3dG3.light_editor_image_11.png" height="176" width="475" alt="Результат"></p>
+			
+
+			]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>200</edge_sort>
+<id>947</id>
+</content>

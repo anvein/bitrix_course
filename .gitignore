@@ -1,0 +1,56 @@
+# ненужные файлы и папки битрикса
+web/bitrix/cache
+web/bitrix/managed_cache
+web/bitrix/.settings.php
+web/bitrix/php_interface/dbconn.php
+web/bitrix/stack_cache
+web/bitrix/backup/
+web/bitrix/upload/
+web/upload
+web/local/include
+web/sitemap*
+web/bitrixsetup.php
+web/restore.php
+web/bitrix/modules/updater_partner.log
+web/sitemap*
+web/ru/sitemap*
+web/robots.txt
+
+docker-stuff/log
+
+
+# ненужные файлы и папки фронта
+frontend/node_modules
+frontend/bower_components
+frontend/build
+
+
+# ненужные файлы и папки IDE и операционных систем
+.DS_Store
+site_checker_*.*
+.idea/
+*.sublime-workspace
+.buildpath
+.project
+.settings
+nbproject
+Thumbs.db
+.~lock.*
+*.conf
+ubuntu-*.log
+
+
+# composer
+!vendor
+/vendor
+
+
+# rocketeer
+.rocketeer/logs
+
+
+# vagrant
+.vagrant
+
+#логи
+web/logs.log

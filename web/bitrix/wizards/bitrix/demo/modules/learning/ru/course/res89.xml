@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>959</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>100</sort>
+<timestamp_x>1406636856</timestamp_x>
+<date_create>1406636856</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name> Панель компонентов в визуальном редакторе</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<p>Для быстрого размещения компонентов на странице разработан интерфейс на базе визуального HTML-редактора. </p>
+ 
+<p><img src="cid:resources/res89/jKsRI.uXfIn.visual_editor.png"  width="697" height="652" border="0"/></p>
+
+<br>
+ 
+<p>Все визуальные компоненты расположены на специальной панели компонентов. Отображение этой панели зависит от настроек визуального редактора (переход к настройкам осуществляется при помощи кнопки <img width="22" height="22" src="cid:resources/res89/of9Fy.26sRn.but_vis_editor_set.png" />).</p>
+
+
+<p>Чтобы панель компонентов отображалась в редакторе, она должна быть отмечена флагом на закладке <b>Панели задач</b> формы <b>Настройки визуального редактора</b>:</p>
+ 
+<p><img src="cid:resources/res89/tiThB.GOH3H.comp_panel_set.png" border="0" height="358" width="663"  /></p>
+
+<p><div class="warning"><b>Внимание!</b> Закладка <b>Компоненты</b> отображается только при редактировании статических страниц. При редактировании полей элементов информационных блоков закладка недоступна, так как использование компонентов в информационных блоках не допускается.</div></p>
+
+<p>Закладка <b>Компоненты</b> в визуальном редакторе вызывается с помощью кнопки <img src="cid:resources/res89/i5Aki.4LdNK.but_components.png" width="161" height="22" border="0"/>. Все компоненты сгруппированы по разделам (Контент, Сервис, Общение, Магазин, Служебные), которые в свою очередь состоят из подразделов.</p>
+
+<p><img src="cid:resources/res89/STPSY.wvB66.all_components_1.png" width="248" height="330" border="0"/> <img src="cid:resources/res89/BbBUK.n3nFp.all_components_2.png" width="248" height="330" border="0"/></p>
+
+<br>
+<p>Доступны следующие действия управления закладкой <b>Компоненты</b> на панели задач:</p>
+
+<p><img src="cid:resources/res89/BxPtX.h3A5C.taskboard_options.png" width="284" height="341" border="0"/></p>
+
+<ul>
+<li>По кнопке <img src="cid:resources/res89/DTtoi.ZhFEa.but_minimize.png" width="17" height="17" border="0"/> <b>Свернуть</b> можно временно скрыть панель. Вернуть ее можно, используя кнопку <img src="cid:resources/res89/4rbS2.MY3pu.but_components.png" width="161" height="22" border="0"/>. </li>
+<li>Кнопка <b>Обновить закешированные данные</b> позволяет сбросить кеш, например, если были добавлены собственные компоненты.</li> 
+<li>Кнопка <b>Настроить</b> вызывает форму настройки внешнего вида редактора, которая также доступна по кнопке <img width="22" height="22" src="cid:resources/res89/q2sZD.E7jrO.but_vis_editor_set.png" /> <b>Настройки</b> панели инструментов визуального редактора.</li> 
+<li>Кнопка <b>Закрыть</b> закрывает отображаемую панель. Восстановить ее отображение можно с помощью формы настройки редактора (кнопка <img width="22" height="22" src="cid:resources/res89/j2lzr.qmrin.but_vis_editor_set.png" />).</li>
+</ul>
+
+<p><div class="learnin-post-text">
+<table class="learning-spoiler">
+<thead onclick="LearningInitSpoiler(this)">
+<tr><th>
+<div>Компоненты 1.0 до v.9.5</div>
+</th></tr></thead>
+<tbody style="display:none;" class="learning-spoiler">
+<tr><td>В версии продукта до 9.5 присутствует закладка <b>Компоненты 1.0</b>. Она позволяет добавлять на страницу компоненты 1.0, которые устарели и не рекомендуются к использованию.
+<p><img src="cid:resources/res89/qcRlA.GLlyz.comp_1.0_tab.png" width="270" height="36" border="0"/></p></td></tr>
+</tbody>
+</table></div></p>]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>100</edge_sort>
+<id>959</id>
+</content>

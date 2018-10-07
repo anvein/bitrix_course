@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>973</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>200</sort>
+<timestamp_x>1406636857</timestamp_x>
+<date_create>1406636857</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Размещение каталога в публичной части сайта</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<p>Рассмотрим публикацию каталога с помощью комплексного компонента. Комплексный компонент объединяет в себе возможности простых (одностраничных) компонентов и позволяет создать полнофункциональный каталог. В нашем примере рассмотрим подробно публикацию каталога книг с помощью комплексного компонента.
+Для этого выполните следующее:</p>
+<ul>
+   <li>Перейдите в раздел сайта, в котором должен быть размещен каталог книг. Если такого раздела нет, то его нужно предварительно создать. Создадим новый раздел. 
+<ul>
+   <li>Перейдите в раздел <b>Магазин</b> и нажмите кнопку <img height="85" width="71" src="cid:resources/res103/aVhDq.5Nchk.create_section.png">
+<br /><br / >
+Откроется окно мастера создания нового раздела.
+
+</li>
+   <li>Введите заголовок раздела и имя папки. Нажмите <b>Далее</b>.
+</li>
+<li>
+Укажите имя нового пункта меню и его положение в списке. Нажмите <b>Далее</b>.
+</li>
+
+<li>При необходимости можно изменить свойства раздела. Нажмите <b>Готово</b>. Загрузится окно визуального редактора.
+</li>
+</ul>
+<li>Добавьте комплексный компонент <b>Каталог</b> (<b>Контент > Каталог</b> на панели <b>Компоненты 2.0</b> Визуального редактора) в рабочую область и настройте его параметры. 
+</li>
+<li>Произведем настройку некоторых групп параметров для примера:
+   <ul>
+       <li>В группе <b>Управление адресами страниц</b> установите флаг в поле <b>Включить поддержку ЧПУ</b> («человеко-понятные урл»). Если не использовать эту возможность, то адреса страниц и разделов будут строиться по умолчанию, как это задано внутри компонента.
+<br /><br />
+<a href="javascript:ShowImg('/images/content_manager/examples/chpu.png',728,167,'Настройки ЧПУ')"><img height="137" border="0" width="600" src="cid:resources/res103/xkSRi.MNMsH.chpu_sm.png" alt="Нажмите на рисунок, чтобы увеличить" style="cursor: pointer;" /></a> 
+</li>
+
+<li>В группе <b>Основные параметры</b> укажите тип инфоблока и сам инфоблок, в котором содержится каталог книг (выбираем <b>Каталог книг</b> и <b>Книги</b>). 
+<br /><br />
+<a href="javascript:ShowImg('/images/content_manager/examples/base_params.png',740,94,'Основные параметры')"><img height="76" border="0" width="600" src="cid:resources/res103/ts5xP.esx3D.base_params_sm.png" alt="Нажмите на рисунок, чтобы увеличить" style="cursor: pointer;" /></a> 
+</li>
+<li>В группе <b>Настройки отзывов</b> разрешим пользователям оставлять отзывы на книги на странице детального просмотра.
+<br /><br />
+<a href="javascript:ShowImg('/images/content_manager/examples/review_set.png',727,210,'Настройки отзывов')"><img height="173" border="0" width="600" src="cid:resources/res103/1KyFR.POOXJ.review_set_sm.png" alt="Нажмите на рисунок, чтобы увеличить" style="cursor: pointer;" /></a> 
+</li>
+<li>В группе <b>Настройки списка</b> укажите количество элементов на странице и в одной строке, а также произведите настройку свойств.
+<br /><br />
+<a href="javascript:ShowImg('/images/content_manager/examples/list_set.png',859,307,'Настройки списка')"><img height="214" border="0" width="600" src="cid:resources/res103/UQndB.FT0lW.list_set_sm.png" alt="Нажмите на рисунок, чтобы увеличить" style="cursor: pointer;" /></a> 
+</li>
+<li>В группе <b>Настройки детального просмотра</b> выберите необходимые параметры и добавьте свойство Автор(ы).
+<br /><br />
+<a href="javascript:ShowImg('/images/content_manager/examples/detail_set.png',682,192,'Настройки детального просмотра')"><img height="169" border="0" width="600" src="cid:resources/res103/j2omI.SR2y4.detail_set_sm.png" alt="Нажмите на рисунок, чтобы увеличить" style="cursor: pointer;" /></a> 
+</li>
+<li>Вывод цены товара в каталоге зависит от наличия или отсутствия установленного модуля <b>Торговый каталог</b>.
+<br /><br />
+Если вы настраиваете вывод каталога товаров без использования модуля <b>Торговый каталог</b>, то вывод цен можно осуществить, создав дополнительное свойство инфоблока, относящееся к цене, например, <b>Розничная цена (RETAIL_PRICE)</b>. Вы можете создавать любое количество свойств, в данном случае любой набор типов цен. Вывод цен в этом случае осуществляется как вывод любого другого свойства на тех страницах, где вы хотите, например, на странице со списком элементов, на странице детального просмотра.
+<br /><br />
+<img src="cid:resources/res103/dLppM.qPBim.properties.png" width="308" height="55" border="0">
+<br /><br />
+Если же модуль <b>Торговый каталог</b> установлен в системе, то настройка вывода цен производится в разделе <b>Цены</b> настроек компонента <b>Каталог</b>.
+<br /><br />
+<img src="cid:resources/res103/0FkH3.a7oUE.prices.png" width="592" height="168" border="0">
+
+</li>
+<li>В группе <b>Настройки связанных элементов</b> настройте отображение рецензий на книгу.
+
+<br /><br />
+<a href="javascript:ShowImg('/images/content_manager/examples/linked_elements.png',751,135,'Настройки связанных элементов')"><img height="107" border="0" width="600" src="cid:resources/res103/eWEu5.C4Lhl.linked_elements_sm.png" alt="Нажмите на рисунок, чтобы увеличить" style="cursor: pointer;" /></a> 
+<br /><br />
+Страницу с детальным просмотром рецензии необходимо создать отдельно с помощью компонента <b>Новость детально (bitrix:news.detail)</b> и в этом случае задавать адрес страницы в таком виде: 
+<br />
+<code>/e-store/books/reviews/detail.php?ID=#ELEMENT_ID#</code>
+<br />
+ Также можно вывести все рецензии с помощью комплексного компонента <b>Новости (bitrix:news)</b> и в этом случае ссылка на рецензию будет иметь вид: 
+<br /><code>/e-store/books/reviews/#ELEMENT_ID#/</code>.</li>
+<li>При необходимости настройте дополнительные параметры.</li>
+   </ul>
+</li>
+</ul>
+<p>Поскольку разделы и элементы каталога мы еще не заполняли, то в публичном разделе страница пока примет вид:</p>
+
+<img src="cid:resources/res103/uHujW.8NOSM.main_page.png" width="358" height="186" border="0">
+
+<p>Далее перейдем к заполнению каталога содержимым.</p>
+
+<p><div class="hint">При размещении каталога в публичном разделе также можно воспользоваться простыми - одностраничными компонентами, т.е. один компонент - это одна страница или ее часть.
+<br /><br />
+<img src="cid:resources/res103/Br5qN.JFmPW.simple_components.png" width="385" height="535" border="0">
+<br /><br />
+
+Такой вариант подойдет, если полный каталог вам не нужен, а требуется создать только определенные страницы. Например, список товаров и страница с детальной информацией. 
+<br /><br />
+Для создания полного каталога удобнее пользоваться комплексным компонентом.</div></p>
+
+<h4>Дополнительная информация</h4>
+<ul>
+<li><a href="http://dev.1c-bitrix.ru/user_help/content/iblock/components_2/catalog/catalog.php" target="_blank">Параметры компонента Каталог (документация)</a></li>
+</ul>]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>200</edge_sort>
+<id>973</id>
+</content>

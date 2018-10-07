@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>942</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>100</sort>
+<timestamp_x>1406636856</timestamp_x>
+<date_create>1406636856</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Компоненты</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<div class="note"><b>Компонент</b> - программный код, оформленный в специальную оболочку, позволяющую визуальными средствами системы вставлять и настраивать код в шаблон сайта или на его страницы.</div>
+
+<p>Компоненты являются блоками, с помощью которых строится публичная часть сайта. Они позволяют многократно использовать единожды написанный и отлаженный код в рамках одного сайта или на разных сайтах. С помощью визуальных средств среды <b>«1C-Битрикс: Управление сайтом»</b> можно размещать и настраивать компоненты без написания кода. Поставляемые с продуктом системные компоненты регулярно обновляются, при этом расширяется их функционал и исправляются возможные ошибки.</p>
+
+Для работы с компонентами служит панель <b>Компоненты</b>.
+
+<p><img src="cid:resources/res72/ZofGQ.HbNZU.components_panel.png" border="0" height="652" width="697"></p>
+
+<div class="hint"><b>Примечание:</b> панель компонентов и работа с ними подробно рассмотрена в главе  <a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=34&CHAPTER_ID=665">Работа с компонентами</a> главы <b>Компоненты 2.0 (начальные сведения)</b>.</div>]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>100</edge_sort>
+<id>942</id>
+</content>

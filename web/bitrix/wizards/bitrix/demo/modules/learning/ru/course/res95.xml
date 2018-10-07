@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>965</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>200</sort>
+<timestamp_x>1406636856</timestamp_x>
+<date_create>1406636856</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Старый интерфейс (до версии 9.5)</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<p>Для любого компонента при переходе в режим разработки и настройки сайта (закладка <b>Разработка</b>) отображается специальная кнопка для его управления:</p>
+
+<p><img src="cid:resources/res95/FU1NK.N1iiK.simple.png" width="517" height="306" border="0" /></p>
+
+
+
+<div class="hint"><b>Примечание</b>: Для комплексного компонента отображается несколько кнопок. Это связано с принципом построения комплексного компонента. Самая верхняя кнопка служит для управления комплексным компонентом целиком. Для управления отдельным его подкомпонентом отображаются дополнительные кнопки. 
+<p><img src="cid:resources/res95/LoFIv.6YBjv.composite.png" width="441" height="271" border="0" /></p>
+ </div>
+ 
+<br>
+<p>Нажатие на кнопку управления компонента вызывает меню, содержащее основные команды:</p>
+
+<p><img height="172" src="cid:resources/res95/t7DUS.7qTyO.comp_edit.png" width="330" /></p>
+
+<br>
+<p>Рассмотрим команды компонента, служащие для его управления: </p>
+
+<p><img height="15" src="cid:resources/res95/CJyVq.ZQRBe.but_edit_params.png" width="15" /> &ndash; редактирование параметров данного компонента. Команда отображается всегда для любого компонента, за исключением подкомпонентов в составе комплексного. По нажатии отображается форма настройки параметров, где можно изменить настройки компонента без перехода к режиму редактирования страницы.</p> 
+
+
+<p><img height="15" src="cid:resources/res95/TBOjh.cuI56.but_copy_templ.png" width="16" /> – копирование шаблона компонента. Команда отображается всегда. По нажатии появляется диалоговое окно, где указывается имя шаблона компонента, и в какой шаблон сайта осуществить копирование. 
+</p>
+
+<p><img height="15" src="cid:resources/res95/r1rN2.zWWmc.but_edit_page_templ.png" width="15" /> – редактирование текущей страницы шаблона. Команда отображается, если применен пользовательский шаблон. По нажатии происходит переход к редактированию шаблона.</p>
+
+<p><img height="15" src="cid:resources/res95/qjnCg.YnfUs.but_edit_css.png" width="17" /> – редактирование CSS-файла шаблона. Команда отображается, если применен пользовательский шаблон.</p> 
+
+<p><img height="16" src="cid:resources/res95/b5QpN.sRdlg.but_cache.png" width="15" /> – очистка кеша компонента.</p>
+
+<br>
+<p>Набор команд по управлению компонентом зависит от его типа. Например, кроме управления компонентом меню, можно провести настройку пунктов меню: </p>
+
+<p><img height="15" src="cid:resources/res95/yugCq.Hz0hQ.but_menu_edit.png" width="15" /> – редактировать пункты меню. </p>
+<p><img height="15" src="cid:resources/res95/u4WKJ.jT0AL.but_menu_edit.png" width="15" /> – создать меню в текущем разделе. </p>
+
+<br>
+<p>Если компонент выводит информацию из некоторого инфоблока, то дополнительно в меню такого компонента могут отображаться следующие команды:</p>
+
+<p><img height="15" src="cid:resources/res95/NvyN0.v6tzx.but_add_element.png" width="16" /> – добавить элемент, например, новость, статью, ссылку, товар и т.д.</p>  
+<p><img src="cid:resources/res95/sqHZr.UHC1W.but_add_section.png" /> – добавить раздел.</p>
+
+<br>  
+<p>Практически на всех сайтах размещена реклама и используются веб-формы. Поэтому для удобства управления этими составляющими сайтов для компонентов добавлены следующие команды:</p>
+<ul>
+<li>для рекламных баннеров:
+
+<p><img height="15" src="cid:resources/res95/uP5AQ.vqj7c.but_edit_banner.png" width="16" /> – редактировать данный баннер.</p>  
+<p><img height="15" src="cid:resources/res95/kdWr9.ziCYw.but_list_banner.png" width="17" /> – отфильтрованный список баннеров.</p></li>
+
+<li>для веб-форм:
+<p><img height="15" src="cid:resources/res95/cwuYR.3dPFu.but_edit_webform.png" width="17" /> – редактировать шаблон веб-формы.</p> 
+<p><img height="15" src="cid:resources/res95/h7jME.rJaOm.but_edit_params_web.png" width="17" /> – редактировать параметры веб-формы.</p></li>
+</ul>]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>200</edge_sort>
+<id>965</id>
+</content>

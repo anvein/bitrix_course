@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>967</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>100</sort>
+<timestamp_x>1406636856</timestamp_x>
+<date_create>1406636856</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Интерфейс &quot;Эрмитаж&quot; (версия 9.5 и старше)</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<p>Управление параметрами размещенных на страницах сайта компонентов возможно из публичного раздела в <b>режиме правки сайта</b> <img height="63" width="86" border="0" src="cid:resources/res97/UOuGI.WgGnZ.edit_mode_95_new.png"/> с помощью специальной формы. Переход к форме можно выполнить одним из двух способов:</p>
+<ol>
+
+<li>Нажать на кнопку управления необходимого компонента <img height="40" width="35" border="0" src="cid:resources/res97/M9pMF.xxx2e.menu_component_full_11.png" /> и выбрать команду  <b>Редактировать параметры компонента</b>. 
+<p><img src="cid:resources/res97/Op9PF.hhzXo.menu_components_11.png"></p>
+</li>
+
+  <li>На Административной панели нажать кнопку <b>Компоненты</b> и в выпадающем списке выбрать имя необходимого компонента.
+<p><img height="514" src="cid:resources/res97/XbsDg.aSYh9.menu_comp_1_11.png" width="281" border="0" /></p>
+
+<div class="hint"><b>Примечание:</b> Выпадающий список компонентов строится в соответствии с размещенными на текущей странице компонентами.</div></li>
+</ol>
+<br>
+<p>В результате откроется форма следующего вида:</p>
+
+<p><img height="586" border="0" width="698" src="cid:resources/res97/Nug3r.Dm38w.setting_properties_11.png" /></p>
+<br>
+<p>Форма редактирования параметров компонента аналогична отображаемой для данного компонента панели <b>Свойства</b> из визуального редактора. Для сохранения внесенных изменений служит кнопка <b>Сохранить</b>, для отмены произведенных настроек - <b>Отменить</b>.</p>
+
+<p><div class="hint"><b>Примечание</b>: Подробную информацию о параметрах конкретных компонентов можно найти в <a href="http://dev.1c-bitrix.ru/user_help/" target="_blank" />Документации пользователя</a>.
+</div></p>]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>100</edge_sort>
+<id>967</id>
+</content>

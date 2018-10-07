@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="CHA"><lesson_id>988</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>2</childs_cnt>
+<is_childs>1</is_childs>
+<sort>400</sort>
+<timestamp_x>1406636857</timestamp_x>
+<date_create>1406636857</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Размещение видео на сайте</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<p>Размещение на сайте видео материалов расширяет возможности владельцев сайтов по подаче информации, так как видео более информативно. Решением задачи быстрого и удобного размещения и проигрывания видео роликов является использование компонентов <b>Медиа проигрыватель</b> и <b>Видеотека</b>, либо использование html-кода, полученного с видеохостинга. </p>
+
+<p><div class="hint"><b>Примечание</b>: Для вставки видео с помощью кода получите код ролика со страницы <span class="link">Youtube</span> с роликом (<span class="path">Поделиться > Сгенерировать html-код</span>) и вставьте его на страницу учебного курса в режиме HTML кода. Код выглядит примерно так:
+
+<pre class="syntax">&lt;iframe width="560" height="315" src="http://www.youtu.be/embed/wKLnqmb8MrY" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</pre>
+
+<p>А таков результат вставки кода в текст страницы:</p>
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/wKLnqmb8MrY" frameborder="0" allowfullscreen></iframe>
+</div></p>
+
+
+
+
+
+<p>В главе приводится описание, основные возможности и механизм работы этих компонентов системы <i>&quot;1С-Битрикс: Управление сайтом&quot;</i>. Кроме этой главы курса можно посмотреть документацию по компонентам: </p>
+ 
+<p><b>Медиа проигрыватель (bitrix:player)</b>:</p>
+ 
+<p align="left"><span class="link"><a href="http://dev.1c-bitrix.ru/user_help/content/fileman/components_2/media/player.php" >http://dev.1c-bitrix.ru/user_help/content/fileman/components_2/media/player.php</a></span> </p>
+ 
+<p><b>Видеотека (bitrix:iblock.tv)</b>:</p>
+ 
+<p><a href="http://dev.1c-bitrix.ru/user_help/content/fileman/components_2/media/iblock_tv.php" >http://dev.1c-bitrix.ru/user_help/content/fileman/components_2/media/iblock_tv.php</a></p>
+ 
+<p>и документацию по созданию списка воспроизведения:</p>
+ 
+<p><a href="http://dev.1c-bitrix.ru/user_help/content/fileman/components_2/media/player.php#list" >http://dev.1c-bitrix.ru/user_help/content/fileman/components_2/media/player.php#list</a></p>
+ 
+]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>400</edge_sort>
+<id>988</id>
+</content>

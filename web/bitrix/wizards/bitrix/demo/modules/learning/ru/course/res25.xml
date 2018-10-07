@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>895</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>300</sort>
+<timestamp_x>1406636852</timestamp_x>
+<date_create>1406636852</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Форма редактирования элемента</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<p>Этот тип форм применяется для изменения элементов контента сайта или для настройки системных параметров. Например, выбрав пункт <b>Изменить</b> меню действий информационного блока, можно открыть форму детальной правки этого инфоблока.</p>
+
+<p>В отличие от <b>Форм отчета</b>, которые более-менее типовые, <b>Формы редактирования</b> настолько разнообразны, что даже невозможно показать – относительно типовой образец. В форме может быть много полей и закладок. Но функции у них у всех одинаковые: создание каких-либо элементов и их редактирование. 
+</p>
+<p>Поскольку элементы контента (или формы настроек системных модулей) могут иметь большое число изменяемых свойств, многие формы редактирования реализованы при помощи <b>страниц свойств</b> или <b>вкладок</b>.</p>
+<p>Страницы свойств, с момента своего появления, крайне широко используются при построении пользовательского интерфейса. Их применение позволяет разбить многочисленные свойства элемента на логические группы и, таким образом, сделать интерфейс более легким и понятным. Обычно свойства сгруппированы так, что на первых страницах свойств (в порядке слева направо) помещаются наиболее часто используемые, а на последних - другие, дополнительные параметры.</p>
+<p>Иллюстрация показывает часть формы со страницами свойств информационного блока:</p>
+
+<p><img height="211" width="700" src="cid:resources/res25/vjYjd.xHFsE.element_edit_tabs_11.png" /></p>
+
+<div class="learnin-post-text">
+<table class="learning-spoiler">
+<thead onclick="LearningInitSpoiler(this)">
+<tr><th>
+<div>Закладки в Эрмитаже v.9.5</div>
+</th></tr></thead>
+<tbody style="display:none;" class="learning-spoiler">
+<tr><td><p><img height="295" width="506" border="0" src="cid:resources/res25/xAMTs.MmSfE.element_edit_tabs.png" </p></td></tr>
+</tbody>
+</table></div>
+
+
+
+<p>Для краткости, в справочной системе используется термин <b>вкладка</b> как синоним страницы свойств.</p>
+<p>Если пользователю удобнее просматривать все поля формы в одной вкладке, то для показа всех полей в одном окне (или возврата в табулярный режим) предназначена кнопка в правой части области закладок:</p>
+
+<p><img height="306" width="693" src="cid:resources/res25/wKSw3.bLkWw.tab_area_expand_11.png" /></p>
+
+<p>Формы редактирования могут быть большими и не помещаться на один экран. Для простоты использования пользователь может сделать постоянно видимыми панель закладок и нижнюю панель формы с кнопками <b>Сохранить</b>, <b>Применить</b> и <b>Отменить</b>. Для этого достаточно воспользоваться кнопкой <img height="26" width="23" src="cid:resources/res25/wHD2v.sajjM.fix_but_form_11.png" />.</p>
+
+<div class="learnin-post-text">
+<table class="learning-spoiler">
+<thead onclick="LearningInitSpoiler(this)">
+<tr><th>
+<div>Кнопка переключения режима формы в Эрмитаже v.9.5</div>
+</th></tr></thead>
+<tbody style="display:none;" class="learning-spoiler">
+<tr><td><p><img height="94" width="416" border="0" src="cid:resources/res25/9Fof7.n2XWQ.tab_area_expand.png" /></p>
+
+<p>Отображение всех полей формы на разных закладках:</p>
+<p><img height="188" width="595" border="0" src="cid:resources/res25/kTicy.uKpXW.edit_form_1.png" </p>
+<p>Отображение всех полей формы на одной закладке:</p>
+<p><img height="317" width="596" border="0" src="cid:resources/res25/Pg2f3.nhzxm.edit_form_2.png" </p></td></tr>
+</tbody>
+</table></div>
+
+<p>Поля, обязательные для заполнения, в формах редактирования выделяются жирным шрифтом.</p>
+
+
+<h4>Загрузка файлов</h4>
+
+<p>Все формы работающие с контентом позволяют загрузить изображения:</p>
+
+<p><img height="195" width="560" src="cid:resources/res25/0GBt9.k6ALm.add_image.png" /></p>
+
+
+<h4>Настройка форм</h4>
+
+<p>Внешний вид формы можно настроить для удобства редактирования: изменить состав и количество вкладок и полей. (На данный момент это доступно только для некоторых типов форм: элементы инфоблока, разделы инфоблока и пользователи.) Для того чтобы вернуть вид настроек форме по умолчанию используется кнопка <img alt="Отменить действие настроек формы на время сессии" src="cid:resources/res25/O76sh.4oq7C.button_iblock_11.png" border="0" height="17" width="18"> <b>Отменить действие настроек формы на время сессии</b>.</p>
+
+<p><img height="166" width="702" src="cid:resources/res25/eLVCk.0mDRO.iblock_edit_form_default_11.png" /></p>
+
+
+<div class="learnin-post-text">
+<table class="learning-spoiler">
+<thead onclick="LearningInitSpoiler(this)">
+<tr><th>
+<div>Отмена настроек формы в Эрмитаже v.9.5</div>
+</th></tr></thead>
+<tbody style="display:none;" class="learning-spoiler">
+<tr><td><p><img src="cid:resources/res25/7BnTW.Rndos.iblock_edit_form_default.png" border="0" height="440" width="568" alt="кнопка &quot;Отменить действие настроек формы на время сессии&quot;" /></p></td></tr>
+</tbody>
+</table></div>
+
+
+
+<p>Подробнее про настройку формы смотрите в уроке <a href="https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=34&LESSON_ID=1883">Настройки форм инфоблоков</a>.</p>]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>300</edge_sort>
+<id>895</id>
+</content>

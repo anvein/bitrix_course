@@ -1,0 +1,32 @@
+.bx-breadcrumb {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.bx-breadcrumb-item {
+	height: 22px;
+	white-space: nowrap;
+}
+
+.bx-breadcrumb-item-angle {
+	margin: 0 10px;
+	color: #b5bdc2;
+	vertical-align: top;
+	font-size: 12px;
+}
+
+.bx-breadcrumb-item-link {
+	border-bottom: none;
+	vertical-align: top;
+	line-height: 21px;
+}
+
+.bx-breadcrumb-item-link:hover {}
+
+.bx-breadcrumb-item-text{
+	transition: 250ms linear all;
+	white-space: normal;
+	vertical-align: top;
+	font: 400 13px/21px "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}

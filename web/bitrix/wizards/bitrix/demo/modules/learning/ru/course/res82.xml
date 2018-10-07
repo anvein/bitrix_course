@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>952</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>300</sort>
+<timestamp_x>1406636856</timestamp_x>
+<date_create>1406636856</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Настройки форм инфоблоков</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<p>Создание большого количества элементов информационного блока можно облегчить за счет предварительной настройки формы добавления элементов.</p>
+
+<h4>Настройка внешнего вида формы</h4>
+
+<p>Форма редактирования/добавления элемента инфоблока может быть изменена и настроена под потребности контент-менеджера сайта. Измененная форма отображается действует как при добавлении/редактировании элемента в административной части, так и при добавлении/редактировании элемента в публичной части.</p>
+
+<p>При необходимости можно переместить любые поля с любой закладки формы на любые другие закладки, сформировав удобный вид формы для каждого конкретного инфоблока.</p>
+
+<p>Например, можно заранее задать основные параметры так, чтобы добавление товара в каталог можно было произвести быстро и удобно. </p>
+
+<br>
+
+<p>Рассмотрим форму добавления элемента инфоблока.</p>
+
+<p>Так она выглядит по умолчанию:</p>
+
+<p><img src="cid:resources/res82/gipWf.XEd6p.element_add_pub_default.png"/></a></p>
+
+<p>А так выглядит уже настроенная форма для добавления нового дивана в каталог:</p>
+
+<p><img src="cid:resources/res82/wyoZT.5B2f5.element_add_pub_custom.png"/></a></p>
+
+<p>Как видите, сокращено количество закладок, удалены ненужные поля, перемещены в удобные места нужные поля формы. Работать стало проще и удобнее.</p>
+
+<p><div class="hint"><b>Примечание:</b> настройку может производить администратор или пользователь, наделенный соответствующими правами. Подробно про настройку форм инфоблоков смотрите в курсе <b>Администратор. Базовый</b>, урок <a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=35&LESSON_ID=1912">Настройки форм инфоблоков</a>.</div></p>
+
+<h4>Настройка подсказок</h4>
+
+<p>Ещё один вид настроек формы создания элементов. При сложных и больших формах добавления элементов могут возникнуть вопросы по заполнению полей. Возможно создание специальных подсказок рядом с заполняемым полем:</p>
+
+<p><img src="cid:resources/res82/IdR7P.KuTLK.help_form_add.png" /></p>
+
+<br>]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>300</edge_sort>
+<id>952</id>
+</content>

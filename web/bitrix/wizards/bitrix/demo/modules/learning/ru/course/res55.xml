@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="CHA"><lesson_id>925</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>7</childs_cnt>
+<is_childs>1</is_childs>
+<sort>800</sort>
+<timestamp_x>1406636853</timestamp_x>
+<date_create>1406636853</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Визуальный редактор</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<p>Глава курса знакомит контент-менеджера с правилами и возможностями работы в визуальном HTML-редакторе, который позволяет управлять информационным содержанием страницы в режиме реального времени через браузер. Большим преимуществом редактора является возможность работать с визуальными компонентами: размещать их на странице и настраивать их параметры, определяющие внешний вид динамически меняющейся информации. Также визуальный редактор обладает другими обширными средствами редактирования страниц.</p>
+
+<div class="note"><b>WYSIWYG</b> (произносится как «ви-зи-виг», от англ. What You See Is What You Get — «что видишь, то и получишь») — способ редактирования, при котором корректируемый материал в процессе редактирования выглядит в точности так же, как и конечный результат.</div>
+
+<p>Визуальный редактор в "1С-Битрикс: Управление сайтом" является штатным функционалом и не требует дополнительной установки. Администратор сайта может запретить использование редактора в некоторых случаях. Если Визуальный редактор недоступен, то обратитесь к администратору.<p>
+
+<p>Редактор работает с браузерами:</p>
+<ul>
+<li><b>Internet Explorer</b> версии 7 и выше;</li>
+<li><b>Firefox</b> версии 3.x и выше;</li>
+<li><b>Opera</b> версии 10.x и выше;</li>
+<li><b>Safari</b> версии 5 и выше;</li>
+<li><b>Google Chrome</b> версии 7 и выше.</li>
+</ul>
+
+<p>Используя редактор, можно формировать и изменять содержание статических и динамических страниц, уроков обучающих курсов, элементов информационных блоков и других элементов.</p>]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>800</edge_sort>
+<id>925</id>
+</content>

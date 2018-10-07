@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="CHA"><lesson_id>931</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>6</childs_cnt>
+<is_childs>1</is_childs>
+<sort>300</sort>
+<timestamp_x>1406636855</timestamp_x>
+<date_create>1406636855</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Работа с текстом</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[Визуальный редактор обладает широкими возможностями для редактирования текста. В данной главе будут рассмотрены основные операции по работе с текстом такие, как:
+<ul>
+  <li>форматирование текста веб-страниц, используя набор основных инструментов текстового редактора MS Word;</li>
+  <li>вставка текста напрямую из редактора MS Word с автоматической очисткой кода;</li>
+<li>проверка орфографии и грамматики текстов сайта в визуальном редакторе.</li>
+  </ul>
+
+<p>Также будет рассмотрено создание таблиц и ссылок.</p>]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>300</edge_sort>
+<id>931</id>
+</content>

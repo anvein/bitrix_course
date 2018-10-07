@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="CHA"><lesson_id>917</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>7</childs_cnt>
+<is_childs>1</is_childs>
+<sort>1000500</sort>
+<timestamp_x>1406636853</timestamp_x>
+<date_create>1406636853</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Медиабиблиотека</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<p><div class="note"><b>Медиабиблиотека</b> - это менеджер для работы с медиаданными, особый способ хранения медиафайлов (изображения, презентации (.ppt), аудиофайлы и видео), который облегчает систематизацию хранимого материала и доступ к нему. С помощью <b>Медиабиблиотеки</b> создается многоуровневая структура медиаколлекций, содержимое которых вы можете в дальнейшем использовать при редактировании сайта и наполнении сайта контентом.</div></p>
+
+<p>Коллекции медиабиблиотеки группируются по типам содержимого:</p>
+
+<p><a href="javascript:ShowImg('/images/content_manager/controls/management_structure/mediyabiblioteka/medialibrerary.png ',704,488, 'Медиабиблиотека. Внешний вид')"><img style="cursor: pointer;" alt="Нажмите на рисунок, чтобы увеличить" src="cid:resources/res47/4Cq12.DVI6x.medialibrerary_11.png" width="700" border="0" height="545"></a></p>
+<b>Медиабиблиотека</b> включает в себя следующие функциональные возможности:</p>
+<ul>
+  <li>создание многоуровневой структуры медиаданных;</li>
+  <li>добавление неограниченного количества медиаколлекций;</li>
+  <li>настройка доступа к коллекциям; </li>
+  <li>одиночная и пакетная загрузка элементов в медиaколлекции;</li>
+  <li>ограничение загрузки по форматам файлов в зависимости от заданного списка;</li>
+  <li>использование содержимого медиабиблиотеки при наполнении сайта контентом, включая редактирование инфоблоков;</li>
+  <li>заполнение свойств для каждого элемента медиаколлекций;</li>
+  <li>возможность поиска по этим полям свойств.</li>
+</ul>		
+]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>1000500</edge_sort>
+<id>917</id>
+</content>

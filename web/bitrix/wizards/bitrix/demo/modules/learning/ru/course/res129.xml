@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>999</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>500</sort>
+<timestamp_x>1406636858</timestamp_x>
+<date_create>1406636858</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Настройка Медиа проигрывателя в Видеотеке</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<p>Настройки плеера в <b>Видеотеке</b> через графический интерфейс на данном этапе минимальны. Настроить плеер можно через исправление файлов компонентов в папках, что должен делать администратор сайта. </p>
+
+<ul>
+  <li> Откройте страницу <span class="path">Контент &gt; Структура сайта&gt; Файлы и папки &gt; bitrix/components/bitrix/iblock.tv/templates/.default </span>. (В рамках локального компьютера это соответствует папке <code>C:\Program Files\Bitrix Environment\www\bitrix\components\bitrix\iblock.tv\templates\.default\</code>, если не менялся стандартный путь установки.) </li>
+
+  <li> Откройте для редактирования файл <b>template.php</b> из этой папки. </li>
+</ul>
+
+<p>Начиная с пятой строки начинается код компонента <b>bitrix:player</b>. Это и есть медиа плеер в <b>Видеотеке</b>. Изменяя параметры плеера непосредственно в коде компонента вы добьетесь нужных результатов. В качестве образца настроек можно взять настройки простого плеера, открыв страницу с размещенным плеером для редактирования в режиме PHP. Какие параметры соответствуют каким полям в настройках можно узнать в документации к <i>"1С-Битрикс: Управление сайтом"</i> на странице  <span class="link"><a target="blank" href="http://dev.1c-bitrix.ru/user_help/content/fileman/components_2/media/player.php">Медиа проигрыватель</a></span>.</p>
+
+<p><div class="hint"><b>Примечание</b>: Модификация шаблона компонента требует выполнения определенных правил. В частности, копирования шаблона в своё пространство имен и применение нового шаблона к компоненту. Подробнее об этом можно почитать в уроке <a href="/learning/course/index.php?COURSE_ID=43&LESSON_ID=2829" target="_blank">Шаблоны компонентов</a> курса <b>Разработчик Bitrix Framework</b>. Если вы не уверены в своих силах, то лучше обратитесь к администратору или разработчику проекта.</div>
+</p>]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>500</edge_sort>
+<id>999</id>
+</content>

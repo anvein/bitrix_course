@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="CHA"><lesson_id>938</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>2</childs_cnt>
+<is_childs>1</is_childs>
+<sort>400</sort>
+<timestamp_x>1406636855</timestamp_x>
+<date_create>1406636855</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Работа с графикой</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<p>В этой главе рассматривается принцип работы с графическими данными, которые могут располагаться в рабочей области страницы. Подробно описываются формы добавления изображений и роликов, окно менеджера файлов.</p>]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>400</edge_sort>
+<id>938</id>
+</content>

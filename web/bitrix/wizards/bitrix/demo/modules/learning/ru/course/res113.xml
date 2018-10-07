@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>983</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>200</sort>
+<timestamp_x>1406636857</timestamp_x>
+<date_create>1406636857</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Создание фотогалереи</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<p>В качестве примера создадим персональную галерею, добавим альбом и наполним его фотографиями.</p>
+
+<h4>Создание галереи</h4>
+
+<p>Для создания фотогалереи выполните следующее:</p>
+
+<ul>
+   <li>Кликните по ссылке <b>Создать галерею</b>, доступной на главной странице фотогалереи.</li>
+   <li>В открывшейся форме заполните поля <b>Код</b> фотогалереи и <b>Название</b> фотогалереи:
+<br /><br />
+<img src="cid:resources/res113/QO3Bs.6cCpY.new_gallery.png" width="599" height="472" border="0" >
+ </li>
+<li>Нажмите кнопку <b>Создать</b> для создания новой фотогалереи.</li>
+</ul>
+
+<p>В результате созданная галерея имеет вид:</p>
+<p><img src="cid:resources/res113/lpi7V.fCyxF.petrov_gallery1.png" width="509" height="225" border="0" >
+</p>
+<div class="hint">В зависимости от настроек компонента и от прав пользователя на инфоблок, пользователям доступно создание только одной галереи либо неограниченного количества галерей.</div>
+
+<h4>Добавление альбомов</h4>
+<p>Для добавления альбома выполните следующие действия:</p>
+
+<ul>
+    <li>Нажмите ссылку <b>Добавить альбом</b>.</li>
+    <li>В открывшейся форме укажите <b>Название</b> альбома, дату создания (по умолчанию устанавливается текущая дата), есть возможность указать <b>Описание</b> альбома, а также вы можете ограничить доступ к альбому по паролю.
+<br /><br />
+<img src="cid:resources/res113/31moi.9wk9F.beauty_album.png" width="583" height="404" border="0" >
+
+</li>
+    <li>Для сохранения изменений нажмите кнопку <b>Сохранить</b>.</li>
+</ul>
+
+<p>В результате страница просмотра созданного альбом выглядит следующим образом:</p>
+<img src="cid:resources/res113/dZPXy.R9xAR.petrov_gallery2.png" width="389" height="183" border="0">
+
+<p>Аналогичным способом выполняется создание вложенного альбома.</p>
+
+<h4>Добавление фотографий в альбом</h4>
+<p>Для добавления фотографий в альбом выполните следующее:</p>
+<ul>
+    <li>На странице просмотра альбома нажмите ссылку <b>Загрузить фото</b>. Откроется окно загрузки фотографий, внешний вид которого зависит от выбранного типа загрузчика в настройках фотогалереи (подробную информацию о загрузке фото смотрите в уроке <a href="/learning/course/index.php?COURSE_ID=34&LESSON_ID=2064">Загрузка фотографий</a>).</li>
+
+    <li>С помощью окна загрузки выберите необходимые фотографии и нажмите кнопку <b>Загрузить</b>: 
+
+ <p><img src="cid:resources/res113/C83zH.f32Sx.upload_photo.png" width="674" height="447" border="0">
+</p>
+
+</li>
+    
+</ul>
+
+<p>В результате созданный альбом имеет вид:</p>
+ <p><img height="289" border="0" width="506" src="cid:resources/res113/fNqyd.9BmmV.my_album.png" /></p>
+
+<p>Детальный просмотр фотографий имеет следующий вид:</p>
+ <p><img height="606" border="0" width="700" src="cid:resources/res113/DqyKK.1BBot.world_beauty.png" /></p>
+
+]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>200</edge_sort>
+<id>983</id>
+</content>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>892</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>100</sort>
+<timestamp_x>1406636852</timestamp_x>
+<date_create>1406636852</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Фильтр</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<p><div class="note"><b>Фильтр</b> - средство для поиска данных, предназначенное для отбора информации, отображаемой в списках элементов. Указав критерии поиска (отбора) в фильтре, можно найти и показать не все, а только требуемые данные (обычно - записи базы данных).</div></p>
+
+<p>Типичный фильтр выглядит так:</p>
+
+<p><img height="132" width="674" src="cid:resources/res22/HYEXh.IvJ2J.admin_filter_11.png" /></p>
+
+<ol>
+<li>Область закладок.</li>
+<li>Кнопка сворачивания фильтра для освобождения места на экране монитора.</li> 
+<li>Поля параметров поиска с кнопкой подсказки по условиям поиска.</li> 
+<li>Чекбокс включения точного поиска. При использовании этого поля фильтр будет искать только точное совпадение введённого значения.</li>
+<li>Настройка фильтра</li> 
+<li>Включение дополнительных параметров поиска.</li> 
+ </ol>
+
+<p><table width="100%" cellpadding="5"> 
+  <tbody> 
+    <tr valign="top"><td><img algn="left" height="505" width="306" src="cid:resources/res22/NnyKr.aQykJ.add_condition_11.png" /></td><td>
+
+<p> По умолчанию фильтр открывается с единственным полем для поиска. При необходимости организовать сложный поиск добавьте нужные поля.</p>
+
+<p><div class="hint"><b>Примечание</b>: Фильтр будет искать элементы, удовлетворяющие всем данным во всех открытых полях, в том числе и пустые поля. Например, если открыты два поля: <b>Название</b> и <b>ID</b> и в одном из них не введены данные (скажем в поле <b>ID</b>), то будет выведен пустой результат, так как в системе нет элемента без идентификатора. Поэтому не рекомендуется открытие всех полей, а поиск по некоторым из них.</div></p>
+
+<p>Если пользователь отметил несколько полей для поиска в конкретном фильтре, то система запомнит состояние фильтра. И для конкретного пользователя всегда будут показываться выбранные поля до следующей смены.</p>
+
+ </td></tr>
+   </tbody>
+ </table></p>
+
+<p>Для поиска в поля можно вводить неполные параметры. Например, если ввести "справ", то поиск выберет все элементы, содержащие в названии эту часть слова: <b>Справка</b>, <b>Справочная информация</b>, <b>Справить дело</b> и так далее.</p>
+
+<p>Фильтр допускает сохранение настроек с выводом их на панель фильтра в виде закладки. Число закладок не ограничено. Фильтр можно сделать доступным только для себя, либо доступным для всех. Например, необходимо часто выбирать все активные на данный момент опросы. Для этого создадим закладку с заранее выбранными параметрами. В фильтре добавьте поле <b>Активность</b> и удалите поле <b>Название</b>. С помощью кнопки <img height="32" width="38" src="cid:resources/res22/PFTnZ.3mJ37.button_setting_new.png"/> добавьте новый фильтр:</p>
+
+<p><img height="225" width="477" src="cid:resources/res22/TWJcg.Jwh4O.add_filter_11.png" /></p>
+
+<p>Активный фильтр меняет свой цвет. Если фильтр свёрнут, то меняет свой цвет действующая закладка:</p>
+
+<p><img height="71" width="626" src="cid:resources/res22/sRSht.B4Y6s.filtr_hide_11.png" /></p>
+
+<p>Параметры, по которым фильтр может отображать данные будут различными для разных форм. Различно и их число. По умолчанию показывается всегда одно поле: <b>Имя</b> (или аналог этого понятия).</p>
+
+<div class="learnin-post-text">
+<table class="learning-spoiler">
+<thead onclick="LearningInitSpoiler(this)">
+<tr><th>
+<div>Фильтр в Эрмитаже v.9.5</div>
+</th></tr></thead>
+<tbody style="display:none;" class="learning-spoiler">
+<tr><td><p>Типичный фильтр системы имеет следующий вид:</p>
+<p><img height="246" width="509" src="cid:resources/res22/1UiF2.LJtp6.admin_filter.png" /></p> 
+<p>Кнопка <b>Показать фильтр</b> отображает фильтр и все критерии поиска. Нажатие кнопки <b>Свернуть фильтр</b> скрывает его, оставляя видимой лишь панель управления фильтра. Нажав кнопку <b>Дополнительно</b>, можно выбрать, какие поля фильтра следует показать, а какие - скрыть.</p>
+
+</td></tr>
+</tbody>
+</table></div>
+
+
+<p>Элементов в таблице может быть очень много и даже после фильтрации. Для удобства просмотра предусмотрена возможность вывода на странице разного количества элементов: от 20 до всех сразу. Выбор количества выводимых элементов, а так же кнопки для перемещения по страницам списка, размещен между контекстной панелью и самой таблицей.</p>
+
+<p><img height="244" border="0" width="382" src="cid:resources/res22/vJzBl.5UMI6.elevents_wiev_11.png" /></p>
+
+<div class="learnin-post-text">
+<table class="learning-spoiler">
+<thead onclick="LearningInitSpoiler(this)">
+<tr><th>
+<div>Настройка вывода в Эрмитаже v.9.5</div>
+</th></tr></thead>
+<tbody style="display:none;" class="learning-spoiler">
+<tr><td><p><img height="194" border="0" width="483" src="cid:resources/res22/AlLbK.jjh19.elevents_wiev.png" /></p></td></tr>
+</tbody>
+</table></div><br>]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>100</edge_sort>
+<id>892</id>
+</content>

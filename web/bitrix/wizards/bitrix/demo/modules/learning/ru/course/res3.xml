@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>873</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>200</sort>
+<timestamp_x>1406637346</timestamp_x>
+<date_create>1406636850</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Примеры решения типовых задач</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<p>Большая часть решений типовых задач Контент-менеджера описана в тексте курса, в соответствующих темах. Ниже приведены ссылки на такие страницы.</p>
+
+<ul>
+<li><a href="/learning/course/index.php?COURSE_ID={SELF}&LESSON_ID=3512">Как добавить новость на сайт</a></li>
+
+
+<li><a href="/learning/course/index.php?COURSE_ID={SELF}&LESSON_ID=2055">Как наполнить фотогалерею</a></li>
+
+<li><a href="/learning/course/index.php?COURSE_ID={SELF}&CHAPTER_ID=04593">Как наполнить видеотеку</a></li>
+
+<li><a href="/learning/course/index.php?COURSE_ID={SELF}&LESSON_ID=1833">Как вернуть потерянные данные в случае нештатной ситуации</a></li>
+
+<li><a href="/learning/course/index.php?COURSE_ID={SELF}&LESSON_ID=3068">Как настроить рабочий стол и разместить на нем средства для вывода различных данных</a></li>
+
+<li><a href="/learning/course/index.php?COURSE_ID={SELF}&LESSON_ID=1911">Как создать раздел или страницу</a></li>
+
+<li><a href="/learning/course/index.php?COURSE_ID={SELF}&LESSON_ID=1878">Как ограничить доступ к странице или разделу</a></li>
+
+<li><a href="/learning/course/index.php?COURSE_ID={SELF}&LESSON_ID=1862#change_menu">Как создать и редактировать пункты меню сайта</a></li>
+
+<li><a href="/learning/course/index.php?COURSE_ID={SELF}&LESSON_ID=1874">Как создать таблицу</a></li>
+
+<li><a href="/learning/course/index.php?COURSE_ID={SELF}&LESSON_ID=1873">Как работать с гиперссылками</a></li>
+
+<li><a href="/learning/course/index.php?COURSE_ID={SELF}&LESSON_ID=1877">Как добавлять на страницу заранее подготовленный текст или код</a></li>
+
+<li><a href="/learning/course/index.php?COURSE_ID={SELF}&LESSON_ID=4576">Как быстро отредактировать несколько элементов</a></li>
+
+<li><a href="/learning/course/index.php?COURSE_ID={SELF}&LESSON_ID=2200">Как вставить видео, размещенное на другом сервере, например, на YouTube</a></li>
+
+<li><a href="/learning/course/index.php?COURSE_ID={SELF}&LESSON_ID=3579">Использование ЧПУ</a></li>
+
+<li><a href="/learning/course/index.php?COURSE_ID={SELF}&LESSON_ID=5523">Как закрепить новость наверху общего списка</a></li>
+
+<li><a href="/learning/course/index.php?COURSE_ID={SELF}&LESSON_ID=2099">Как исправить ошибки, возникающие при работе с инфоблоками</a></li>
+
+<li><a href="/learning/course/index.php?COURSE_ID={SELF}&LESSON_ID=2149">Как исправить ошибки, возникающие при работе со структурой</a></li>
+
+<li><a href="/learning/course/index.php?COURSE_ID={SELF}&LESSON_ID=6471">Как работать с комментариями многопользовательской галереи</a></li>
+</ul>
+
+<p>Из других курсов:</p>
+<ul>
+<li><a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=35&LESSON_ID=2021">Создание и редактирование страниц/разделов в административной части</a></li>
+
+<li><a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=35&LESSON_ID=2164">Очистка кэша</a></li>
+
+<li><a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=35&LESSON_ID=2068">Занесение информации о страницах сайта в базу данных Google</a></li>
+
+<li><a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=35&LESSON_ID=3582">Рейтинги. Примеры работы</a></li>
+
+<li><a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=35&LESSON_ID=5347">Создание доски объявлений</a></li>
+
+<li><a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=41&LESSON_ID=2981">Включение функционала фотогалереи для пользователей и групп</a></li>
+
+<li><a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=41&LESSON_ID=2982">Размещение фотогалереи</a></li>
+
+<li><a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=41&LESSON_ID=2955">Добавление списка любого типа</a></li>
+
+<li><a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=41&LESSON_ID=2855">Размещение баннера в рекламной области</a></li>
+
+<li><a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=41&LESSON_ID=3105">Как узнать из результатов прохождения курса о степени понимания той или иной части материала</a></li>
+
+<li><a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=41&LESSON_ID=2931">Создание опроса</a></li>
+
+<li><a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=41&LESSON_ID=2951">Подписка пользователей на рассылки сайта</a></li>
+
+<li><a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=41&LESSON_ID=2926">Создание веб-формы</a></li>
+
+<li><a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=41&CHAPTER_ID=1020">Создание интерфейса блогов с помощью компонента</a></li>
+
+<li><a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=41&LESSON_ID=3846">Настройка доступа пользователей к своим результатам заполнения веб-формы</a></li>
+
+<li><a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=42&LESSON_ID=3101">Печать документов</a></li>
+
+<li><a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=42&LESSON_ID=3457">Экспорт и импорт из торговых каталогов</a></li>
+
+<li><a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=42&LESSON_ID=3456">Настройка инфоблока на участие в торговых операциях</a></li>
+
+<li><a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=42&LESSON_ID=3199">Осуществление подписки на контент</a></li>
+
+<li><a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=42&LESSON_ID=5124">Как разместить в инфоблоке разные категории товаров</a></li>
+
+<li><a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=42&LESSON_ID=5355">Создание скидок на заказы</a></li>
+
+<li><a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=35&LESSON_ID=5840">Настройка SEO данных в инфоблоке</a></li>
+</ul><br>]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>200</edge_sort>
+<id>873</id>
+</content>

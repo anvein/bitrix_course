@@ -1,0 +1,445 @@
+html, body, form
+{
+	margin: 0;
+	padding: 0;
+}
+
+html
+{
+	height:100%;
+}
+
+body
+{
+	height:auto !important;
+	height:100%;
+	min-height:100%;
+	min-width:760px;
+}
+
+/*Font*/
+body
+{
+	font-size: 80%;
+	font-family: Tahoma, Verdana, Helvetica, sans-serif;
+	color: #333;
+	background-color: #fff;
+}
+
+/*Font in table*/
+table
+{
+	font-size:100%;
+}
+
+/*Links*/
+a:link {color: #486DAA;}
+a:visited{color:#8C9AA8;}
+a:active {color: #486DAA;}
+a:hover{color:#DD0000;}
+
+
+small
+{
+	font-size:85%;
+}
+
+hr
+{
+	width:100%;
+	height: 1px;
+	border: medium none;
+	color: #d1d0d0;
+	background-color: #d1d0d0;
+	margin:8px 0
+}
+
+#header
+{
+	position:relative; /*containing block*/
+	height:106px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	background: #762224 url(images/header_bg.gif) repeat-x;
+	border-bottom:1px solid #D6D6D6;
+}
+
+#header_logo
+{
+	position:absolute;
+}
+
+#company_logo
+{
+	display:block;
+	position:absolute;
+	width:100px; 
+	height:106px; 
+	left:165px;
+	top: 0;
+	background:url(images/logo.gif) right center no-repeat;
+}
+
+#header_text
+{
+	position:absolute;
+	left:265px;
+	top: 0;
+	width:330px;
+	padding-left:5px;
+	padding-top:35px;
+	color:#fff;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+
+#header_text .bx-main-title
+{
+	margin:0;
+	padding:0;
+	font-size:160%;
+	border:none;
+	text-decoration:none;
+}
+
+#header_text span.bx-main-subtitle
+{
+	font-size:80%;
+}
+
+/* Header menu: home, search, feedback*/
+#header_menu
+{
+
+	background:#8A4244;
+	position:absolute;
+	right:55px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+
+#header_sites
+{
+	position:absolute;
+	right:55px;
+	top: 60px;
+	color:#fff;
+	text-align:right;
+}
+
+#header_sites a, #header_sites span
+{
+	color:#fff;
+	text-decoration:none;
+}
+
+#header_sites span
+{
+	color: #E1CCCD;
+}
+
+#header_menu a
+{
+	display:block;
+	float:left;
+	cursor:pointer; cursor: hand;
+	padding:8px 11px;
+}
+
+#zebra
+{
+	height:20px;
+	background:transparent url(images/zebra_bg.gif) left top repeat-x;
+}
+
+#navigation
+{
+
+}
+
+/*Navigation*/
+#navigation a
+{
+	font-size:95%;
+	text-decoration:none;
+	color:#535353;
+}
+
+/*Content table*/
+#content
+{
+	width:100%;
+	height:70%;
+	border-collapse:collapse;
+}
+
+/*Left column*/
+#content .left-column
+{
+	width:180px;
+	vertical-align:top;
+	height:100%;
+}
+
+/*Main column*/
+#content .main-column
+{
+	vertical-align:top;
+	padding:0 23px 10px 23px;
+}
+
+/*Right column*/
+#content .right-column
+{
+	width:1px;
+	vertical-align:top;
+}
+
+/*Bottom banner*/
+#bottom_banner
+{
+	padding:5px;
+	text-align:center;
+}
+
+/*Footer*/
+#footer
+{
+	background: #923E45;
+	text-align:right;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	height:40px;
+	padding:8px;
+	
+}
+
+/*Link in footer*/
+#footer a
+{
+	color: #E2CBCD;
+	font-size: 100%;
+}
+
+
+/*Data table*/
+table.data-table
+{
+	border:1px solid #CDBBBC;
+	border-collapse:collapse;
+}
+
+/*Any cell*/
+table.data-table td
+{
+	border:1px solid #CDBBBC;
+	background-color:#FFFFFF;
+	color:#333;
+	padding:3px 5px;
+}
+
+/*Head cell*/
+table.data-table thead td, table.data-table th
+{
+	background-color:#ECE0E0;
+	text-align:left;
+	font-weight:normal;
+	background-image:none;
+	border:1px solid #CDBBBC;
+	padding:4px;
+	color:#333;
+}
+
+/*Body cell*/
+table.data-table tbody td
+{
+	background-color:#FFF;
+	background-image:none;
+	color:#333;
+}
+
+/*Foot cell*/
+table.data-table tfoot td
+{
+	background-color:#F7F3F3;
+	padding:4px;
+	color:#333;
+}
+
+/*Error & OK messages*/
+.errortext
+{
+	color:red;
+}
+
+.notetext
+{
+	color:green;
+}
+
+/* Used to draw a "star" near reqired field */
+.starrequired
+{
+	color:red;
+}
+
+/*Forum*/
+
+
+/*Forum menu*/ 
+table.forum-menu {border-left: 1px solid #DAE7DF; border-top: 1px solid #DAE7DF; } 
+table.forum-menu td.forumtoolbar {background-color: #ECE0E0; border-left: 1px solid #FFFFFF;border-top: 1px solid #FFFFFF; border-right: 1px solid #CDBBBC; border-bottom: 1px solid #CDBBBC; } 
+.forumtoolsection {border-left: 1px solid #FFFFFF;border-top: 1px solid #FFFFFF; border-right: 1px solid #CDBBBC; border-bottom: 1px solid #CDBBBC; } 
+.forumtoolseparator {border-left: 1px solid #CDBBBC;border-right: 1px solid #FFFFFF; } 
+
+table.forum-menu a, table.forum-menu select, table.forum-menu input, table.forum-menu td {color:#333}
+
+/* menu popup */
+.forum-menu-hidden-in {border: 1px solid #CDBBBC;} 
+table.forum-menu-popup-table td, table.forum-menu-popup-table td a { color: black;} 
+table.forum-menu-popup-table td.forum-menu-popup, table.forum-menu-popup-table td.forum-menu-popup-hover {border: none; background-color: #ECE0E0; } 
+table.forum-menu-popup-table td.forum-group{background-color:#ECE0E0; color:#333;} 
+table.forum-menu-popup-table td.forum-menu-popup-hover {background-color: #F7F3F3;} 
+div.forum-group{background-color:#F9FBF9; font-weight:bold; color:#333;} 
+
+/*Forum index and list*/ 
+table.forum-main {border: 1px solid #CDBBBC;} 
+table.forum-main td {background-color:#F7F3F3;border: 1px solid #CDBBBC;} 
+table.forum-main th {background-color:#ECE0E0;border: 1px solid #CDBBBC;color: #333;vertical-align: top;} 
+
+div.forum-hr {background-color:#CDBBBC}
+div.filter-check-hover {background-color:#ECE0E0}
+
+a.forum-button:link,a.forum-button:visited,a.forum-button:active,a.forum-button:hover {background: #ECE0E0;border: 1px solid #CDBBBC;color: #333;} 
+table.forum-main td small {font-size:100%;} 
+table.forum-main td.forum-group {background-color:#ECE0E0; color:#333;} 
+div.forum-title {border: 1px solid #CDBBBC; padding: 5px; background-color: #ECE0E0 !important; color:#333; } 
+
+/*Forum messages*/ 
+table.forum-message {} 
+table.forum-message td {background-color: #F7F3F3;border: none;} 
+table.forum-message td.forum-message-user-info {background-color: #F7F3F3;border: 1px solid #CDBBBC;border-right-width: 1px;} 
+table.forum-message td.border-top {border: 1px solid #CDBBBC;border-left-width: 1px;border-top: none;} 
+table.forum-message td.border-bottom {border: 1px solid #CDBBBC;border-left-width: 1px;border-bottom: none;} 
+
+table.forum-message .forum-message-posts, 
+table.forum-message .forum-message-status, 
+table.forum-message .forum-message-datereg, 
+table.forum-message .forum-message-datecreate {color:#333;} 
+
+a.forum-button-small,
+a.forum-button-small-vote,
+a.forum-button-small-unvote 
+{
+	background-color: #ECE0E0;
+	border: 1px solid #CDBBBC;
+	color: #333; 
+	font-size: 11px; 
+	height:20px;
+	padding: 2px 5px 2px 5px;
+	box-sizing:border-box; -moz-box-sizing:border-box;
+}
+a.forum-button-small-vote, a.forum-button-small-unvote {padding-left:18px;}
+a.forum-button-small:hover,a.forum-button-small-vote:hover,a.forum-button-small-unvote:hover {color: #333; } 
+
+/*Forum statistics*/ 
+table.forum-stat {} 
+table.forum-stat th {background-color:#ECE0E0;border: 1px solid #CDBBBC;color: #333;font-weight:bold;padding:5px;} 
+table.forum-stat td {background-color:#F7F3F3;border: 1px solid #CDBBBC;} 
+table.forum-stat .forum-attention{font-size: 100%;color: black;} 
+
+/*Post form*/ 
+table.forum-post-form {border: 1px solid #CDBBBC;} 
+table.forum-post-form td {background-color:#F7F3F3;border: 1px solid #CDBBBC;} 
+table.forum-post-form th {background-color:#ECE0E0;border: 1px solid #CDBBBC;} 
+table.forum-smile {border: 1px solid #CDBBBC;} 
+table.forum-smile th {background-color:#ECE0E0;border: 1px solid #CDBBBC;} 
+table.forum-smile img { margin: 0px;} 
+textarea#POST_MESSAGE{width:100%;} 
+
+/* Only for user-profile*/ 
+table.fuser {} 
+table.fuser-static th {background-color:#ECE0E0; border:1px solid #CDBBBC;} 
+table.fuser-static td {background-color:#F7F3F3; border:1px solid #CDBBBC;} 
+
+/* Tab controls*/ 
+table.tabs {border-left:1px solid #CDBBBC;} 
+table.tabs td {} 
+table.tabs td.tab-indent-left {border-bottom:1px solid #CDBBBC;} 
+table.tabs td.tab-indent-right {border-bottom:1px solid #CDBBBC;} 
+table.tabs td.tab-container {border:1px solid #CDBBBC; border-left: none;} 
+table.tabs td.tab-container-selected {border:1px solid #CDBBBC; border-bottom:1px solid #F9FBF9; border-left: none; background-color:#F9FBF9;} 
+
+table.tabs table td.tab {border-top:1px solid #CDBBBC;} 
+table.tabs table td.tab-selected {border-top:1px solid red;} 
+table.tabs table td.tab-hover {border-top:1px solid #CDBBBC;} 
+
+/* Tab inside edit form */ 
+table.tab {border:1px solid #CDBBBC; border-top:none;} 
+table.tab td {background-color:#F7F3F3;}
+
+.forum-menu-hidden-in
+{
+	max-height:100px;
+	height:expression(this.scrollHeight > 100? "100px" : "auto");
+}
+
+table.forum-quote td, table.forum-code td 
+{
+	background-color:#ECE0E0; /*th*/
+	border:1px solid #CDBBBC;
+}
+
+table.forum-reviews-messages td, table.forum-reviews-messages th
+{
+	background-color:#F7F3F3; /*td*/
+	border-color:#CDBBBC;
+}
+
+a.button-small
+{
+	background:#ECE0E0;
+	border:1px solid #CDBBBC;
+}
+
+
+/*Support*/
+div.ticket-edit-message
+{
+	border-color: #CDBBBC;
+}
+
+/*Blogs*/
+
+table.blog-table-post td, table.blog-table-post th, table.blog-blog-edit th, table.blog-user-table td.head, table.blog-table-post-comment td, table.blog-table-post-comment th
+{
+	background-color:#F7F3F3;
+}
+
+
+table.blog-blog-edit td, table.blog-blog-edit-table-smiles, table.blog-table-post td, table.blog-table-post th, table.blog-blog-edit th,
+table.blog-user-table td.head, table.blog-user-table td, table.blog-group td, table.blog-category td, table.blog-comment-form th, table.blog-comment-form td,
+table.blog-table-post-comment td, table.blog-table-post-comment th
+{
+	border-color: #CDBBBC;
+}
+
+.blog-post-date 
+{
+	color:#333;
+}
+
+table.blog-table-post-table th, table.blog-table-post-table td, table.blog-table-post-comment-table th, table.blog-table-post-comment-table td
+{
+	font-size:95%;
+}
+
+.blogtoolblock {border-color:#CDBBBC;}
+.blogtoolbar {background-color:#F7F3F3;border-color:#CDBBBC;border-top:none;}
+.blogtoolsection {border-color:#CDBBBC}
+.blogtoolbutton, .blogmessbuttontext {color:#333;}
+a.blogtoolbutton, .blogmessbuttontext{color:#333;}
+.blogtoolseparator {border-left:1px solid #CDBBBC;border-right:1px solid #F7F3F3;}
+
+/* social network*/
+div#sonet_events_ms_message {width:150px;}

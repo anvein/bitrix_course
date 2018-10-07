@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="CHA"><lesson_id>970</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>7</childs_cnt>
+<is_childs>1</is_childs>
+<sort>1100</sort>
+<timestamp_x>1406636857</timestamp_x>
+<date_create>1406636857</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Примеры работы с некоторыми модулями системы</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<p>В главе приведены примеры работы с некоторыми модулями системы.</p>
+]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>1100</edge_sort>
+<id>970</id>
+</content>

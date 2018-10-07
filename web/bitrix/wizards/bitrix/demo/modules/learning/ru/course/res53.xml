@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>923</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>600</sort>
+<timestamp_x>1406636853</timestamp_x>
+<date_create>1406636853</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Поиск</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<p>Поиск элементов <b>Медиабиблиотеки</b> осуществляется по полям свойств этих элементов.</p>
+<p>Например, чтобы отобрать элементы, соответствующие теме <b>отпуск</b>, выполните следующее:</p>
+<ul>
+  <li>Введите в поле <b>Поиск</b> слово <b>отпуск</b>:</li>
+  <p><img src="cid:resources/res53/0Nwvt.DOYa9.search.png" width="278" border="0" height="28"></p>
+  <li>Нажмите кнопку <b>Искать</b>.</li>
+  <li>Результатом поиска станут элементы, в <b>Названии</b>, <b>Описании</b> или <b>Ключевых словах</b> которых присутствует слово <b>отпуск</b>:</li>
+<p><img height="174" border="0" width="491" src="cid:resources/res53/zdaG2.VCYY1.search_results.png" /></p>
+
+</ul>
+<p>Если элементов, соответствующих заданным условиям, в <b>Медиабиблиотеке</b> нет, то будет выведено сообщение о том, что по вашему запросу ничего не найдено.</p>
+<p>Ссылка <b>Скрыть</b> закрывает результаты поиска.</p>
+<p><div class="warning"><b>Важно!</b> при удалении элементов, отображаемых в <b>Результатах поиска</b>, они будут удалены из всех коллекций медиабиблиотеки.</div><p>
+]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>600</edge_sort>
+<id>923</id>
+</content>

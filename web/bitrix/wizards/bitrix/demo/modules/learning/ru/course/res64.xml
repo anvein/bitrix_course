@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>934</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>300</sort>
+<timestamp_x>1406640108</timestamp_x>
+<date_create>1406636855</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Проверка орфографии</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<p>Визуальный редактор предоставляет возможность проверки орфографии введенного текста. Возможны 2 способа проверки:</p>
+
+<ul>
+  <li>С помощью редактора MS Word (проверка производится на компьютере пользователя);</li>
+  <li>С помощью pSpell (проверка производится в браузере, при условии если pSpell установлен на сервере).</li>
+</ul>
+
+<div class="hint"><b>Примечание:</b> Способ проверки орфографии задается администратором сайта.
+<br>
+<br>
+По умолчанию в визуальном редакторе будет проводиться проверка орфографии с помощью редактора Microsoft Word, если он установлен на компьютере пользователя.
+</div>
+
+<p>Наиболее предпочтительным методом является проверка с  помощью редактора MS Word, т.к второй способ требует пересылку слов для проверки на сервер.</p>
+
+<div class="hint"><b>Примечание:</b> Некоторые браузеры обладают встроенной системой проверки орфографии, например Mozilla Firefox.</div>
+
+
+<br>
+
+<h3>Проверка орфографии с помощью редактора MS Word</h3>
+ 
+<p>Перейти к проверке орфографии можно с помощью кнопки <img src="cid:resources/res64/2DyO8.GQF81.spellcheck.gif" border="0"  /> <b>Проверить орфографию</b>. В случае, если орфография проверяется с помощью редактора MS Word, пользователь получит предупреждение о том, что на данной странице будет использован компонент <b>ActiveX</b>, который выполняет взаимодействие с редактором MS Word:</p>
+ 
+<p><img src="cid:resources/res64/BuodH.85R8A.spell_activex.png" border="0" height="143" width="345" alt="Диалог: использование компонента ActiveX"  /></p>
+ 
+<p>Необходимо подтвердить использование компонента на данной странице (кнопка <b>Да</b>). И после этого появляется форма проверки орфографии:</p>
+ 
+<p><img src="cid:resources/res64/OXX5X.MyTDK.spellcheck_opt.png" width="456" height="312" border="0" alt="Форма проверки орфографии"  /></p>
+ 
+<p>Здесь вы можете исправлять ошибки и продвигаться дальше по тексту с помощью кнопок этой формы. После того, как проверка всей страницы закончена, появляется сообщение об этом:</p>
+ 
+<p><img src="cid:resources/res64/xrvZV.p2M6F.spel_result.png" width="252" height="126" border="0" alt="Проверки орфографии завершена"  /></p>
+ 
+<div class="important"><b>Внимание!</b> При попытке проверить орфографию (после нажатия кнопки <img src="cid:resources/res64/QN2fp.jqqRt.spellcheck.gif" border="0"  /> <b>Проверить орфографию</b>) может возникнуть предупреждение: 
+  <p><img src="cid:resources/res64/UD0UF.V49wr.spell_announce.png" border="0" height="126" width="783" alt="Предупреждение"  /></p>
+ 
+  <p>В этом случае необходимо разрешить загрузку <b>ActiveX</b> компонента в настройках безопасности браузера или добавить сайт, на котором производится проверка орфографии, в зону <b>Trusted sites</b> (<b>Надежные узлы</b>).</p>
+ </div>
+ 
+<p>Ниже вы можете познакомиться с видео-роликом, наглядно демонстрирующим способы работы с системой проверки орфографии. (2 минуты 2 секунды, 17.59 Мб.) </p>
+
+ <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" id="bxid_735779" width="800" height="620" ><param name="movie" value="/bitrix/components/bitrix/player/mediaplayer/player"><param name="menu" value="true"><param name="wmode" value="transparent"><param name="width" value="800"><param name="height" value="620"><param name="flashvars" value="file=http://dev.1c-bitrix.ru/download/files/video/learning/teachvideo/6-5.flv&logo.hide=true&skin=/bitrix/components/bitrix/player/mediaplayer/skins/bitrix.swf&repeat=N&bufferlength=10&dock=true"><embed src="cid:resources/res64/bRih7.QIq9V.player" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" pluginspage="http://www.macromedia.com/go/getflashplayer" id="bxid_735779" menu="true" wmode="transparent" width="800" height="620" flashvars="file=http://dev.1c-bitrix.ru/download/files/video/learning/teachvideo/6-5.flv&logo.hide=true&skin=/bitrix/components/bitrix/player/mediaplayer/skins/bitrix.swf&repeat=N&bufferlength=10&dock=true" /></object> 
+
+
+<p><a href="http://dev.1c-bitrix.ru/download/files/video/learning/teachvideo/6-5.flv" >Загрузить</a> ролик. </p>
+ 
+ 
+
+<br>
+
+
+
+<h3>Проверка орфографии с помощью pSpell</h3>
+ 
+<p>В случае, если орфография проверяется с помощью редактора pSpell, откроется форма проверки орфографии:</p>
+
+ 
+<p><img src="cid:resources/res64/7AOg1.q6xSX.pSpell_checkgr.png" border="0" height="217" width="337" alt="Форма проверки орфографии pSpell"  /></p>
+
+<p>С помощью кнопки <b>Добавить</b> можно занести неизвестное системе слово в словарь. </p>
+
+<p>Ниже вы можете познакомиться с видео-роликом, наглядно демонстрирующим способы работы с системой проверки орфографии. (1 минута 44 секунд, 6.99 Мб.) </p>
+
+
+ <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" id="bxid_420048" width="800" height="620" ><param name="movie" value="/bitrix/components/bitrix/player/mediaplayer/player"><param name="menu" value="true"><param name="wmode" value="transparent"><param name="width" value="800"><param name="height" value="620"><param name="flashvars" value="file=http://dev.1c-bitrix.ru/download/files/video/learning/teachvideo/6-6.flv&logo.hide=true&skin=/bitrix/components/bitrix/player/mediaplayer/skins/bitrix.swf&repeat=N&bufferlength=10&dock=true"><embed src="cid:resources/res64/2Gjnh.lS7xg.player" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" pluginspage="http://www.macromedia.com/go/getflashplayer" id="bxid_420048" menu="true" wmode="transparent" width="800" height="620" flashvars="file=http://dev.1c-bitrix.ru/download/files/video/learning/teachvideo/6-6.flv&logo.hide=true&skin=/bitrix/components/bitrix/player/mediaplayer/skins/bitrix.swf&repeat=N&bufferlength=10&dock=true" /></object> 
+
+<br />
+
+<p><a href="http://dev.1c-bitrix.ru/download/files/video/learning/teachvideo/6-6.flv" >Загрузить</a> ролик. </p>]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>300</edge_sort>
+<id>934</id>
+</content>

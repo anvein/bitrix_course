@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>882</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>300</sort>
+<timestamp_x>1406636851</timestamp_x>
+<date_create>1406636851</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Отмена действий и Автосохранение</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<a name="cancel"></a><h4>Отмена действий</h4>
+
+<p>Система допускает отмену последнего совершенного действия.</p>
+
+<p>После каждого изменения внесенного в содержание сайта под <b>Панелью управления</b> будет отображаться <b>Строка отмены действия</b>:</p>
+
+<p><img height="185" width="671" src="cid:resources/res12/Q5NnR.4rq2B.busket_undo_11.png" /></p>
+
+<div class="learnin-post-text">
+<table class="learning-spoiler">
+<thead onclick="LearningInitSpoiler(this)">
+<tr><th>
+<div>Строка отмены действия в Эрмитаже v.9.5</div>
+</th></tr></thead>
+<tbody style="display:none;" class="learning-spoiler">
+<tr><td><p><a href="javascript:ShowImg('/images/content_manager/controls/public_section/hermitage/busket_undo_95.png',957,201,'Строка отмены действий')"><img height="126" border="0" width="600" style="cursor: pointer;" alt="Нажмите на рисунок, чтобы увеличить" src="cid:resources/res12/zmpND.vaiT9.busket_undo_95_sm.png" /></a> </p></td></tr>
+</tbody>
+</table></div>
+
+<p>В этой строке выводится описание совершенного пользователем действия и команда на отмену действия. Кликнув по ссылке, можно отменить последнее совершенное действие.</p>
+
+<p>Закрыть строку отмены действия можно, щелкнув по крестику у правого края строки.</p>
+
+<p>Если изменены только настройки компонентов, то будет выведена соответствующая надпись: <b>Параметры компонента успешно изменены</b>.</p>
+
+<p>Если одновременно изменены и параметры компонента и содержание страницы, то при отмене действий будут отменены все изменения целиком.</p>
+
+<a name="autosave"></a><h4>Автосохранение</h4>
+
+<p>В системе предусмотрена функция автосохранения форм при заполнении. Функция включена на большинстве форм редактирования, но она может быть отключена администратором. </p>
+
+<p><div class="note"><b>Автосохранение</b> - функция, позволяющая сохранить данные введенные в поля формы в случае нештатной ситуации. </div></p>
+
+<p>Пример нештатных ситуаций: отлучение от компьютера на долгое время с потерей авторизации, аварийное отключение компьютера контент-менеджера, случайное закрытие наполовину заполненной формы и другие.</p>
+
+<div class="learnin-post-text">
+<table class="learning-spoiler">
+<thead onclick="LearningInitSpoiler(this)">
+<tr><th>
+<div>Значки автосохранения в Эрмитаже v.9.5</div>
+</th></tr></thead>
+<tbody style="display:none;" class="learning-spoiler">
+<tr><td><p> Если в форме работает Автосохранение, то в правом углу формы (при редактировании с Административной части) появится такой значок:</p>
+
+<p><img height="94" border="0" width="91" src="cid:resources/res12/0oM7K.DBaI2.autosave.png" /></p>
+
+<p>В формах, вызываемых с публичной части, значок расположен в левом нижнем углу формы:</p>
+
+<p><img height="126" border="0" width="512" src="cid:resources/res12/BHtMa.euq3r.autosave_1.png" /></p>
+
+<p>В Эрмитаже версии с 11.0 этих значков в формах нет.</p>
+</td></tr>
+</tbody>
+</table></div>
+
+
+
+<p>После повторного открытия формы, если в ней есть сохраненные данные полей, система выдаст запрос на восстановление данных:</p>
+
+<p><img height="226" width="699" src="cid:resources/res12/01Fxg.GJVg1.autosave_2_11.png" /></p>
+
+<div class="learnin-post-text">
+<table class="learning-spoiler">
+<thead onclick="LearningInitSpoiler(this)">
+<tr><th>
+<div>Запрос на восстановление данных в Эрмитаже v.9.5</div>
+</th></tr></thead>
+<tbody style="display:none;" class="learning-spoiler">
+<tr><td>
+<p><img height="164" border="0" width="605" src="cid:resources/res12/549wc.J0Rdn.autosave_2.png" /></p></td></tr>
+</tbody>
+</table></div>
+
+
+<p>Автосохранение происходит все время пока контент-менеджер редактирует форму (изменяет значения полей формы) и сработает сразу после окончания редактирования формы. Нажатием на кнопку можно выполнить ручное сохранение.</p>
+
+<p>Если сбой произошел во время создания нового элемента, то автосохранение сработает для формы создания соответствующей новой страницы/элемента. То есть, когда в следующий раз будет открыта форма добавления, выведется запрос на сохранение данных.</p>
+
+<div class="hint"><b>Примечание:</b> Описанные на этой странице функции - первые шаги в реализации функционала <b>Корзины</b>, которая появится в полном объеме ближайшее время.
+ </div>
+<br>]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>300</edge_sort>
+<id>882</id>
+</content>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>951</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>200</sort>
+<timestamp_x>1406636856</timestamp_x>
+<date_create>1406636856</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Примеры структурированной информации</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<link href="cource_style.css" type="text/css" rel="stylesheet" />
+
+
+
+<p>За счет использования информационных блоков может быть реализована различная структура хранения информации. Примеры различных архитектур приведены в демонстрационной версии продукта.</p>
+
+<h3>Одноуровневая структура</h3>
+
+<p>Информационный блок не содержит разделов и подразделов. Например, инфоблок <strong>Статьи</strong> просто содержит список статей:</p>
+
+<p><img src="cid:resources/res81/Ue42b.QOU83.iblocks_articles.png"></p>
+
+<h3>Многоуровневая структура</h3>
+
+<ul>
+  <li><b>Двухуровневая структура</b> - информационный блок содержит список элементов, распределенных по разделам. Например, инфоблок <b>Фотографии</b> содержит список фотографий, распределенный по разделам <b>Мой альбом</b> и <b>Отпуск</b>: 
+
+    
+
+    <p><img src="cid:resources/res81/LzBGa.ZCclb.iblocks_gallery.png" border="0" height="172" width="295"></p>
+
+  </li>
+
+  <li><b>N-уровневая структура</b> – информационный блок содержит список элементов, распределенных по разделам. Например, каталог <b>Книги</b> содержит список книг, распределенных по тематикам: 
+
+    <p><img src="cid:resources/res81/SIh4O.4qZS2.iblocks_book_catalog_structure.png" height="308" width="263"></p>
+  
+    <p>При этом некоторые разделы содержат вложенные разделы, более детально определяющие тематику:</p>
+  
+    <p><img src="cid:resources/res81/zUPab.21aps.iblocks_book_catalog_structure_sections.png" border="0" height="381" width="283"></p>  </li>
+
+</ul>
+
+
+
+
+    <div class="hint"><b>Примечание:</b> количество возможных уровней иерархии не ограничено. Кроме того, элементы инфоблока могут не относиться ни к одному из созданных разделов. В этом случае они будут принадлежать к верхнему уровню иерархии:
+
+      <p><img src="cid:resources/res81/Dm58w.Xkaig.iblocks_upper_level.png"></p>
+    </div>
+
+]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>200</edge_sort>
+<id>951</id>
+</content>

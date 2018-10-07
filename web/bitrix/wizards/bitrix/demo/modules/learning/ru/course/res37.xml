@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>907</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>550</sort>
+<timestamp_x>1406636852</timestamp_x>
+<date_create>1406636852</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Управление адресами страниц</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<p><div class="note"><b>Короткая ссылка</b> - функционал, позволяющий изменить вид адреса любой страницы в рамках домена. То есть ссылка вида: <span class="link">http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=34&CHAPTER_ID=637</span> может выглядеть как <span class="link">http://dev.1c-bitrix.ru/Эрмитаж</span>.</div></p>
+
+<p>Короткая ссылка не заменяет реальный адрес страницы. Технически - это просто редирект внутри системы.</p>
+
+<div class="warning"><b>Внимание!</b> Данный функционал должен быть разрешен контент-менеджеру администратором сайта.</div>
+
+<a name="example"></a><h4>Создание короткой ссылки</h4>
+
+<p>Контент-менеджер имеет возможность изменить адрес страницы. Задачи, которые можно решать с помощью такого изменения:</p>
+
+<ul>
+<li>Создание коротких ссылок для публикаций в Twitter, блогах, форумах и других аналогичных местах.</li>
+<li>Замена адреса, написанного на латинице на кириллицу.</li> 
+<li>Другие случаи, когда требуется поменять адрес страницы.</li> 
+ </ul>
+
+<p>Создание короткой ссылки производится по команде <b>Добавить короткую ссылку</b>:</p>
+
+<p><img height="119" border="0" width="221" src="cid:resources/res37/I86fU.JmxJ5.short_url_2_11.png" /></p>
+
+<p>По этой команде откроется форма настройки ссылки:</p>
+
+<p><img height="502" border="0" width="568" src="cid:resources/res37/C6EVp.2c6fC.short_url_3_11.png" /></p>
+
+<p>Поля формы:</p>
+
+<ul>
+<li><b>Ссылка</b> - выводится реальный адрес страницы.</li>
+<li><b>Короткая ссылка</b> - вводится новый адрес страницы. Система будет автоматически предлагать вариант короткой ссылки из случайного набора знаков. По умолчанию в предлагаемом варианте на первом месте стоит "~" (тильда). Делается это специально для легкой зрительной идентификации короткой ссылки от других адресов. Использование тильды не является обязательным, но рекомендуется.</li> 
+<li><b>Код HTTP статуса</b> - выбирается тот или иной статус. Выбор конкретного статуса для конкретной страницы рекомендуется согласовывать с SEO-специалистом.</li> 
+ </ul>
+
+<h4>Список ссылок</h4>
+
+<p>Список созданных ссылок можно просмотреть по одноименной команде кнопки <b>Короткий URL</b> либо на странице <b>Короткие ссылки</b> (<span class="path">Настройки > Настройки продукта > Обработка адресов > Короткие ссылки</span>).</p>
+
+
+<p>На странице отобразится список существующих ссылок. Доступно изменение имеющихся ссылок и создание новых (принципы работы аналогичны способам работы с <a href="/learning/course/index.php?COURSE_ID=34&LESSON_ID=1840" target="_blank">формой отчета</a>).</p>]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>550</edge_sort>
+<id>907</id>
+</content>

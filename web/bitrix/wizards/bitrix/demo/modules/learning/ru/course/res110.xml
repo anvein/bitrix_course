@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>980</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>400</sort>
+<timestamp_x>1406636857</timestamp_x>
+<date_create>1406636857</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Управление альбомами</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<p>Главная страница фотогалереи со списком альбомов имеет следующий вид:</p>
+<p><img src="cid:resources/res110/ipVn7.J7IwR.album_list.png" width="604" height="470" border="0" /></p>
+<p>Перейти к редактированию основных свойств альбома можно прямо главной страницы по ссылке <b>Изменить</b>, не заходя во внутрь каждого. Здесь же можно и удалить альбом по ссылке <b>Удалить</b>.</p>
+
+<p>На странице детального просмотра альбома доступны следующие ссылки по управлению альбомом:</p>
+<ul>
+<li><b>Изменить альбом</b> - переход к форме изменения альбома;</li>
+<li><b>Добавить альбом</b> - создание вложенного альбома внутри текущего;</li>
+<li><b>Загрузить фото</b> - переход к форме загрузки фотографий.</li>
+</ul>
+<p>Если альбом имеет вложенные альбомы, то страница детального просмотра имеет вид:</p>
+
+<p><img src="cid:resources/res110/IMiEQ.g6yC8.album_detail.png" width="456" height="363" border="0" /></p>
+
+<h3>Изменение альбома</h3>
+
+<p>Форма изменения свойств альбома позволяет отредактировать название и описание альбома. Кроме того, по ссылке <b>Дополнительные настройки</b> отображаются поля настройки даты альбома и доступа:</p>
+
+<p><img src="cid:resources/res110/ZSJ0Z.QqPzY.edit_album.png" width="541" height="318" border="0" /></p>
+
+<p>Ссылка <b>Изменить обложку</b> служит для перехода к форме выбора обложки для альбома, а ссылка <b>Удалить</b> позволяет удалить альбом. Причем, если удаляется альбом, который имеет вложенные в себя альбомы, то будут удалены все альбомы.</p>
+
+<p>В режиме редактирования альбома выполняется и редактирование фотографий: можно изменить описание фотографии, добавить теги, повернуть фотографию или удалить. Отмеченные флагом фотографии можно удалить или перенести в другой альбом с помощью ссылок, расположенных внизу страницы:</p>
+
+<p><img src="cid:resources/res110/B7yC8.IAqML.edit_album_page_group_operations.png" width="597" height="335" border="0" /></p>
+
+<h3>Изменение обложки альбома</h3>
+
+<p>Форма выбора обложки для альбома имеет следующий вид:</p>
+
+<p><img src="cid:resources/res110/2denO.fNVs6.obl_edit.png" width="579" height="372" border="0" /></p>
+
+<p>Отметьте флагом одну или несколько фотографий, чтобы сгенерировать обложку для альбома и нажмите <b>Сохранить</b>.</p>
+
+<p>Если в настройках фотогалереи указано, что список альбомов отображается не в виде рубрик со списком последних добавленных фотографий, то в этом случае главная страница фотогалереи будет иметь следующий вид:</p>
+
+<p><img src="cid:resources/res110/qm7SJ.XJtYZ.photo_main.png" width="559" height="447" border="0" /></p>
+]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>400</edge_sort>
+<id>980</id>
+</content>

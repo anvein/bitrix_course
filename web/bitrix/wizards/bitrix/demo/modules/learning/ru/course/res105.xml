@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="CHA"><lesson_id>975</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>2</childs_cnt>
+<is_childs>1</is_childs>
+<sort>300</sort>
+<timestamp_x>1406636857</timestamp_x>
+<date_create>1406636857</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Работа с фотогалереями</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<p>В данном разделе рассмотрим работу с модулем <b>Фотогалерея 2.0</b>. Модуль позволяет работать с фотографиями в удобном режиме: 
+<ul>
+<li>сортировать фото по альбомам (с возможностью создания вложенных альбомов);</li>
+<li>загружать в них фото;</li>
+<li>делать подписи к фотографиям;</li>
+<li>при просмотре оставлять отзывы и голосовать за понравившиеся фото;</li>
+<li>вести обсуждение и т.д.</li></ul></p>
+<p> В многопользовательской фотогалереи можно отображать все фотографии и альбомы пользователей на одной странице.
+  </p>]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>300</edge_sort>
+<id>975</id>
+</content>

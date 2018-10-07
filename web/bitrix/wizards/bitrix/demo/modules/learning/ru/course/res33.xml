@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>903</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>350</sort>
+<timestamp_x>1406638554</timestamp_x>
+<date_create>1406636852</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Создание новых страниц и разделов в интерфейсе до версии 9.5</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<p>В рамках файловой структуры сайта страница - это файл, а раздел - это папка. Соответственно, создавая страницу вы создаете файл, создавая раздел - папку.</p>
+
+<div class="hint"><b>Примечание</b>: В данном случае речь идет о статических страницах сайта. Динамические страницы, создаваемые комплексными компонентами работают по другому принципу и не создают файлов и разделов.</div>
+
+<p>Создавать раздел или страницу можно как с Публичной части, так и с Административного раздела. Контент-менеджеру рекомендуется работать с Публичной части.</p>
+
+<b>Создание страниц</b>
+
+<p>Из публичного раздела сайта создание страницы выполняется с помощью удобного мастера. Его запуск можно осуществить в любом из режимов публичного раздела, выбрав пункт <b>Страницу</b> в меню команд кнопки <b>Создать</b>:</p>
+
+<p><img height="73" src="cid:resources/res33/1ymh2.FTsZK.but_new_page1.png" width="106" /></p>
+
+<p>Для навигации по шагам мастера служат кнопки <b>Назад</b> и <b>Далее</b>. Когда все параметры страницы заданы, то для создания служит кнопка <b>Готово</b>, а для прерывания работы мастера - кнопка <b>Отмена</b>. Кроме того, количество шагов мастера может быть разным в зависимости от выбранных вами настроек.</p>
+
+<table width="100%">
+<tr><td colspan="3">Первый шаг. Создание собственно страницы.</td></tr>
+<tr>
+<td>
+<ul>
+<li>В открывшемся окне мастера укажите <b>Имя файла</b> и задайте произвольный <b>Заголовок</b> страницы.</li>
+<li>Если сразу после создания страницы необходимо перейти к ее редактированию, то отметьте опцию <b>перейти к редактированию</b>. В этом случае по окончании работы мастера откроется визуальный редактор, с помощью которого выполняется наполнение страницы содержимым.</li>
+<li>Для добавления страницы в меню отметьте опцию <b>добавить пункт меню</b>. Создание пункта меню выполняется на следующем шаге.</li>
+</ul></td>
+<td>&nbsp;</td><td><a href="javascript:ShowImg('/images/content_manager/information/page_wiz1.png',612,403,'Создание страницы: первый шаг')"><img style="CURSOR: pointer" height="99" alt="Нажмите на рисунок, чтобы увеличить" src="cid:resources/res33/UoSpi.D8VwN.page_wiz1_sm.png" width="150" border="0" /></a></td></tr>
+
+<tr><td colspan="3">Второй шаг. Создание пункта меню.</td></tr>
+
+<tr>
+<td>
+<ul>
+<li>Укажите <b>Имя нового пункта</b> меню. По умолчанию в поле подставляется заголовок страницы.</li>
+<li>Выберите <b>Тип меню</b>, в которое будет добавлен новый пункт.</li>
+<li>Укажите, перед каким пунктом меню должен быть добавлен новый пункт.</li>
+</ul></td>
+<td>&nbsp;</td><td><a href="javascript:ShowImg('/images/content_manager/information/page_wiz2.png',612,403,'Создание страницы: второй шаг')"><img style="CURSOR: pointer" height="99" alt="Нажмите на рисунок, чтобы увеличить" src="cid:resources/res33/F6il9.V4RdP.page_wiz2_sm.png" width="150" border="0" /></a></td></tr>
+
+<tr><td colspan="3">Третий шаг. Задание свойств страницы.</td></tr>
+
+<tr>
+<td>
+<ul>
+<li>Значения <b>свойств страницы</b> наследуются из раздела, в котором она создана. Для изменения свойства кликнете по полю и укажите необходимое вам значение.</li>
+<li>Если необходимо, то задайте <b>Теги страницы</b>, которые будут использоваться при ее поиске.</li>
+</ul></td>
+<td>&nbsp;</td><td><a href="javascript:ShowImg('/images/content_manager/information/page_wiz3.png',612,403,'Создание страницы: третий шаг')"><img style="CURSOR: pointer" height="99" alt="Нажмите на рисунок, чтобы увеличить" src="cid:resources/res33/NFv8M.shHTx.page_wiz3_sm.png" width="150" border="0" /></a></td></tr>
+
+<tr><td colspan="3">Четвертый шаг. Редактирование страницы.</td></tr>
+
+<tr>
+<td><ul>
+<li>Используя средства визуального редактора, наполните страницу содержимым. На странице может быть размещена как статическая, так и динамическая информация.</li>
+<li>Сохраните внесенные данные с помощью кнопки <b>Сохранить</b>.</li>
+</ul></td>
+<td>&nbsp;</td><td><a href="javascript:ShowImg('/images/content_manager/information/page_wiz4.png',780,574,'Создание страницы: четвертый шаг')"><img style="CURSOR: pointer" height="110" alt="Нажмите на рисунок, чтобы увеличить" src="cid:resources/res33/igkoZ.UBWrr.page_wiz4_sm.png" width="149" border="0" /></a></td></tr>
+</table>
+
+<h4>Видеоролик "Создание новой страницы"</h4>
+
+<p><a href="http://dev.1c-bitrix.ru/download/files/video/learning/page_new.flv">Скачать</a> ролик (10,5 Мб, длительность 4 мин. 26 сек.)</p>
+
+ <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" id="bxid_974241" width="608" height="480" ><param name="movie" value="/bitrix/components/bitrix/player/mediaplayer/player"><param name="menu" value="true"><param name="wmode" value="transparent"><param name="width" value="800"><param name="height" value="620"><param name="flashvars" value="file=http://dev.1c-bitrix.ru/download/files/video/learning/page_new.flv&logo.hide=true&skin=/bitrix/components/bitrix/player/mediaplayer/skins/bitrix.swf&repeat=N&bufferlength=10&dock=true"><embed src="cid:resources/res33/M3xQ2.8q0r9.player" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" pluginspage="http://www.macromedia.com/go/getflashplayer" id="bxid_974241" menu="true" wmode="transparent" width="608" height="480" flashvars="file=http://dev.1c-bitrix.ru/download/files/video/learning/page_new.flv&logo.hide=true&skin=/bitrix/components/bitrix/player/mediaplayer/skins/bitrix.swf&repeat=N&bufferlength=10&dock=true" /></object> 
+<script>
+showFLVPlayer('bx_flv_player_29021', "Для того чтобы просмотреть ролик необходимо установить <a href='http://www.adobe.com/go/getflashplayer' title='Get Flash player'>флеш-плеер</a> версии 9 или выше");
+</script><noscript>В вашем браузере отключен JavaScript</noscript> 
+
+<p>Кроме того, вы можете ознакомится с видеороликом <a href="http://dev.1c-bitrix.ru/download/files/video/learning/page_edit.flv">"Редактирование страницы"</a> (9,9 Мб, длительность 2 мин. 52 сек.), в котором описаны возможные режимы редактирования страницы.</p>
+
+<b>Создание разделов</b>
+
+<p>В общем случае сайт представляет собой совокупность нескольких страниц, как правило, распределенных по тематическим разделам. В рамках системы разделы - это папки, включенные в структуру сайта. Разделы могут содержать подразделы, отдельные страницы и файлы:</p>
+<table>
+  <tbody>
+    <tr><td><a href="javascript:ShowImg('/images/content_manager/information/content.png',759,598,'Раздел Контент')"><img style="CURSOR: pointer" height="197" alt="Нажмите на рисунок, чтобы увеличить" src="cid:resources/res33/eTurm.3qAbH.content_sm.png" width="250" border="0" /></a> </td><td>&nbsp;</td>
+
+<td><a href="javascript:ShowImg('/images/content_manager/information/content_fileman.png',577,463,'Файловая структура раздела Контент')"><img style="CURSOR: pointer" height="197" alt="Нажмите на рисунок, чтобы увеличить" src="cid:resources/res33/XN8sX.8gafM.content_fileman_sm.png" width="246" border="0" /></a> </td></tr>
+  </tbody>
+</table>
+
+<p>Названия разделов используются в цепочке навигации, а также при отображении логической структуры сайта. Создать новый раздел можно как из административной, так и из публичной части сайта.</p>
+
+<p> Для перехода к созданию нового раздела из <b>публичной части</b> сайта вызовите меню команд кнопки <b>Создать</b>, расположенной на административной панели, и выберите пункт <b>Раздел</b>:</p>
+<p><img height="73" src="cid:resources/res33/UAC1r.B4NCW.but_new_folder1.png" width="106" /></p> 
+
+<p>Откроется мастер, с помощью которого будет создан новый раздел в текущем (открытом в данный момент) разделе сайта:</p>
+
+<p><img height="403" border="0" width="612" src="cid:resources/res33/XePbJ.keRm3.new_folder1.png" /></p>
+
+<p>В процессе создания нового каталога независимо от того, в каком разделе сайта (публичном или административном) он создается, вы можете:</p>
+
+<ul>
+  <li>указать название раздела сайта, соответствующего данной папке. Указанное название будет использоваться в качестве пункта цепочки навигации, ссылающегося на созданный раздел:<br/><br/>
+<img height="32" src="cid:resources/res33/7RbVk.Zqo6t.content_breadcrumb.png" width="132" /> </li>
+
+  <li>добавить ссылку на создаваемый раздел в меню сайта:<br/><br/>
+  <img height="26" src="cid:resources/res33/U2hIL.wxeq0.content_menu.png" width="670" /></li>
+
+  <li>создать индексную страницу раздела.</li>
+</ul>
+
+<div class="important"><b>Внимание!</b> При создании раздела автоматически создается страница <code>index.php</code>, которая и отображается на сайте как главная страница раздела. Удаление этой страницы приведет к тому, что раздел станет недоступен для просмотра.</div>
+]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>350</edge_sort>
+<id>903</id>
+</content>

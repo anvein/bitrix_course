@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="CHA"><lesson_id>885</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>3</childs_cnt>
+<is_childs>1</is_childs>
+<sort>1000200</sort>
+<timestamp_x>1406636852</timestamp_x>
+<date_create>1406636852</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Публичный интерфейс до версии 9.5</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<p>Публичный раздел системы различный для версий программ до номера 9.5. Так как есть проекты, в которых не производится обновление системы, то контент-менеджерам таких проектов необходимо изучить эту главу.</p>
+
+<p>Для управления информацией, представленной на страницах сайта, служит <b>Панель управления</b>, подключаемая вверху страницы после авторизации пользователя в системе:</p>
+<p><a href="javascript:ShowImg('/images/content_manager/controls/public_section/interface_to_version_9_5/admin_panel.png',1050,202,'Панель управления')"><img src="cid:resources/res15/xZAUe.evqYg.admin_panel_sm.png" alt="Нажмите на рисунок, чтобы увеличить" style="cursor: pointer;" width="700" border="0" height="134"></a></p>
+
+<p>Панель управления поддерживает 4 режима работы системы. Из них три - это режимы работы публичного раздела сайта, а четвертый - это переход в административную часть:</p>
+<ul> 
+  <li>Режим <b>Просмотр</b> служит для просмотра страниц сайта, также позволяет выполнять типовые операции по сайту.</li>
+  <li>Режим <b>Редактирование</b> содержит расширенный набор действий и операций по сайту (управление доступом, работа с документооборотом и др.). Режим предназначен для использования редакторами сайта.</li>
+  <li>Режим <b>Разработка</b> также относится к одному из режимов работы публичной части. Режим включает все действия, доступные в режимах <b>Просмотр</b> и <b>Редактирование</b>, и содержит дополнительные возможности (управление компонентами, стилями шаблона сайта, отладочная информация). Режим предназначен для разработчиков.</li>
+  <li>Закладка <b>Панель управления</b> позволяет перейти в административный раздел сайта, который предоставляет полный набор возможностей по управлению и настройке сайта.</li>
+</ul>]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>1000200</edge_sort>
+<id>885</id>
+</content>

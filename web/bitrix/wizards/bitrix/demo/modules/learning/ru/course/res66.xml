@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>936</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>500</sort>
+<timestamp_x>1406640195</timestamp_x>
+<date_create>1406636855</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Работа с таблицами</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<p>При работе с визуальным редактором есть возможность создавать и редактировать таблицы с использованием специального интерфейса без непосредственного написания HTML-тегов.</p>
+ 
+<h3>Создание новой таблицы</h3>
+ 
+<p>Рассмотрим создание новой таблицы подробнее. </p>
+ 
+<ul> 
+  <li>Выберите место на странице, где бы вы хотели видеть таблицу, установите в это место курсор и нажмите кнопку <img src="cid:resources/res66/8JuPq.jptNV.table_but.gif" border="0"  /> <b>Вставить таблицу</b> панели редактирования. Появится диалоговое окно: 
+    <p></p>
+   
+    <p><img src="cid:resources/res66/lCH4A.w00ik.new_table_11.png" alt="Новая таблица" border="0" height="263" width="525"  /></p>
+   </li>
+ 
+  <li>Заполните следующие поля формы: 
+    <ul> 
+      <li>Количество <b>Строк</b> и <b>Столбцов</b>; </li>
+      <li><b>Ширина</b> и <b>Высота</b> таблицы в пикселях или в процентах; </li>
+      <li><b>Толщина рамки</b>; </li>
+      <li><b>Выравнивание</b> таблицы; </li>
+      <li><b>Стиль</b> (В списке перечислены все стили, определенные в системе); </li>
+      <li>Параметры <b>Cellpadding</b> и <b>Cellspacing</b>. </li>
+     </ul>
+   </li>
+ 
+  <li>После указания всех желаемых параметров нажмите кнопку <b>Сохранить</b>.</li>
+ </ul>
+ 
+<p>Пустая таблица появится на странице. Теперь можете приступать к ее заполнению.</p>
+ 
+<h3>Редактирование существующей таблицы</h3>
+ 
+<p>Если толщина границы равна <b>0</b>, то просмотреть структуру таблицы можно с помощью кнопки&nbsp; <img src="cid:resources/res66/wS6tZ.bX39C.borders_but.gif" border="0"  /> <b>Показать границы таблиц</b>.</p>
+ 
+<p>Чтобы отредактировать структуру существующей таблицы, подведите указатель мыши к таблице и кликните правой кнопкой. Появится контекстное меню:</p>
+ <img src="cid:resources/res66/WQhK0.oiegB.table_context_menu.png" height="320" width="358" alt="Контекстное меню таблицы" border="0"  /> 
+<p>В нем вы можете выбрать любой нужный пункт для редактирования таблицы или изменить свойства таблицы по вашему усмотрению. Отдельно сгруппированы действия с ячейкой, строкой и столбцом.</p>
+ 
+<div class="hint"><b>Примечание</b>: набор пунктов <b>контекстного меню</b> зависит от объекта, на котором расположен указатель мыши, когда вызывается меню. Например, если вызвать контекстное меню на картинке, которая расположена в таблице, то меню будет содержать и пункты редактирования таблицы и пункт редактирования картинки. Оно примет вид: 
+  <p><img src="cid:resources/res66/qu9Rs.TcAiy.table_context_img.png" height="318" width="306" alt="Пункты меню таблицы" border="0"  /></p>
+ </div>
+ 
+<p></p>
+ 
+<div class="hint"><b>Примечание</b>: при выделении таблицы мышью, в области <b>Свойства</b> можно будет редактировать параметры таблицы: 
+  <br />
+ 
+  <ul> 
+    <li>стиль написания текста, </li>
+    <li>выравнивание содержимого ячеек, </li>
+    <li>перенос по словам, цвет фона, </li>
+    <li>ширину и высоту текущей ячейки таблицы,</li>
+    <li>размеры таблицы.</li>
+  </ul>
+ Перемещение по таблице возможно с помощью выделенной цепочки. При нажатии на отдельные теги цепочки станут доступны свойства соответствующей строки или столбца. 
+  <p><img src="cid:resources/res66/vytoj.tjXU2.table_property.png" height="161" width="600" alt="Панель свойств" border="0"  /></p>
+ </div>
+ 
+<p></p>
+
+<div class="hint"><b>Примечание</b>: при выделении таблицы, можно также изменить ее размер, потянув за уголок курсором мыши.
+ </div>
+
+<p></p>
+ 
+<div class="hint"><b>Примечание</b>: в браузере Mozilla Firefox есть дополнительная возможность вставлять столбцы и строки, а также удалять их. При редактировании страницы нажмите (для наглядности) кнопку <img src="cid:resources/res66/pCVQ4.s8oA7.borders_but.gif"  />, щелкните мышью по ячейке таблицы. Она выделится следующим образом: 
+  <p><img src="cid:resources/res66/3YtPH.cj2WG.table_firefox.png" height="239" width="545" alt="Дополнительная возможность в браузере Mozilla Firefox" border="0"  /></p>
+ 
+  <p>И теперь, пользуясь стрелками влево и вправо, можно вставлять столбцы соответственно слева и справа от выделенной ячейки. Аналогично, с помощью стрелок вверх и вниз можно вставлять строки. А нажимая на крестик между стрелками, можно удалить строку или столбец.</p>
+ </div>
+ 
+<p>Ниже вы можете познакомиться с видео-роликом, наглядно демонстрирующим процесс создания и редактирования таблиц с использованием специального интерфейса. (2 минуты 46 секунд, 7.74 Мб.) </p>
+ 
+<p><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" id="bxid_429129" width="800" height="620" ><param name="movie" value="/bitrix/components/bitrix/player/mediaplayer/player"><param name="menu" value="true"><param name="wmode" value="transparent"><param name="width" value="800"><param name="height" value="620"><param name="flashvars" value="file=http://dev.1c-bitrix.ru/download/files/video/learning/teachvideo/9-1.flv&logo.hide=true&skin=/bitrix/components/bitrix/player/mediaplayer/skins/bitrix.swf&repeat=N&bufferlength=10&dock=true"><embed src="cid:resources/res66/ht062.z1si5.player" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" pluginspage="http://www.macromedia.com/go/getflashplayer" id="bxid_429129" menu="true" wmode="transparent" width="800" height="620" flashvars="file=http://dev.1c-bitrix.ru/download/files/video/learning/teachvideo/9-1.flv&logo.hide=true&skin=/bitrix/components/bitrix/player/mediaplayer/skins/bitrix.swf&repeat=N&bufferlength=10&dock=true" /></object></p>
+ 
+<p><a href="http://dev.1c-bitrix.ru/download/files/video/learning/teachvideo/9-1.flv" >Загрузить</a> ролик.</p>
+ 			 			]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>500</edge_sort>
+<id>936</id>
+</content>

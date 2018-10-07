@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>890</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>100</sort>
+<timestamp_x>1406636852</timestamp_x>
+<date_create>1406636852</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Элементы административного раздела</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<p>Интерфейс административного раздела системы <b>Bitrix Framework</b> логически разграничен на области, обеспечивающие доступ к функциональным возможностям системы.</p>
+<p>Интерфейс системы построен по иерархическому принципу: вышестоящие области интерфейса переключают зависимые области в тот или иной режим работы. Это позволяет скрыть функциональные возможности системы, в которых нет потребности в данный момент, и вынести на первый план требуемые функции. Такая организация интерфейса обеспечивает его наглядность и неперегруженность.</p>
+
+<p>Интерфейс содержит следующие области:</p>
+
+<ol>
+<li>Административная панель;</li>
+<li>Административное меню;</li> 
+<li>Меню функций;</li> 
+<li>Рабочая область.</li> 
+ </ol>
+
+<p><img height="436" width="700" src="cid:resources/res20/AUaUH.awTLM.bsm_admin_area_11.png" /></p>
+
+<div class="learnin-post-text">
+<table class="learning-spoiler">
+<thead onclick="LearningInitSpoiler(this)">
+<tr><th>
+<div>Области административного интерфейса в Эрмитаже v.9.5</div>
+</th></tr></thead>
+<tbody style="display:none;" class="learning-spoiler">
+<tr><td><p><img width="600" height="515" border="0" src="cid:resources/res20/vhyNV.WEhjZ.bsm_admin_area.png" /></p></td></tr>
+</tbody>
+</table></div>
+
+
+
+ 
+<h4><a name="admin_toolbar"></a>Административная панель управления</h4>
+
+<p><b>Интерфейс Эрмитаж</b> (с версии 11.0)</p>
+
+<p><img height="32" width="700" src="cid:resources/res20/eg2xB.XBErh.admin_panel_11.png" /></p>
+
+<p>Функционал панели:</p>
+
+<table cellspacing=0 cellpadding=0> 		 
+  <tbody> 
+    <tr bgcolor="white">
+    <td bgcolor="#8C8C8C"> 		 
+    <table cellspacing="1" cellpadding="5"> 			 
+          <tbody> 
+            <tr bgcolor="silver"><td colspan="3"><b>Команды Панели управления</b> 
+               </td></tr>
+     <tr bgcolor="white"> <td align="center"><img height="39" width="82" border="0" src="cid:resources/res20/rIgwK.lilne.site_11.png" /><td>Закладка <b>Сайт</b> - переход в публичный раздел.</td> </tr>
+           			 
+            <tr bgcolor="#EEEEEE"> <td align="center"><img height="39" width="206" border="0" src="cid:resources/res20/XMezJ.JyEL9.admin_button_11.png" /></td> <td>Закладка Администрирование.</td> </tr>
+
+     <tr bgcolor="white"> <td align="center"><img height="39" width="55" border="0" src="cid:resources/res20/pLdcn.8sumV.admin_notification_95_new.png" /><td>Центр уведомлений</td> </tr>
+
+     <tr bgcolor="#EEEEEE"> <td align="center"><img height="29" width="96" border="0" src="cid:resources/res20/G3qxK.OB1vV.admin_settings_11.png" /><td>Открывает форму настроек активного модуля, либо позволяет перейти к настройкам интерфейса административной части. Например, если открыт раздел <b>Управление структурой</b>, эта кнопка открывает форму настроек модуля <b>Управление структурой</b>.</td> </tr>
+
+
+            <tr bgcolor="white"> <td align="center"><img height="29" src="cid:resources/res20/O4mQn.jSH8r.admin_help_11.png" width="82" border="0"></td> <td>Открывает (в отдельном окне) соответствующую страницу системы помощи с сайта компании <b>1С-Битрикс</b>.</td> </tr>
+
+     <tr bgcolor="#EEEEEE"> <td align="center"><img height="29" src="cid:resources/res20/ifB3y.kK48X.search_field_11.png" width="209" border="0"><td>Поиск в Панели управления по пунктам меню и настройкам модулей.</td> </tr>
+
+     <tr bgcolor="white"> <td align="center"><img height="24" src="cid:resources/res20/aWJZN.6BMWC.user_button_11.png" width="135" border="0"><td>Переход к изменению профиля текущего пользователя в форме административного раздела. Ссылка <b>Выйти</b> завершает авторизованный сеанс в административном разделе.</td> </tr>
+
+            <tr bgcolor="white"> <td align="center"><img hight="26" src="cid:resources/res20/SG3wB.mPsL5.admin_lang_11.png" width="35" border="0"></td> <td>Позволяет переключиться на другой (установленный в системе) язык административного интерфейса.</td> </tr>
+
+     <tr bgcolor="#EEEEEE"> <td align="center"><img hight="19" src="cid:resources/res20/JDBck.jlIFM.hot_keys_95_new.png" width="20" border="0"><td>Кнопка вызывает окно настроек горячих клавиш и позволяет их настроить для удобства текущей работы.</td> </tr>
+
+     <tr bgcolor="white"> <td align="center"><img height="26" src="cid:resources/res20/Kqg2Q.Oh67o.panel_fix_95_new.png" width="26" border="0"></td> <td>Позволяет закрепить административную панель управления. Эта кнопка расположена на правом конце панели.</td> </tr>
+           </tbody>
+         </table>
+       		</td></tr>
+   </tbody>
+ </table>
+
+<br>
+
+
+
+<div class="learnin-post-text">
+<table class="learning-spoiler">
+<thead onclick="LearningInitSpoiler(this)">
+<tr><th>
+<div>Административный интерфейс в Эрмитаже v.9.5</div>
+</th></tr></thead>
+<tbody style="display:none;" class="learning-spoiler">
+<tr><td><p><a href="javascript:ShowImg('/images/content_manager/controls/administrative_section/admin_panel_95.png',822,61,'Панель управления')"><img height="44" border="0" width="600" style="cursor: pointer;" alt="Нажмите на рисунок, чтобы увеличить" src="cid:resources/res20/WDbVu.oPjcR.admin_panel_95_sm.png" /></a> </p>
+
+<p>Функционал панели:</p>
+
+<table cellspacing=0 cellpadding=0> 		 
+  <tbody> 
+    <tr bgcolor="white">
+    <td bgcolor="#8C8C8C"> 		 
+    <table cellspacing="1" cellpadding="5"> 			 
+          <tbody> 
+            <tr bgcolor="silver"><td colspan="3"><b>Команды Панели управления</b> 
+               </td></tr>
+     <tr bgcolor="white"> <td align="center"><img height="22" width="60" border="0" src="cid:resources/res20/23m0M.TdBCD.menu_button_95.png" /><td>Служит для быстрого доступа к страницам административного раздела.</td> </tr>
+           			 
+            <tr bgcolor="#EEEEEE"> <td align="center"><img height="27" width="67" border="0" src="cid:resources/res20/nUIhj.qBEnA.sait_95.png" /></td> <td>Закладка <b>Сайт</b> - переход в публичный раздел.</td> </tr>
+
+     <tr bgcolor="white"> <td align="center"><img height="26" width="165" border="0" src="cid:resources/res20/QrEXf.lu4i1.admin_button_95.png" /><td>Закладка Администрирование.</td> </tr>
+
+     <tr bgcolor="#EEEEEE"> <td align="center"><img height="27" width="88" border="0" src="cid:resources/res20/lAp8a.1UMTg.free_place_95.png" /><td>Индикатор свободного места. Виден только на SAAS решениях.</td> </tr>
+
+     <tr bgcolor="white"> <td align="center"><img height="24" src="cid:resources/res20/FB2oP.QoYpk.user_button_95.png" width="135" border="0"><td>Переход к изменению профиля текущего пользователя в форме административного раздела. Ссылка <b>Выйти</b> завершает авторизованный сеанс в административном разделе.</td> </tr>
+
+     <tr bgcolor="#EEEEEE"> <td align="center"><img height="26" src="cid:resources/res20/uiCc9.dfXIQ.admin_fix_button.png" width="26" border="0"></td> <td>Позволяет закрепить административную панель управления. Эта кнопка расположена на правом конце панели.</td> </tr>
+
+     <tr bgcolor="white"> <td align="center"><img height="26" src="cid:resources/res20/ExDho.zkmon.admin_favorite.png" width="101" border="0"></td> <td>Добавляет текущую страницу в список избранного. Страница добавляется со всеми активными в данный момент настройками фильтра.</td> </tr>
+
+     <tr bgcolor="#EEEEEE"> <td align="center"><img height="24" src="cid:resources/res20/dfwSe.APaqx.admin_settings.png" width="105" border="0"><td>Открывает форму настроек активного модуля, либо позволяет перейти к настройкам интерфейса административной части. Например, если открыт раздел <b>Управление структурой</b>, эта кнопка открывает форму настроек модуля <b>Управление структурой</b>.</td> </tr>
+           			 
+            <tr bgcolor="white"> <td align="center"><img height="26" src="cid:resources/res20/4eMdw.xkxue.admin_help.png" width="75" border="0"></td> <td>Открывает (в отдельном окне) соответствующую страницу системы помощи с сайта компании <b>1С-Битрикс</b>.</td> </tr>
+
+     <tr bgcolor="#EEEEEE"> <td align="center"><img hight="26" src="cid:resources/res20/Gakj8.YLERL.admin_update.png" width="30" border="0"><td>Открывает форму получения обновлений системы. Если в настройках <b>Главного модуля</b> выставлена автопроверка обновлений, то, при наличии обновлений, зеленая иконка меняется на анимированную красную иконку. Кроме этого появится всплывающее окно с информацией об обновлениях.</td> </tr>
+           			 
+            <tr bgcolor="white"> <td align="center"><img hight="26" src="cid:resources/res20/XPrhr.az0Sr.admin_lang.png" width="42" border="0"></td> <td>Позволяет переключиться на другой (установленный в системе) язык административного интерфейса.</td> </tr>
+
+     <tr bgcolor="#EEEEEE"> <td align="center"><img hight="26" src="cid:resources/res20/CQDt6.SNgmF.bizproc_list_button.png" width="110" border="0"><td>Позволяет перейти к списку невыполненных заданий в модуле <b>Бизнес-процессы</b>. Кнопка отображается на панели, если установлен модуль <b>Бизнес-процессы</b> и у текущего пользователя есть невыполненные задания.</td> </tr>
+
+     <tr bgcolor="white"> <td align="center"><img hight="21" src="cid:resources/res20/nyDHq.hcttw.search_field.png" width="117" border="0"><td>Поиск в Панели управления по пунктам меню и настройкам модулей.</td> </tr>
+           </tbody>
+         </table>
+       		</td></tr>
+   </tbody>
+ </table></td></tr>
+</tbody>
+</table></div>
+
+
+<br>
+
+
+<div class="learnin-post-text">
+<table class="learning-spoiler">
+<thead onclick="LearningInitSpoiler(this)">
+<tr><th>
+<div>Административный интерфейс до версии 9.5</div>
+</th></tr></thead>
+<tbody style="display:none;" class="learning-spoiler">
+<tr><td><p><img src="cid:resources/res20/Fsu5A.W4xUd.admin_panel.png" width="789" border="0" height="62"></p>
+<p>Административная панель управления содержит общие элементы, которые могут понадобиться при управлении сайтом.</p>
+
+<table cellspacing=0 cellpadding=0> 		 
+  <tbody> 
+    <tr bgcolor="white">
+    <td bgcolor="#8C8C8C"> 		 
+    <table cellspacing="1" cellpadding="5"> 			 
+          <tbody> 
+            <tr bgcolor="silver"><td colspan="3"><b>Команды Панели управления</b> 
+               </td></tr>
+     <tr bgcolor="white"> <td align="center"><img hight="48" src="cid:resources/res20/NZdYV.qLBjB.admin_start_button.png" width="47" border="0"><td>Служит для быстрого доступа к страницам административного раздела.</td> </tr>
+           			 
+            <tr bgcolor="#EEEEEE"> <td align="center"><img hight="23" src="cid:resources/res20/8Aec1.Jmkws.tab_view.png" width="99" border="0"></td> <td>Режим служит для просмотра страниц. В этом режиме можно выполнять основные операции по управлению содержанием сайта. Если удерживать клавишу <b>Shift</b>, публичный раздел откроется в новом окне браузера. <a href="/learning/course/index.php?clear_cache=Y&amp;COURSE_ID=34&amp;LESSON_ID=1835">Подробнее...</a></td> </tr>
+
+     <tr bgcolor="white"> <td align="center"><img hight="23" src="cid:resources/res20/yYpdv.ZaOlY.tab_edit.png" width="142" border="0"><td>Режим служит для изменения содержания страниц. <a href="/learning/course/index.php?clear_cache=Y&amp;COURSE_ID=34&amp;LESSON_ID=1836">Подробнее...</a></td> </tr>
+           			 
+            <tr bgcolor="#EEEEEE"> <td align="center"><img hight="23" src="cid:resources/res20/yDKOf.7VO39.tab_develop.png" width="112" border="0"></td> <td>Режим предназначен для использования разработчиками сайта, т.к. предоставляет возможности по изменению внешнего облика сайта (настройки параметров компонентов, изменение стилей шаблона сайта и др.) <a href="/learning/course/index.php?clear_cache=Y&amp;COURSE_ID=34&amp;LESSON_ID=1837">Подробнее...</a></td> </tr>
+
+     <tr bgcolor="white"> <td align="center"><img hight="23" src="cid:resources/res20/FMS48.QjDju.tab_admin.png" width="164" border="0"><td>Открывает административный раздел сайта - служит для полного управление настройками системы, отдельных модулей и контентом сайтов.</td> </tr>
+           			 
+            <tr bgcolor="#EEEEEE"> <td align="center"><img hight="26" src="cid:resources/res20/Ar3tc.0i3QX.admin_favorite.png" width="101" border="0"></td> <td>Добавляет текущую страницу в список избранного. Страница добавляется со всеми активными в данный момент настройками фильтра.</td> </tr>
+
+     <tr bgcolor="white"> <td align="center"><img hight="26" src="cid:resources/res20/SD7cL.fYI8r.admin_settings.png" width="92" border="0"><td>Открывает форму настроек активного модуля. Например, если открыт раздел <b>Управление структурой</b>, эта кнопка открывает форму настроек модуля <b>Управление структурой</b>.</td> </tr>
+           			 
+            <tr bgcolor="#EEEEEE"> <td align="center"><img hight="26" src="cid:resources/res20/AUgDA.rIEE9.admin_help.png" width="75" border="0"></td> <td>Открывает (в отдельном окне) соответствующую страницу системы помощи с сайта компании <b>1С-Битрикс</b>.</td> </tr>
+
+     <tr bgcolor="white"> <td align="center"><img hight="26" src="cid:resources/res20/WC7r3.4Kl4G.admin_update.png" width="30" border="0"><td>Открывает форму получения обновлений системы. Если в настройках <b>Главного модуля</b> выставлена автопроверка обновлений, то, при наличии обновлений, зеленая иконка меняется на анимированную красную иконку. Кроме этого появится всплывающее окно с информацией об обновлениях.</td> </tr>
+           			 
+            <tr bgcolor="#EEEEEE"> <td align="center"><img hight="26" src="cid:resources/res20/OI38r.QKEyf.admin_lang.png" width="42" border="0"></td> <td>Позволяет переключиться на другой (установленный в системе) язык административного интерфейса.</td> </tr>
+
+     <tr bgcolor="white"> <td align="center"><img hight="26" src="cid:resources/res20/gQra2.g3Gdq.admin_user.png" width="155" border="0"><td>Переход к изменению профиля текущего пользователя в форме административного раздела.</td> </tr>
+           			 
+            <tr bgcolor="#EEEEEE"> <td align="center"><img hight="26" src="cid:resources/res20/uzYhO.F4ha9.admin_logout.png" width="67" border="0"></td> <td>Завершает авторизованный сеанс в административном разделе.</td> </tr>
+
+     <tr bgcolor="white"> <td align="center"><img hight="26" src="cid:resources/res20/BZ0uO.C11Sc.bizproc_list_button.png" width="110" border="0"><td>Позволяет перейти к списку невыполненных заданий в модуле <b>Бизнес-процессы</b>. Кнопка отображается на панели, если установлен модуль <b>Бизнес-процессы</b> и у текущего пользователя есть невыполненные задания.</td> </tr>
+           			 
+            <tr bgcolor="#EEEEEE"> <td align="center"><img hight="26" src="cid:resources/res20/jMBzM.5fk3a.admin_fix_button.png" width="26" border="0"></td> <td>Позволяет закрепить административную панель управления. Эта кнопка расположена на правом конце панели.</td> </tr>
+           </tbody>
+         </table>
+       		</td></tr>
+   </tbody>
+ </table></td></tr>
+</tbody>
+</table></div>
+
+
+
+<h4><a name="func_selector"></a>Административное меню</h4>
+
+<p><table width="100%" cellpadding="5"> 
+  <tbody> 
+    <tr valign="top">
+<td><p><img height="620" width="75" src="cid:resources/res20/iQJl2.zsqqV.admin_panel_menu_11.png" /></p></td>
+
+<td><p>С помощью этой панели можно выбрать обособленный набор функций, относящийся к определенной функциональной части системы. В зависимости от того, установлены ли те или иные модули, состав административного меню может различаться.</p>
+<p><b>Рабочий стол</b> - инструмент для организации удобного управления работой сайта с помощью произвольно размещаемых гаджетов.</p>
+<p>Набор функций <b>Контент</b> содержит инструменты для управления информационными блоками, структурой сайта (т.е. папками и файлами), а также настройки документооборота и управления документами.</p>
+<p>Набор функций <b>Сервисы</b> наиболее зависим от наличия в системе тех или иных модулей. Полный набор функций позволяет управлять опросами, веб-формами, рекламой, рассылками, техподдержкой, форумами и почтовой системой.</p>
+<p>Набор функций <b>Магазин</b> позволяет осуществить продажу товаров и услуг с сайта.</p> 
+<p>Набор функций <b>Веб-аналитика</b> полностью посвящен функциям сбора, обработки и отображения статистики по сайтам. Этот раздел присутствует, только если установлен модуль <b>Веб-аналитика</b>.</p>
+<p>Набор функций <b>Marketplace</b> позволяет обновлять систему, устанавливать и обновлять партнерские модули и решения.</p>
+<p>Набор функций <b>Настройки</b> позволяет управлять пользователями, валютами интернет-магазина, шаблонами, получать обновления системы, а также настраивать прочие параметры сайта и системы.</p>
+<div class="learnin-post-text">
+<table class="learning-spoiler">
+<thead onclick="LearningInitSpoiler(this)">
+<tr><th>
+<div>Административное меню в Эрмитаже v.9.5</div>
+</th></tr></thead>
+<tbody style="display:none;" class="learning-spoiler">
+<tr><td><p><img width="181" border="0" hight="219" src="cid:resources/res20/c9WHg.uAJCF.admin_panel_menu.png" /></p>
+
+<p><div class="hint"><b>Примечание</b>: в административном меню Эрмитажа до v.11 отсутствует пункт <b>Marketplace</b>.</div></p>
+
+</td></tr>
+</tbody>
+</table></div>
+
+</td>
+</tr>
+   </tbody>
+ </table></p>
+
+
+
+
+
+
+<h4><a name="functor"></a>Меню функций</h4>
+
+<p>Содержимое этой панели зависит от того, какой пункт меню выбран в предыдущей области. Например, выбрав пункт <b>Контент</b>, вы можете получить такой вид панели:</p>
+
+<p><table width="100%" cellpadding="5"> 
+  <tbody> 
+    <tr valign="top">
+<td><p><img height="604" width="234" src="cid:resources/res20/CgQAw.VlqYo.content_menu_11.png" /></p></td>
+<td><p>Выбирая пункты дерева-меню, можно получить доступ непосредственно к тем функциям, которым они соответствуют. При этом, рабочая область (<b>4</b>) будет отображать интерфейс для работы именно с этими функциями.</p>
+
+<div class="learnin-post-text">
+<table class="learning-spoiler">
+<thead onclick="LearningInitSpoiler(this)">
+<tr><th>
+<div>Меню функций в Эрмитаже v.9.5</div>
+</th></tr></thead>
+<tbody style="display:none;" class="learning-spoiler">
+<tr><td><p><img width="160" border="0" hight="279" src="cid:resources/res20/7mhiD.LTv96.content_menu.png" /></p>
+
+<p>Такое дерево-меню строится системой динамически с использованием технологии <b>AJAX</b>. Код, ответственный за построение меню, опрашивает все установленные в системе модули, которые, в свою очередь, возвращают данные, необходимые для добавления пунктов меню. Поэтому при открытии страницы административного раздела или развертывании узла меню в первый раз (например, списка информационных блоков), меню может появиться с некоторой задержкой, о чем будет выведено соответствующее предупреждение.</p>
+</td></tr>
+</tbody>
+</table></div>
+
+
+<p>В случае необходимости административное меню и меню функций могут быть временно скрыты/развернуты с помощью соответствующих стрелок. Стрелки появляются при наведении указателя мыши к черте, разделяющей <b>Меню функций</b> и <b>Рабочую область</b>. С помощью кнопки, можно свернуть <b>Меню функций</b>, с помощью курсора придать ему  нужную ширину.</p>
+
+<div class="learnin-post-text">
+<table class="learning-spoiler">
+<thead onclick="LearningInitSpoiler(this)">
+<tr><th>
+<div>Сворачивание панелей в Эрмитаже v.9.5</div>
+</th></tr></thead>
+<tbody style="display:none;" class="learning-spoiler">
+<tr><td><p><img width="193" border="0" hight="205" src="cid:resources/res20/tVd7j.Yh7PT.hide_show_buttons.png" /></p></td></tr>
+</tbody>
+</table></div>
+
+</td>
+</tr>
+   </tbody>
+ </table></p>
+
+
+
+<h4>Основная рабочая область</h4>
+<p><b>Рабочая область</b> - это основная область, в которой происходит большинство операций по управлению сайтом:</p>
+<ul> 
+  <li>просмотр элементов, составляющих контент сайта (например, информационных блоков, баннеров и т.п.);</li>
+  <li>добавление контента;</li>
+  <li>создание и удаление папок и файлов;</li>
+  <li>настройка меню и т.д.</li>
+</ul>
+<p>Такие операции реализуются формами двух основных видов:</p>
+<ul> 
+  <li><b>формы отчетов</b> (или списки элементов) - предназначены для просмотра элементов в форме таблиц, а также, в отдельных случаях (например, формы статистики) - в форме графиков и диаграмм;</li>
+  <li><b>формы редактирования</b> - применяются для добавления и правки элементов контента, а также для задания настроек модулей и системы в целом.</li>
+</ul>
+<p>Формы, отображаемые в рабочей области, имеют общие элементы. Ознакомьтесь с их функциями - это значительно облегчит дальнейшую работу с сайтом.</p>
+
+<p>Для удобства текущего управления сайтом рекомендуется настроить <a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID={SELF}&LESSON_ID=3068" target="_blank">Рабочий стол</a> в <b>Основной рабочей области</b>.</p>
+ 
+<p>Пиктограмма <img width="27" border="0" hight="25" src="cid:resources/res20/yGDDg.XKymk.admin_page_button_link_11.png" /> (В интерфейсах до версии 11.0 она выглядит так: <img width="18" border="0" hight="17" src="cid:resources/res20/dn0Yx.DoaGi.admin_page_button_link.png" />), расположенная рядом с названием, содержит ссылку на текущую страницу (с учетом переходов по <b>AJAX</b>). Скопировать ссылку в буфер обмена можно, нажав на пиктограмме правой кнопкой мыши и выбрав команду <b>Копировать ярлык</b>. Ссылка на страницу может понадобиться вам, например, при обращении в службу технической поддержки компании <b>1C-Битрикс</b>.</p>
+
+<h4>Контекстная панель</h4>
+
+<p> Если отображаемая форма позволяет производить какие-либо действия в отношении отображаемых элементов, ниже фильтра на форме может располагаться <b>контекстная панель</b>, содержащая такие команды. Контекстные панели могут отображаться как на формах отчетов, так и на формах редактирования. Например, форма отчета на странице <b>Каталог книг</b> (<span class="path">Контент &gt; Информ. блоки &gt; Типы информ. блоков &gt; Каталог книг</span>) имеет такую контекстную панель:</p>
+
+<p><img height="266" width="666" src="cid:resources/res20/jxO7o.dxtah.admin_contex_panel_11.png" /></p>
+
+<p>Контекстная панель имеет кнопку <img height="32" width="38" src="cid:resources/res20/iFuF3.NZedT.button_setting_new.png"/>, в которой содержатся дополнительные команды. Обязательно присутствуют команды:</p>
+<ul>
+  <li>кнопка <b>Настроить</b> выводит диалоговое окно, в котором пользователь может выбрать колонки, которые требуется отобразить в таблице отчета данной формы, а также задать некоторые параметры, применяемые по умолчанию (поле и направление сортировки и т.п.).</li>
+  <li>кнопка <b>Excel</b> позволяет выполнить экспорт элементов формы отчета в <b>Microsoft Excel</b>.</li>
+</ul>
+
+<div class="learnin-post-text">
+<table class="learning-spoiler">
+<thead onclick="LearningInitSpoiler(this)">
+<tr><th>
+<div>Контекстная панель в Эрмитаже v.9.5</div>
+</th></tr></thead>
+<tbody style="display:none;" class="learning-spoiler">
+<tr><td>
+<p><img width="380" border="0" hight="28" src="cid:resources/res20/0dUIg.Aelpe.admin_contex_panel.png" /></p></td></tr>
+</tbody>
+</table></div>
+<br>
+
+]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>100</edge_sort>
+<id>890</id>
+</content>

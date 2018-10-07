@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="CHA"><lesson_id>877</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>2</childs_cnt>
+<is_childs>1</is_childs>
+<sort>500</sort>
+<timestamp_x>1406636850</timestamp_x>
+<date_create>1406636850</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Элементы Управления</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<p>Раздел <b>Элементы управления</b> познакомит контент-менеджера с основными элементами управления <b>Публичного</b> и <b>Административного разделов</b>.</p>
+ 
+<div class="warning"><b>Внимание!</b> Рекомендуется все работы по сайту проводить через <b>Публичный раздел</b>. <b>Административный раздел</b> предназначен для администраторов сайта и разработчиков. Тем не менее, некоторые виды работ с сайтом могут потребовать обращения к <b>Административному разделу</b>.</div>
+ 
+<p>Все скриншоты в учебном курсе взяты из стандартного дистрибутива программы.</p>
+
+<p><div class="hint"><b>Примечание</b>: с версии 12.0 панель Эрмитаж получила новое оформление. Иллюстрации со старым оформлением спрятаны в спойлеры, где вы их можете просмотреть простым кликом мыши:
+
+<p><img height="43" width="524" src="cid:resources/res7/4xKFz.MbC88.spoiler.png" /></p>
+</div></p>
+
+
+
+]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code>manage</code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>500</edge_sort>
+<id>877</id>
+</content>

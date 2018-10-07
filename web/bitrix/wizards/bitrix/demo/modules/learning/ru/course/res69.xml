@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>939</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>100</sort>
+<timestamp_x>1406640314</timestamp_x>
+<date_create>1406636855</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Загрузка и размещение изображения</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<p>HTML-редактор позволяет загружать графику с локального диска и размещать ее на веб-странице. Процесс размещения изображения очень прост:</p>
+ 
+<ul> 
+  <li>Выберите место для изображения на странице, установите курсор в эту позицию и нажмите кнопку <img src="cid:resources/res69/sfmPj.05t9K.image.gif" border="0"  /> <b>Изображение</b> на панели редактора. Появится диалог: 
+<p><img height="482" width="700" src="cid:resources/res69/dzNFT.rtlkN.add_image_form_11.png" /></p>
+   </li>
+ 
+  <h4>Выбор изображения из медиабиблиотеки</h4>
+ 
+  <li>Перейдите к форме загрузки изображения из медиабиблиотеки, нажав кнопку <img src="cid:resources/res69/1gQPM.aKJzb.load_button.png" border="0"  />. Появится окно <b>Медиабиблиотека</b>: 
+<p><img height="432" border="0" width="602" src="cid:resources/res69/MCzFv.DoWHo.medialib_form.png" /></p>
+   </li>
+ 
+  <li>Укажите изображение и нажмите кнопку <b>Выбрать</b>. После чего закроется окно выбора файла из медиабиблиотеки, и путь к выбранному файлу будет указан в поле <b>Путь к изображению</b> формы загрузки изображения. Изображение появится в окне предпросмотра, а также будет указана его ширина и высота, которые задаются в коде с помощью атрибутов <b>width</b> и <b>height</b> тега <b>&lt;img&gt;</b> соответственно: 
+    <p><img src="cid:resources/res69/hzVrB.00HCL.new_image_form_11.png" height="397" width="525" alt="Форма загрузки изображения"  /></p>
+   </li>
+ 
+  <h4>Выбор изображения из структуры сайта</h4>
+ 
+  <li>Перейдите к форме загрузки изображения из структуры сайта, выбрав пункт меню <b>Выбрать из структуры сайта</b> кнопки <img src="cid:resources/res69/jhUxu.YKCVe.load_button.png" border="0"  />. 
+
+   Появится окно <b>Менеджера файлов</b>: 
+    <p><a href="javascript:ShowImg('/images/content_manager/visual_editor/graphics/file_manager.png',750,476,'Менеджер файлов')" ><img alt="Нажмите на рисунок, чтобы увеличить" style="cursor: pointer;" src="cid:resources/res69/bKFmx.rC0Dp.file_manager_sm.png" border="0" height="381" width="600"  /></a></p>
+   Окно <b>Менеджера файлов</b> разделено в нижней части на две закладки: <b>Открыть файл</b> и <b>Загрузить файл</b>. </li>
+ 
+  <p>На закладке <b>Открыть файл</b> вы можете открыть один из файлов, находящихся на сервере. На закладке <b>Загрузить файл</b> можно загрузить файл с локального компьютера. </p>
+ 
+  <li>Для загрузки файла с локального компьютера перейдите на закладку <b>Загрузить файл</b>. 
+    <p><a href="javascript:ShowImg('/images/content_manager/visual_editor/graphics/file_manager_upload.png',750,476,'Менеджер файлов, закладка &quot;Загруить файл&quot;')" ><img alt="Нажмите на рисунок, чтобы увеличить" style="cursor: pointer;" src="cid:resources/res69/JNvwH.YKIJJ.file_manager_upload_sm.png" border="0" height="381" width="600"  /></a></p>
+   </li>
+ 
+  <li>В одноименном поле укажите путь к файлу на локальном компьютере. Для выбора файла воспользуйтесь кнопкой <b>Обзор</b>. Поле <b>Имя файла на сервере</b> заполнится автоматически. Если опция <b>Открыть файл после загрузки</b> не отмечена, то файл будет загружен в указанную папку. 
+    <br />
+   При отмеченной опции указанный файл будет загружен в выбранную папку, одновременно с этим закроется окно менеджера файлов, и путь к выбранному файлу будет указан в поле <b>Путь к изображению</b> формы загрузки изображения. Изображение появится в окне предпросмотра, а также будет указана его ширина и высота, которые задаются в коде с помощью атрибутов <b>width</b> и <b>height</b> тега <b>&lt;img&gt;</b> соответственно.   </li>
+ 
+  <p> Ниже вы можете познакомиться с видео-роликом, наглядно показывающим процесс размещения изображения на веб-странице. (2 минуты 2 секунды, 6.08 Мб.) </p>
+
+ <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" id="bxid_506019" width="800" height="620" ><param name="movie" value="/bitrix/components/bitrix/player/mediaplayer/player"><param name="menu" value="true"><param name="wmode" value="transparent"><param name="width" value="800"><param name="height" value="620"><param name="flashvars" value="file=http://dev.1c-bitrix.ru/download/files/video/learning/teachvideo/7-1.flv&logo.hide=true&skin=/bitrix/components/bitrix/player/mediaplayer/skins/bitrix.swf&repeat=N&bufferlength=10&dock=true"><embed src="cid:resources/res69/8Lu7g.cMueo.player" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" pluginspage="http://www.macromedia.com/go/getflashplayer" id="bxid_506019" menu="true" wmode="transparent" width="800" height="620" flashvars="file=http://dev.1c-bitrix.ru/download/files/video/learning/teachvideo/7-1.flv&logo.hide=true&skin=/bitrix/components/bitrix/player/mediaplayer/skins/bitrix.swf&repeat=N&bufferlength=10&dock=true" /></object> 
+
+<p><a href="http://dev.1c-bitrix.ru/download/files/video/learning/teachvideo/7-1.flv" >Загрузить</a> ролик. </p>
+ </ul>
+
+<ul> 
+  <p>Далее в форме <b>Новый рисунок</b> заполните следующие поля:</p>
+ 
+  <ul> 
+    <li><b>Название (title)</b> &ndash; служит для ввода всплывающей подсказки к рисунку. Подсказка будет выведена при наведении курсора независимо от того, показан сам рисунок или нет.</li>
+   
+    <li><p><b>Альтернативный текст</b> &ndash; позволяет получить текстовую информацию об изображении при отключенной в браузере загрузке изображений. Поскольку загрузка изображений происходит после получения браузером информации о нем, то альтернативный текст появляется раньше самого рисунка. Некоторые браузеры также отображают альтернативный текст в виде подсказки, появляющейся при наведении курсора мыши на изображение.</p>
+
+<div class="learnin-post-text">
+<table class="learning-spoiler">
+<thead onclick="LearningInitSpoiler(this)">
+<tr><th>
+<div>Альтернативный текст в режиме кода</div>
+</th></tr></thead>
+<tbody style="display:none;" class="learning-spoiler">
+<tr><td> В HTML-тегах альтернативный текст задается с помощью атрибута <b>alt</b> тега <b>&lt;img&gt;</b>, т.е. HTML-код вставки изображения с альтернативным текстом &quot;Обсуждение&quot; будет таким: 
+      <pre class="syntax">&lt;img src=&quot;/images/Picture1.jpg&quot; height=&quot;222&quot; alt=&quot;Обсуждение&quot; width=&quot;200&quot;/&gt;</pre></td></tr>
+</tbody>
+</table></div>
+
+
+     </li>
+   
+    <li><p><b>Горизонтальный отступ</b> и <b>Вертикальный отступ</b>. Если задать эти параметры отличными от нуля, то изменение положения изображения сразу отображается в окне предпросмотра. </p>
+   
+<div class="learnin-post-text">
+<table class="learning-spoiler">
+<thead onclick="LearningInitSpoiler(this)">
+<tr><th>
+<div>Задание отступов в режиме кода</div>
+</th></tr></thead>
+<tbody style="display:none;" class="learning-spoiler">
+<tr><td><p>В коде эти параметры задаются с помощью атрибутов <b>hspace</b> и <b>vspace</b> тега <b>&lt;img&gt;</b>. HTML-код вставки изображения c горизонтальным отступом 30 пикселей и вертикальным отступом 5 пикселей имеет вид:</p> 
+    
+      <pre class="syntax">&lt;img src=&quot;/images/Picture4.jpg&quot; title=&quot;Светофор&quot; hspace=&quot;30&quot; vspace=&quot;5&quot; border=&quot;0&quot; align=&quot;left&quot; alt=&quot;Светофор&quot; width=&quot;96&quot; height=&quot;152&quot;/&gt;
+</pre></td></tr>
+</tbody>
+</table></div>    
+    
+     </li>
+   
+    <li><p>Вокруг изображения можно добавить рамку, цвет которой совпадает с цветом текста на веб-странице, ее толщину в пикселях задают в поле <b>Толщина рамки</b>.</p>
+<div class="learnin-post-text">
+<table class="learning-spoiler">
+<thead onclick="LearningInitSpoiler(this)">
+<tr><th>
+<div>Рамка в режиме кода</div>
+</th></tr></thead>
+<tbody style="display:none;" class="learning-spoiler">
+<tr><td> В HTML коде этот параметр задается с помощью атрибута <b>border</b> тега <b>&lt;img&gt;</b>.</td></tr>
+</tbody>
+</table></div>
+
+ </li>
+   
+    <li>Параметр <b>выравнивание</b> дает возможность указывать положение изображения относительно текста или других изображений на веб-странице. В форме вставки изображения в визуальном редакторе этот параметр может принимать следующие значения: 
+      <p><img src="cid:resources/res69/pnoMn.X80UM.align_list.png" border="0" height="143" width="173" alt="Выравнивание"  /></p>
+
+<div class="learnin-post-text">
+<table class="learning-spoiler">
+<thead onclick="LearningInitSpoiler(this)">
+<tr><th>
+<div>Выравнивание в режиме кода</div>
+</th></tr></thead>
+<tbody style="display:none;" class="learning-spoiler">
+<tr><td>      <p>В коде этот параметр задается с помощью атрибута <b>align</b> тега <b>&lt;img&gt;</b>.</p>
+
+      <p>Представим в виде таблицы подробное описание значений этого атрибута:</p>
+     
+      <table cellspacing="0" cellpadding="0" border="0"> 
+        <tbody> 
+          <tr bgcolor="white">
+    <td bgcolor="#8C8C8C">  
+              <table cellspacing="1" cellpadding="4" border="0"> 
+                <tbody> 
+                  <tr bgcolor="silver"><td align="center"><b>Значение</b></td><td align="center"><b>Описание</b></td></tr>
+                 
+                  <tr bgcolor="white"><td align="center">bottom</td><td align="left">Нижняя граница изображения выравнивается по базовой линии текстовой строки. Это значение установлено по умолчанию.</td></tr>
+                 
+                  <tr bgcolor="#EEEEEE"><td align="center">left</td><td align="left">Изображение располагается по левому краю родительского элемента.</td></tr>
+                 
+                  <tr bgcolor="white"><td align="center">middle</td><td align="left">Середина изображения выравнивается по базовой линии текущей строки текста.</td></tr>
+                 
+                  <tr bgcolor="#EEEEEE"><td align="center">right</td><td align="left">Изображение выравнивается по правому краю родительского элемента.</td></tr>
+                 
+                  <tr bgcolor="white"><td align="center">top</td><td align="left">Верхняя граница изображения выравнивается по самому высокому элементу текущей строки.</td></tr>
+                 </tbody>
+               </table>
+             </td></tr>
+         </tbody>
+       </table></td></tr>
+</tbody>
+</table></div>
+     
+
+     
+      <p> Ниже вы можете познакомиться с видео-роликом, наглядно показывающим процесс размещения изображения на веб-странице. (2 минуты 6 секунд, 7.75 Мб.) </p>
+     <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" id="bxid_987550" width="800" height="620" ><param name="movie" value="/bitrix/components/bitrix/player/mediaplayer/player"><param name="menu" value="true"><param name="wmode" value="transparent"><param name="width" value="800"><param name="height" value="620"><param name="flashvars" value="file=http://dev.1c-bitrix.ru/download/files/video/learning/teachvideo/7-2.flv&logo.hide=true&skin=/bitrix/components/bitrix/player/mediaplayer/skins/bitrix.swf&repeat=N&bufferlength=10&dock=true"><embed src="cid:resources/res69/HVjj0.8IdZX.player" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" pluginspage="http://www.macromedia.com/go/getflashplayer" id="bxid_987550" menu="true" wmode="transparent" width="800" height="620" flashvars="file=http://dev.1c-bitrix.ru/download/files/video/learning/teachvideo/7-2.flv&logo.hide=true&skin=/bitrix/components/bitrix/player/mediaplayer/skins/bitrix.swf&repeat=N&bufferlength=10&dock=true" /></object> 
+
+     <p><a href="http://dev.1c-bitrix.ru/download/files/video/learning/teachvideo/7-2.flv" >Загрузить</a> ролик.</p> 
+
+     </li>
+   </ul>
+ 
+  <br />
+ 
+  <br />
+ </ul>
+ 
+<p>Если вы выбираете среди изображений уже загруженных в систему, то, кликнув мышью по названию изображения в окне менеджера файлов, &quot;миниатюра&quot; этого изображения с размерами появится в левом нижнем углу окна менеджера файлов. Одновременно с этим будет заполнено поле <b>Имя файла</b>: </p>
+  <p><a href="javascript:ShowImg('/images/content_manager/visual_editor/graphics/open_file.png',670,440,'Открытие файла')" ><img alt="Нажмите на рисунок, чтобы увеличить" style="cursor: pointer;" src="cid:resources/res69/jSJ0k.DcHGj.open_file_sm.png" border="0" height="381" width="600"  /></a></p>
+ В данном случае содержимое менеджера файлов представлено в виде списка. 
+  <br />
+ Далее после нажатия кнопки <b>Открыть</b> путь к выбранному изображению будет записан в поле <b>Путь к изображению</b> формы загрузки изображения, а окно менеджера файлов закроется. 
+  <br />
+ 
+  <br />
+ Отметим, что менеджер файлов запоминает последнюю открывавшуюся директорию. В каждый последующий раз он открывает то место иерархии, в котором была закончена работа в предыдущий раз. 
+  <br />
+ 
+  <br />
+ В менеджере файлов есть возможность установить один из трех режимов просмотра файлов: 
+  <p><img src="cid:resources/res69/yOD99.ehi2H.view_list2.png" border="0" height="110" width="252" alt="Выбор режима просмотра файлов"  /></p>
+ 
+  <p>Также в менеджере файлов есть возможность выбрать параметр сортировки элементов: по имени, типу, по размеру файлов или папок, по дате создания.</p>
+ 
+  <p><img src="cid:resources/res69/pmfrb.Xif3A.view_list1.png" border="0" height="110" width="252" alt="Выбор режима сортировки файлов"  /></p>
+ 
+  <p>Изменить порядок сортировки можно с помощью кнопки <img src="cid:resources/res69/evhTp.DuIjc.sort_order_button.png" border="0" height="14" width="15"  />. </p>
+ При <b>Детальном</b> режиме просмотра для каждого элемента папки (директории) указывается название, размер, дата изменения, тип: 
+  <p><a href="javascript:ShowImg('/images/content_manager/visual_editor/graphics/detail_size.png',750,446,'Детальный режим просмотра')" ><img alt="Нажмите на рисунок, чтобы увеличить" style="cursor: pointer;" src="cid:resources/res69/AShJo.MgrXx.detail_size_sm.png" border="0" height="381" width="600"  /></a></p>
+ 
+  <p>При просмотре в режиме <b>Предпросмотра</b> для каждого элемента создается уменьшенная миниатюра. В этом режиме удобно просматривать изображения: </p>
+ 
+  <p><a href="javascript:ShowImg('/images/content_manager/visual_editor/graphics/preview.png',750,476,'Режим предпросмотра')" ><img alt="Нажмите на рисунок, чтобы увеличить" style="cursor: pointer;" src="cid:resources/res69/NA7LW.jplmI.preview_sm.png" border="0" height="381" width="600"  /></a></p>
+
+<p><div class="hint"><b>Примечание</b> Если сайт подключен к облачному хранилищу, то при загрузке файлов станет доступным выпадающее окно с выбором хранилища, откуда нужно загрузить файл.
+
+<p><img height="105" border="0" width="336" src="cid:resources/res69/ZGgp7.Ujis9.load_cloud.png" /></p>
+
+</div></p>
+
+
+ 
+<p> Ниже вы можете познакомиться с видео-роликом, наглядно показывающим процесс размещения изображения на веб-странице. (2 минуты 38 секунд, 6.7 Мб.) </p>
+ <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" id="bxid_746965" width="800" height="620" ><param name="movie" value="/bitrix/components/bitrix/player/mediaplayer/player"><param name="menu" value="true"><param name="wmode" value="transparent"><param name="width" value="800"><param name="height" value="620"><param name="flashvars" value="file=http://dev.1c-bitrix.ru/download/files/video/learning/teachvideo/7-3.flv&logo.hide=true&skin=/bitrix/components/bitrix/player/mediaplayer/skins/bitrix.swf&repeat=N&bufferlength=10&dock=true"><embed src="cid:resources/res69/UFZr0.aTVnO.player" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" pluginspage="http://www.macromedia.com/go/getflashplayer" id="bxid_746965" menu="true" wmode="transparent" width="800" height="620" flashvars="file=http://dev.1c-bitrix.ru/download/files/video/learning/teachvideo/7-3.flv&logo.hide=true&skin=/bitrix/components/bitrix/player/mediaplayer/skins/bitrix.swf&repeat=N&bufferlength=10&dock=true" /></object> 
+
+ <p><a href="http://dev.1c-bitrix.ru/download/files/video/learning/teachvideo/7-3.flv" >Загрузить</a> ролик.</p> 			 			]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>100</edge_sort>
+<id>939</id>
+</content>

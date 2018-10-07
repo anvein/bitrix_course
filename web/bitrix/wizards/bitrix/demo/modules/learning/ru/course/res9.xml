@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="CHA"><lesson_id>879</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>5</childs_cnt>
+<is_childs>1</is_childs>
+<sort>1000100</sort>
+<timestamp_x>1406636851</timestamp_x>
+<date_create>1406636851</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Публичный интерфейс Эрмитаж (с версии 9.5)</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<p><b>Панель управления</b> имеет два основных режима:</p>
+
+<ul>
+<li><b>Сайт</b> - режим для работы над содержимым сайта.</li>
+<li><b>Администрирование</b>  - административный раздел для полнофункционального управления всем интернет-проектом.</li>
+</ul>
+
+<p><img height="84" width="700" src="cid:resources/res9/e1uo4.L6ZbG.panel_11.png" /></p>
+
+<div class="learnin-post-text">
+<table class="learning-spoiler">
+<thead onclick="LearningInitSpoiler(this)">
+<tr><th>
+<div>Панель управления в Эрмитаже v.9.5</div>
+</th></tr></thead>
+<tbody style="display:none;" class="learning-spoiler">
+<tr><td><p><a href="javascript:ShowImg('/images/content_manager/controls/public_section/hermitage/panel.png',950,107,'Панель управления')"><img height="70" border="0" width="700" style="cursor: pointer;" alt="Нажмите на рисунок, чтобы увеличить" src="cid:resources/res9/ySgwq.31qNZ.panel_sm.png" /></a> </p></td></tr>
+</tbody>
+</table></div>
+
+<p>Режим <b>Администрирование</b> описан в главе <a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=34&CHAPTER_ID=634" >Административный раздел</a>.</p>
+
+
+]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>1000100</edge_sort>
+<id>879</id>
+</content>

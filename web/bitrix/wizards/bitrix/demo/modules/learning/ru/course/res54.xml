@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>924</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>700</sort>
+<timestamp_x>1406636853</timestamp_x>
+<date_create>1406636853</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Примеры использования медиабиблиотеки</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<h3>Работа с медиабиблиотекой при редактировании страницы сайта</h3>
+<p><b>Добавление изображения</b>:
+<ul>
+	<li>По нажатию кнопки <b>Изменить страницу</b> перейдите к редактированию страницы в визуальном редакторе.</li>
+	<li>Нажмите кнопку  <b>Изображение</b> <img height="20" width="20" src="cid:resources/res54/Qo1o3.X6cXt.image_button.png" />, расположенную на контекстной панели редактора, чтобы добавить изображение на страницу сайта. Откроется форма <b>Новый рисунок</b>.</li>
+
+	<li>В поле <b>Путь к изображению</b> укажите <b>Выбрать из медиабиблиотеки</b>:</li>
+
+<p><img height="482" width="700" src="cid:resources/res54/NnhgT.CDAHa.add_image_form_11.png" /></p>
+
+	<li>В открывшейся форме выберите подходящее изображение:</li>
+<p><img height="432" border="0" width="602" src="cid:resources/res54/eZl18.0mKxz.medialib_form.png" /></p>
+
+	<p><div class="hint"><b>Примечание:</b> при необходимости вы можете прямо из этой формы загрузить в медиабиблиотеку новые изображения.</div></p>
+	<li>Заполните остальные поля формы.</li>
+	<li>Нажмите кнопку <b>Сохранить</b>.</li>
+</ul>
+<p>После сохранения изменений, произведенных в визуальном редакторе, фото отобразится на странице сайта.</p>
+<p><b>Размещение на странице компонента для проигрывания медиафайлов</b>:
+<ul>
+	<li>По кнопке <b>Изменить</b> перейдите к редактированию страницы сайта в визуальном редакторе.</li>
+	<li><a href="/learning/course/index.php?COURSE_ID=34&LESSON_ID=1910" target="_blank">Добавьте на страницу</a> компонент <b>Медиа проигрыватель (bitrix:player)</b> (<span class="path">Контент &gt; Медиа &gt; Медиа проигрыватель</span>).</li>
+
+	<li>В <b>Параметрах компонента</b> в поле <b>Путь к файлу</b> укажите расположение файла.</li>
+
+<p><img height="362" border="0" width="575" src="cid:resources/res54/dI1Cj.9FFFU.component_params_11.png" /></p>
+	
+	<li>С помощью кнопки <b>[…]</b> выберите нужный файл из <b>Медиабиблиотеки</b>:</li>
+
+<p><img height="452" border="0" width="602" src="cid:resources/res54/9aPTe.h6ZO2.medialib_choose_elem.png" /></p>
+
+	<li>Сохраните результаты редактирования страницы.</li>
+</ul>
+
+<h3>Использование медиабиблиотеки при работе с информационными блоками</h3>
+<p>В качестве примера рассмотрим добавление элементов каталога:</p>
+<ul>
+	<li>Добавьте новый элемент в  <b>Каталог книг</b> (<span class="path">Контент &gt; Каталог книг &gt; Книги</span>).</li>
+
+	<li>В открывшейся форме создания элемента перейдите на вкладку <b>Подробно</b>.</li>
+
+	<li>В строке <b>Детальная картинка</b> с помощью кнопки выберите команду <b>Выбрать из медиабиблиотеки</b>:</li>
+
+<p><img height="463" width="734" src="cid:resources/res54/4cdZ4.1rcYR.add_anons_image_11.png" /></p>
+
+	<li>В открывшейся форме выберите нужное изображение. После этого в форме автоматически прописывается адрес выбранного файла.</li>
+</ul>]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>700</edge_sort>
+<id>924</id>
+</content>

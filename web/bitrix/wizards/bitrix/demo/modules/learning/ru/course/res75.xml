@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="CHA"><lesson_id>945</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>3</childs_cnt>
+<is_childs>1</is_childs>
+<sort>900</sort>
+<timestamp_x>1406636856</timestamp_x>
+<date_create>1406636856</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Упрощенный редактор</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[Упрощенный HTML-редактор - это элемент управления, представляющий облегченную версию визуального редактора с упрощенными возможностями и ускоренным быстродействием. Редактор можно встраивать в любую форму, в том числе в публичном разделе. Реализован как компонент <a href="http://dev.1c-bitrix.ru/user_help/settings/settings/components_2/fileman_light_editor.php" target="_blank">Упрощенный HTML-редактор (bitrix:fileman.light_editor)</a>.
+
+
+<h2>Внешний вид</h2>
+
+<p>Редактор состоит из поля для ввода текста и панели инструментов. Панель инструментов редактора может произвольно перемещаться.</p>
+
+<p><img src="cid:resources/res75/vSVcH.v3KPD.light_editor.png" border="0" height="122" width="507" alt="Внешний вид"></p>
+
+<p>Панель инструментов упрощенного редактора содержит следующие элементы управления:</p>
+
+<table class="tnormal" width="40%"> 
+	<tbody> 	
+		<tr><td><b>Кнопка</b></td> 	<td><b>Описание</b></td></tr>
+
+		<tr><td> <img src="cid:resources/res75/RddeX.I117q.but_bold.gif" height="20" width="20"> </td><td>Жирный.</td></tr>
+		<tr><td> <img src="cid:resources/res75/ZPyNJ.ntbMx.but_italic.gif" height="20" width="20"> </td><td>Курсив.</td></tr>
+		<tr><td> <img src="cid:resources/res75/j1Kp6.bO1EI.but_under.gif" height="20" width="20"> </td><td>Подчёркнутый.</td></tr>
+		<tr><td> <img src="cid:resources/res75/3t5T1.82qu2.but_removeformat.gif" height="20" width="20"> </td><td>Удалить форматирование.</td></tr>
+
+		<tr><td> <img src="cid:resources/res75/4EQnf.R7aGx.but_link.gif" height="20" width="20"></td><td>Ссылка.</td></tr>
+		<tr><td> <img src="cid:resources/res75/E7F7C.VZMms.but_dellink.gif" height="20" width="20"> </td><td>Удалить ссылку.</td></tr>
+		<tr><td> <img src="cid:resources/res75/wIz8I.AFpWJ.but_image.gif" height="20" width="20"> </td><td>Изображение.</td></tr>
+		<tr><td> <img src="cid:resources/res75/Oq9AT.r0Vwo.but_video_in.png" height="20" width="20"> </td><td>Вставить видео.</td></tr>
+
+		<tr><td> <img src="cid:resources/res75/z4o25.b4ir4.but_bgcolor.gif" height="20" width="20"> </td><td>Цвет фона.</td></tr>
+		<tr><td> <img src="cid:resources/res75/WGGot.c0pDk.but_fgcolor.gif" height="20" width="20"> </td><td>Цвет шрифта.</td></tr>
+		<tr><td> <img src="cid:resources/res75/zinfM.JmBI1.but_left.gif" height="20" width="20"> </td><td>По левому краю.</td></tr>
+		<tr><td> <img src="cid:resources/res75/ZN0iL.sfLRj.but_center.gif" height="20" width="20"></td><td>По центру.</td></tr>
+
+		<tr><td> <img src="cid:resources/res75/r0KWS.TXMuO.but_right.gif" height="20" width="20"> </td><td>По правому краю.</td></tr>
+		<tr><td> <img src="cid:resources/res75/PCaEa.98cLs.but_justify.gif" height="20" width="20"> </td><td>По ширине.</td></tr>
+		<tr><td> <img src="cid:resources/res75/GDyR8.4EBuO.but_numlist.gif" height="20" width="20"> </td><td>Нумерованный список.</td></tr>
+		<tr><td> <img src="cid:resources/res75/SDPGo.SHyoB.but_bullist.gif" height="20" width="20"> </td><td>Список с маркерами.</td></tr>
+
+		<tr><td> <img src="cid:resources/res75/MBwSQ.2wUI4.but_deindent.gif" height="20" width="20"> </td><td>Уменьшить отступ.</td></tr>
+		<tr><td> <img src="cid:resources/res75/GvI93.7pAjy.but_inindent.gif" height="20" width="20"> </td><td>Увеличить отступ.</td></tr>
+		<tr><td> <img src="cid:resources/res75/fTDyB.0z7CM.but_format_light.png" height="20" width="20"> </td><td>Формат.</td></tr>
+		<tr><td> <img src="cid:resources/res75/Lhr4v.gbeHC.but_font.gif" height="20" width="20"> </td><td>Шрифт.</td></tr>
+
+		<tr><td> <img src="cid:resources/res75/utTft.f5Gnt.but_size_font.gif" height="20" width="20"> </td><td>Размер шрифта.</td></tr>
+	</tbody>
+</table>	
+	<br clear="all">
+
+
+]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>900</edge_sort>
+<id>945</id>
+</content>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>969</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>1000300</sort>
+<timestamp_x>1406636857</timestamp_x>
+<date_create>1406636857</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Примеры работы с компонентами</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<h4>Комплексные компоненты</h4>
+<p>Новостной раздел можно создать с помощью комплексного компонента <img width="32" height="16" src="cid:resources/res99/ZOUqh.7mOPt.news.png" /> <b>Новости (bitrix:news)</b>. Этот компонент нужно просто установить на страницу (например, <b>index.php)</b> и настроить набор его параметров. При этом настроить обязательно необходимо только поля группы <b>Основные параметры</b>, где указывается Тип инфоблока и сам используемый инфоблок. Все остальные параметры компонента можно оставить как есть.</p>
+ 
+<p>Настроив параметры компонента должным образом, в публичной части имеем тот же результат:</p>
+ 
+<p> 
+  <table> 
+    <tbody>
+      <tr><td>Страница со списком новостей</td><td>Страница детального просмотра новости</td></tr> 
+      <tr><td><img width="406" height="200" border="0" src="cid:resources/res99/kAUI8.3PfVZ.complex1.png" />  </td>
+        <td><img width="406" height="200" border="0" src="cid:resources/res99/jiEuk.dR2X8.complex2.png"  /></td></tr>
+     </tbody>
+   </table>
+ </p> 
+ 
+<p>Таким образом, для создания новостного раздела физически создается одна страница, а логически несколько.</p> 
+
+<h4>Простые компоненты</h4>
+<p>Рассмотрим создание новостного раздела с помощью простых компонентов. Особенностью создания такого раздела будет то, что придётся создавать несколько физических страниц и производить дополнительную настройку простых компонентов. При использовании комплексного компонента этих действий можно избежать.</p> 
+
+<p>Для этого необходимо создать, например, страницу списка новостей <b>index.php</b>, на которой разместим компонент <img width="34" height="18" src="cid:resources/res99/lH4tI.jJvZv.news_list.png" /> <b>Список новостей (bitrix:news.list)</b>. Этот компонент выводит на странице, где он размещен, заголовок, текст анонса и прочие параметры новостей в зависимости от настроек компонента. Каждый элемент списка новостей - ссылка на просмотр детальной информации.</p> 
+<p><img width="693" height="500" border="0" src="cid:resources/res99/PZqEd.DQpUC.bitrix_news_list.png" /></p>
+
+<p>Страница с детальной информацией должна быть создана отдельно, например, <b>detail.php</b>, на которой надо разместить компонент <img width="34" height="18" src="cid:resources/res99/MpXS0.5Gy59.news_detail.png" /> <b>Новость детально (bitrix:news.detail)</b>.</p>
+ 
+<p>При этом у компонента <b>Список новостей</b> нужно настроить входные параметры так, чтобы он мог формировать ссылки на страницу детальной новости (с кодом новости). Для этого нужно в группе параметров <b>Шаблоны ссылок</b> в поле <b>URL страницы детального просмотра</b> задать путь к этой странице, а также название параметра, в котором будет передаваться код новости для показа:</p>
+ 
+<p><code>detail.php?ID=#ELEMENT_ID#</code></p>
+
+<p>В данном случае страница <b>detail.php</b> должна находиться в том же разделе, что и страница со списком новостей.</p>
+ 
+<p>Для компонента детальной новости нужно настроить входные параметры так, чтобы он мог формировать ссылку на главную страницу:</p>
+ 
+<p><code>index.php?ID=#IBLOCK_ID#</code></p>
+
+<p><div class="hint"><b>Примечание</b>: Обратите внимание, что все адреса страниц указываются без слеша в начале адреса.</div></p>
+
+ 
+<p>Кроме того, во входных параметрах компонента детальной новости (поле <b>ID новости</b> группы параметров <b>Основные параметры</b>) нужно задать php-код, возвращающий ID новости:</p>
+
+<p><code>={$_REQUEST["ELEMENT_ID"]}</code></p>
+ 
+<p>Настроив параметры компонентов должным образом, в публичной части имеем результат:</p>
+ 
+<p> 
+  <table> 
+    <tbody> 
+      <tr><td>Страница со списком новостей</td><td>Страница детального просмотра новости</td></tr>
+      <tr><td><img width="406" height="200" border="0" src="cid:resources/res99/2fvG5.2e2cx.complex1.png" />  </td>
+        <td><img width="406" height="200" border="0" src="cid:resources/res99/3H80k.Z21z1.complex2.png"  /></td></tr>
+     </tbody>
+   </table>
+ </p>
+
+<br><br>
+
+
+ 
+ ]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>1000300</edge_sort>
+<id>969</id>
+</content>

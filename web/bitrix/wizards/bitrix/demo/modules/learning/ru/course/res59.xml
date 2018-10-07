@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>929</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>100</sort>
+<timestamp_x>1406639892</timestamp_x>
+<date_create>1406636855</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Редактирование страницы</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<p>Редактировать страницу с помощью визуального HTML-редактора можно как из Публичной части, так и из Административного раздела (если имеется соответствующий доступ).</p>
+
+<p><div class="hint"><b>Примечание</b>: Если к редактированию страниц имеют отношение несколько человек, то замечаниями по поводу текстов, картинок и прочего можно обмениваться с помощью удобного инструмента <a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=34&CHAPTER_ID=829" target="_blank">Веб-стикеры</a>.</div></p>
+
+ 
+<h3>Редактирование страниц из публичного раздела</h3>
+ 
+<p>Для того, чтобы перейти к редактированию текущей страницы, нажмите кнопку <b>Изменить страницу</b> на <b>Административной панели</b>.</p>
+<p><img height="84" width="64" src="cid:resources/res59/Xw7Kd.DOwZl.edit_page_95_new.png"/></p>
+ 
+<p>В Публичной части загрузится окно редактора над поверхностью сайта.</p>
+ 
+<p><img height="425" width="700" src="cid:resources/res59/yFDL6.ByAmd.edit_page.png" /></p>
+
+ 
+<h3>Редактирование страниц из административного раздела</h3>
+ 
+<p>Вы также можете работать с визуальным редактором в <b>Административном разделе</b>.</p>
+ 
+<p>Для того, чтобы перейти к редактированию текущей страницы в <b>Административном разделе</b>, выберите в меню <b>Изменить страницу</b> пункт <b>В панели управления</b>.
+
+<p> <img src="cid:resources/res59/sUq2w.OQTTZ.delete_page.png" border="0" height="365" width="218"></p>
+
+<div class="hint"><b>Примечание:</b> Редактирование страниц из административного раздела подробно рассмотрено в курсе <b>Администратор. Базовый</b>, урок <a href="https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=35&LESSON_ID=2021">Редактирование страниц из административного раздела</a>.</div>
+ 
+ <p>Ниже вы можете познакомиться с видео-роликом, наглядно демонстрирующим способы редактирования страницы. (3 минуты 3 секунды, 10.46 Мб.) 
+  <br />
+ </p>
+ 
+<p><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" id="bxid_40666" width="800" height="620" ><param name="movie" value="/bitrix/components/bitrix/player/mediaplayer/player"><param name="menu" value="true"><param name="wmode" value="transparent"><param name="width" value="800"><param name="height" value="620"><param name="flashvars" value="file=http://dev.1c-bitrix.ru/download/files/video/learning/teachvideo/4-1.flv&logo.hide=true&skin=/bitrix/components/bitrix/player/mediaplayer/skins/bitrix.swf&repeat=N&bufferlength=10&dock=true"><embed src="cid:resources/res59/Tkk9A.jN6be.player" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" pluginspage="http://www.macromedia.com/go/getflashplayer" id="bxid_40666" menu="true" wmode="transparent" width="800" height="620" flashvars="file=http://dev.1c-bitrix.ru/download/files/video/learning/teachvideo/4-1.flv&logo.hide=true&skin=/bitrix/components/bitrix/player/mediaplayer/skins/bitrix.swf&repeat=N&bufferlength=10&dock=true" /></object></p>
+ 
+<p><a href="http://dev.1c-bitrix.ru/download/files/video/learning/teachvideo/4-1.flv" >Загрузить</a> ролик. </p>]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>100</edge_sort>
+<id>929</id>
+</content>
