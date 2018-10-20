@@ -1,8 +1,10 @@
 <?
-if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
-	die();
+if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) {
+    die();
+}
 
 use Bitrix\Main\Page\Asset;
+
 ?>
 
 <!DOCTYPE html>
@@ -10,7 +12,7 @@ use Bitrix\Main\Page\Asset;
 <head>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title><?$APPLICATION->ShowTitle();?></title>
+    <title><? $APPLICATION->ShowTitle(); ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="shortcut icon" type="image/x-icon" href="<?= SITE_TEMPLATE_PATH ?>/assets/img/favicon.png">
@@ -44,15 +46,16 @@ use Bitrix\Main\Page\Asset;
     Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . '/assets/js/plugins.js');
     Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . '/assets/js/main.js');
 
-    Asset::getInstance()->addString('<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">');
+    Asset::getInstance()
+        ->addString('<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">');
     ?>
 
-    <?$APPLICATION->ShowHead();?>
+    <? $APPLICATION->ShowHead(); ?>
 </head>
 <body>
 
 <div id="panel">
-    <?$APPLICATION->ShowPanel();?>
+    <? $APPLICATION->ShowPanel(); ?>
 </div>
 
 <!--[if lt IE 8]>
@@ -191,7 +194,9 @@ use Bitrix\Main\Page\Asset;
                                         </li>
                                     </ul>
                                 </li>
-                                <li>                                    <a href="portfolio.html">Портфолио</a>                                </li>
+                                <li>
+                                    <a href="portfolio.html">Портфолио</a>
+                                </li>
 
                                 <li>
                                     <a href="blog.html">Блог</a>
