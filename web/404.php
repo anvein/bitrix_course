@@ -17,6 +17,7 @@ $APPLICATION->IncludeComponent("bitrix:main.map", ".default", Array(
 	)
 );
 ?>
+404
 
 
 <?php
