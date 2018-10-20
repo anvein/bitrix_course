@@ -45,32 +45,18 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
                     </div>
                 </div>
 
-                <div class="col-lg-7 col-md-7 col-sm-12">
-                    <div class="footer-nav white-text">
-                        <nav>
-                            <ul>
-                                <li class="mega-parent">
-                                    <a href="index.html">Главная</a>
-                                </li>
-                                <li>
-                                    <a href="about_us.html">О нас</a>
-                                </li>
-                                <li>
-                                    <a href="services.html">Услуги</a>
-                                </li>
-                                <li>
-                                    <a href="portfolio.html">Портфолио</a>
-                                </li>
-                                <li>
-                                    <a href="blog.html">Блог</a>
-                                </li>
-                                <li>
-                                    <a href="contacts.html">Контакты</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
+                <? $APPLICATION->IncludeComponent("bitrix:menu", "bottom_menu", [
+                    "ALLOW_MULTI_SELECT"    => "N",
+                    "DELAY"                 => "N",
+                    "MAX_LEVEL"             => "1",
+                    "MENU_CACHE_GET_VARS"   => [],
+                    "MENU_CACHE_TIME"       => "3600",
+                    "MENU_CACHE_TYPE"       => "N",
+                    "MENU_CACHE_USE_GROUPS" => "N",
+                    "ROOT_MENU_TYPE"        => "bottom",
+                    "USE_EXT"               => "N",
+                    "COMPONENT_TEMPLATE"    => "bottom_menu",
+                ], false); ?>
             </div>
         </div>
     </div>
