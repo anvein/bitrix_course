@@ -13,7 +13,7 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
                         <!-- Лого + текст -->
                         <div class="footer-logo">
                             <a href="#">
-                                <img src="img/logo/logo-white.png" alt=""/>
+                                <img src="<?= SITE_TEMPLATE_PATH ?>/assets/img/logo/logo-white.png" alt=""/>
                             </a>
                         </div>
                         <p>Если вы похожи на большинство компаний, у вас нет маркетингового бюджета в миллион
