@@ -71,8 +71,18 @@ use Bitrix\Main\Page\Asset;
             <div class="row">
                 <div class="col-md-6 col-sm-6">
                     <div class="welcome">
-                        <span><i class="fa fa-envelope"></i> admin@domain.com</span>
-                        <span><i class="fa fa-phone"></i> +012 345 6789</span>
+                        <span>
+                            <? $APPLICATION->IncludeComponent("bitrix:main.include", "", [
+                                "AREA_FILE_SHOW" => "file",
+                                "PATH"           => SITE_TEMPLATE_PATH . "/includes/header_email.php",
+                            ]); ?>
+                        </span>
+                        <span>
+                            <? $APPLICATION->IncludeComponent("bitrix:main.include", "", [
+                                "AREA_FILE_SHOW" => "file",
+                                "PATH"           => SITE_TEMPLATE_PATH . "/includes/header_phone.php",
+                            ]); ?>
+                        </span>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6">
