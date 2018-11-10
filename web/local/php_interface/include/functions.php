@@ -1,6 +1,7 @@
 <?php
 
 use Bitrix\Iblock\IblockTable;
+use Bitrix\Main\Loader;
 
 /**
  * Возвращает ID инфоблока по его коду
@@ -12,6 +13,8 @@ use Bitrix\Iblock\IblockTable;
  */
 function getIblockIdByCode(string $code): int
 {
+    Loader::includeModule('iblock');
+
     $iblock = IblockTable::getList([
         'filter' => [
             'CODE' => $code,
