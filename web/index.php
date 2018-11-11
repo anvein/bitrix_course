@@ -155,7 +155,7 @@ $APPLICATION->SetPageProperty('title', 'Digital агентство We coders');
     "STRICT_SECTION_CHECK"            => "N",    // Строгая проверка раздела для показа списка
 ], false); ?>
 
-<?php $APPLICATION->IncludeComponent("bitrix:news.list", "infographics", [
+<?php $APPLICATION->IncludeComponent("mycomp:news.list", "infographics", [
     "ACTIVE_DATE_FORMAT"              => "d.m.Y",    // Формат показа даты
     "ADD_SECTIONS_CHAIN"              => "N",    // Включать раздел в цепочку навигации
     "AJAX_MODE"                       => "N",    // Включить режим AJAX
