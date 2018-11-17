@@ -111,7 +111,7 @@ use Bitrix\Main\Page\Asset;
                     <!-- Логотип -->
                     <div class="col-md-2 col-sm-3 col-xs-8">
                         <div class="logo ptb-22">
-                            <a href="index.html">
+                            <a href="/">
                                 <img src="<?= SITE_TEMPLATE_PATH ?>/assets/img/logo/logo.png" alt="main logo">
                             </a>
                         </div>
@@ -162,47 +162,19 @@ use Bitrix\Main\Page\Asset;
     </div>
 
     <!-- Меню (для мобилки) -->
-    <div class="mobile-menu-area visible-xs">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="mobile-menu">
-                        <nav id="dropdown">
-                            <ul>
-                                <li>
-                                    <a href="index.html">Главная</a>
-                                </li>
-                                <li>
-                                    <a href="about_us.html">О нас</a>
-                                </li>
-                                <li>
-                                    <a href="services.html">Услуги</a>
-                                    <ul>
-                                        <li>
-                                            <a href="services_landing.html">Лендинг</a>
-                                        </li>
-                                        <li>
-                                            <a href="services_online_shop.html">Интернет-магазин</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="portfolio.html">Портфолио</a>
-                                </li>
-
-                                <li>
-                                    <a href="blog.html">Блог</a>
-                                </li>
-                                <li>
-                                    <a href="contacts.html">Контакты</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <? $APPLICATION->IncludeComponent("bitrix:menu", "TopMenuMobile", [
+        "ALLOW_MULTI_SELECT"    => "N",
+        "CHILD_MENU_TYPE"       => "left",
+        "DELAY"                 => "N",
+        "MAX_LEVEL"             => "2",
+        "MENU_CACHE_GET_VARS"   => [],
+        "MENU_CACHE_TIME"       => "3600",
+        "MENU_CACHE_TYPE"       => "N",
+        "MENU_CACHE_USE_GROUPS" => "N",
+        "ROOT_MENU_TYPE"        => "top",
+        "USE_EXT"               => "N",
+        "COMPONENT_TEMPLATE"    => "top_menu",
+    ], false); ?>
 </header>
 
 <?php if ($APPLICATION->GetCurDir() !== '/'): ?>

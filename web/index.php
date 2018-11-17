@@ -155,7 +155,7 @@ $APPLICATION->SetPageProperty('title', 'Digital агентство We coders');
     "STRICT_SECTION_CHECK"            => "N",    // Строгая проверка раздела для показа списка
 ], false); ?>
 
-<?php $APPLICATION->IncludeComponent("mycomp:news.list", "infographics", [
+<?php $APPLICATION->IncludeComponent("bitrix:news.list", "infographics", [
     "ACTIVE_DATE_FORMAT"              => "d.m.Y",    // Формат показа даты
     "ADD_SECTIONS_CHAIN"              => "N",    // Включать раздел в цепочку навигации
     "AJAX_MODE"                       => "N",    // Включить режим AJAX
@@ -212,6 +212,110 @@ $APPLICATION->SetPageProperty('title', 'Digital агентство We coders');
     "SORT_ORDER1"                     => "ASC",    // Направление для первой сортировки новостей
     "SORT_ORDER2"                     => "",    // Направление для второй сортировки новостей
     "STRICT_SECTION_CHECK"            => "N",    // Строгая проверка раздела для показа списка
+], false); ?>
+
+<section class="work-area pad-90">
+    <div class="container">
+        <div class="row">
+            <div class="section-heading text-center mb-70">
+                <h2>Портфолио</h2>
+                <p>Лучший способ найти хорошую команду - это посмотреть результаты её работы</p>
+            </div>
+        </div>
+        <div class="row">
+
+            <? $APPLICATION->IncludeComponent("bitrix:catalog.section.list", "PortfolioSectionsList", [
+                "ADD_SECTIONS_CHAIN"  => "N",    // Включать раздел в цепочку навигации
+                "CACHE_GROUPS"        => "N",    // Учитывать права доступа
+                "CACHE_TIME"          => "36000000",    // Время кеширования (сек.)
+                "CACHE_TYPE"          => "N",    // Тип кеширования
+                "COUNT_ELEMENTS"      => "N",    // Показывать количество элементов в разделе
+                "IBLOCK_ID"           => getIblockIdByCode('portfolio'),    // Инфоблок
+                "IBLOCK_TYPE"         => 'content',    // Тип инфоблока
+                "SECTION_FIELDS"      => [    // Поля разделов
+                  0 => "CODE",
+                  1 => "NAME",
+                ],
+                "SHOW_PARENT_NAME"    => "Y",    // Показывать название раздела
+                "TOP_DEPTH"           => "1",    // Максимальная отображаемая глубина разделов
+            ], false); ?>
+
+            <? $APPLICATION->IncludeComponent("bitrix:news.list", "PortfolioElementsList", [
+                "IBLOCK_TYPE"                     => 'content',
+                "IBLOCK_ID"                       => getIblockIdByCode('portfolio'),
+                "NEWS_COUNT"                      => 6,
+                "SORT_BY1"                        => 'SORT',
+                "SORT_ORDER1"                     => 'ASC',
+                "FIELD_CODE"                      => ["CODE", "NAME", "PREVIEW_PICTURE",],
+                "PROPERTY_CODE"                   => [],
+                "DETAIL_URL"                      => "/portfolio/#SECTION_CODE#/#ELEMENT_CODE#/",
+                "SET_TITLE"                       => 'Y',
+                "SET_LAST_MODIFIED"               => 'Y',
+                "SET_STATUS_404"                  => 'Y',
+                "SHOW_404"                        => 'N',
+                "INCLUDE_IBLOCK_INTO_CHAIN"       => 'Y',
+                "CACHE_FILTER"                    => "N",    // Кешировать при установленном фильтре
+                "CACHE_GROUPS"                    => "N",    // Учитывать права доступа
+                "CACHE_TIME"                      => "36000000",    // Время кеширования (сек.)
+                "CACHE_TYPE"                      => "N",    // Тип кеширования
+                "DISPLAY_TOP_PAGER"               => 'N',
+                "DISPLAY_BOTTOM_PAGER"            => 'N',
+                "DISPLAY_DATE"                    => 'N',
+                "DISPLAY_NAME"                    => "Y",
+                "CHECK_DATES"                     => 'Y',
+            ], false); ?>
+
+        </div>
+    </div>
+</section>
+
+<? $APPLICATION->IncludeComponent("bitrix:news.list", "PortfolioElementsList", [
+    "IBLOCK_TYPE"                     => 'content',
+    "IBLOCK_ID"                       => getIblockIdByCode('portfolio'),
+    "NEWS_COUNT"                      => 6,
+    "SORT_BY1"                        => 'SORT',
+    "SORT_ORDER1"                     => 'ASC',
+    "FIELD_CODE"                      => ["CODE", "NAME", "PREVIEW_PICTURE",],
+    "PROPERTY_CODE"                   => [],
+    "SET_TITLE"                       => 'Y',
+    "SET_LAST_MODIFIED"               => 'Y',
+    "SET_STATUS_404"                  => 'Y',
+    "SHOW_404"                        => 'N',
+    "INCLUDE_IBLOCK_INTO_CHAIN"       => 'Y',
+    "CACHE_FILTER"                    => "N",    // Кешировать при установленном фильтре
+    "CACHE_GROUPS"                    => "N",    // Учитывать права доступа
+    "CACHE_TIME"                      => "36000000",    // Время кеширования (сек.)
+    "CACHE_TYPE"                      => "N",    // Тип кеширования
+    "DISPLAY_TOP_PAGER"               => 'N',
+    "DISPLAY_BOTTOM_PAGER"            => 'N',
+    "DISPLAY_DATE"                    => 'N',
+    "DISPLAY_NAME"                    => "Y",
+    "CHECK_DATES"                     => 'Y',
+], false); ?>
+
+<? $APPLICATION->IncludeComponent("bitrix:news.list", "Reviews", [
+    "IBLOCK_TYPE"                     => 'content',
+    "IBLOCK_ID"                       => getIblockIdByCode('reviews'),
+    "NEWS_COUNT"                      => 9,
+    "SORT_BY1"                        => 'SORT',
+    "SORT_ORDER1"                     => 'ASC',
+    "FIELD_CODE"                      => ["NAME", "PREVIEW_TEXT", 'DETAIL_TEXT'],
+    "PROPERTY_CODE"                   => [],
+    "SET_TITLE"                       => 'Y',
+    "SET_LAST_MODIFIED"               => 'Y',
+    "SET_STATUS_404"                  => 'Y',
+    "SHOW_404"                        => 'N',
+    "INCLUDE_IBLOCK_INTO_CHAIN"       => 'Y',
+    "CACHE_FILTER"                    => "N",    // Кешировать при установленном фильтре
+    "CACHE_GROUPS"                    => "N",    // Учитывать права доступа
+    "CACHE_TIME"                      => "36000000",    // Время кеширования (сек.)
+    "CACHE_TYPE"                      => "N",    // Тип кеширования
+    "DISPLAY_TOP_PAGER"               => 'N',
+    "DISPLAY_BOTTOM_PAGER"            => 'N',
+    "DISPLAY_DATE"                    => 'N',
+    "DISPLAY_NAME"                    => "Y",
+    "CHECK_DATES"                     => 'Y',
+    "PARENT_SECTION_CODE"             => "glavnaya",
 ], false); ?>
 
 <?

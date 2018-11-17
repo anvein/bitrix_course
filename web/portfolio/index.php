@@ -22,7 +22,6 @@ $APPLICATION->SetPageProperty('title', 'Портфолио | We Coders');
     "DETAIL_FIELD_CODE"               => [    // Поля
                                               0 => "CODE",
                                               1 => "NAME",
-                                              2 => "",
     ],
     "DETAIL_PAGER_SHOW_ALL"           => "N",    // Показывать ссылку "Все"
     "DETAIL_PAGER_TEMPLATE"           => "",    // Название шаблона
@@ -34,7 +33,6 @@ $APPLICATION->SetPageProperty('title', 'Портфолио | We Coders');
                                               3 => "description",
                                               4 => "link",
                                               5 => "gallery",
-                                              6 => "",
     ],
     "DETAIL_SET_CANONICAL_URL"        => "N",    // Устанавливать канонический URL
     "DISPLAY_BOTTOM_PAGER"            => "N",    // Выводить под списком
@@ -52,11 +50,8 @@ $APPLICATION->SetPageProperty('title', 'Портфолио | We Coders');
                                               0 => "CODE",
                                               1 => "NAME",
                                               2 => "PREVIEW_PICTURE",
-                                              3 => "",
     ],
     "LIST_PROPERTY_CODE"              => [    // Свойства
-                                              0 => "",
-                                              1 => "",
     ],
     "MESSAGE_404"                     => "",    // Сообщение для показа (по умолчанию из компонента)
     "META_DESCRIPTION"                => "-",    // Установить описание страницы из свойства

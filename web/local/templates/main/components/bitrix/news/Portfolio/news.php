@@ -13,9 +13,6 @@
 $this->setFrameMode(true);
 ?>
 
-
-
-
 <section class="work-area pad-90">
     <div class="container">
         <div class="row">
