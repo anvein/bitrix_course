@@ -274,13 +274,9 @@ $MESS["MAIN_MAILTO"] = "Написать письмо";
 $MESS["MAIN_F_TIMESTAMP"] = "Дата изменения";
 $MESS["AJAX_WAIT"] = "Загрузка...";
 $MESS["HTTP_CLIENT_ERROR_CONNECT"] = "Ошибка подключения к %HOST%:%PORT%. Код ошибки: \"%ERRNO%\", текст ошибки: \"%ERRSTR%\"";
-$MESS["TOOLS_TRIAL_EXP"] = "Срок работы пробной версии продукта истек. Вы можете купить полнофункциональную версию продукта на сайте <a href=\"http://www.1c-bitrix.ru/?r1=bsm7trial&amp;r2=expired\">www.1c-bitrix.ru</a>.";
-$MESS["expire_mess1"] = "<font class=\"tablebodytext\"><font color=\"#FF0000\">
-		Срок работы пробной версии продукта истек.
-		Через две недели этот сайт полностью прекратит свою работу.
-		Вы можете купить полнофункциональную версию продукта на сайте <a href=\"http://www.1c-bitrix.ru/?r1=bsm7trial&amp;r2=expiried\">www.1c-bitrix.ru</a>.
-		</font></font>";
-$MESS["expire_mess2"] = "Срок работы пробной версии продукта истек. Вы можете купить полнофункциональную версию продукта на сайте <a href=\"http://www.1c-bitrix.ru/?r1=bsm7trial&amp;r2=expired\">www.1c-bitrix.ru</a>. <a href=\"/bitrix/coupon_activation.php?lang=ru\">Регистрация</a>.";
+$MESS["TOOLS_TRIAL_EXP"] = "";
+$MESS["expire_mess1"] = "";
+$MESS["expire_mess2"] = "";
 $MESS["main_tools_menu_left"] = "Меню раздела";
 $MESS["main_tools_menu_top"] = "Главное меню";
 $MESS["top_panel_updates"] = "Доступны обновления продукта";
