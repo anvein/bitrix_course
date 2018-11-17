@@ -14,7 +14,7 @@ $this->setFrameMode(true);
 ?>
 
 <?php if (!empty($arResult["ITEMS"])): ?>
-    <section class="service-area pt-90 pb-60 bg-color">
+    <section class="service-area pt-90 pb-60 <?= $arParams['CLASS_BG_COLOR'] ?? ''; ?>">
         <div class="container">
             <div class="row">
                 <div class="section-heading text-center mb-70">

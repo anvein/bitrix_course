@@ -1,9 +1,10 @@
 <?
 require($_SERVER['DOCUMENT_ROOT'] . '/bitrix/header.php');
-$APPLICATION->SetTitle("Главная");
+$APPLICATION->SetTitle("Портфолио");
 $APPLICATION->SetPageProperty('title', 'Портфолио | We Coders');
-?><? $APPLICATION->IncludeComponent("bitrix:news", "Portfolio", [
-    "ADD_ELEMENT_CHAIN"               => "N",    // Включать название элемента в цепочку навигации
+?>
+<? $APPLICATION->IncludeComponent("bitrix:news", "Portfolio", [
+    "ADD_ELEMENT_CHAIN"               => "Y",    // Включать название элемента в цепочку навигации
     "ADD_SECTIONS_CHAIN"              => "N",    // Включать раздел в цепочку навигации
     "AJAX_MODE"                       => "N",    // Включить режим AJAX
     "AJAX_OPTION_ADDITIONAL"          => "",    // Дополнительный идентификатор
@@ -42,7 +43,7 @@ $APPLICATION->SetPageProperty('title', 'Портфолио | We Coders');
     "DISPLAY_PREVIEW_TEXT"            => "N",    // Выводить текст анонса
     "DISPLAY_TOP_PAGER"               => "N",    // Выводить над списком
     "HIDE_LINK_WHEN_NO_DETAIL"        => "N",    // Скрывать ссылку, если нет детального описания
-    "IBLOCK_ID"                       => "8",    // Инфоблок
+    "IBLOCK_ID"                       => getIblockIdByCode('portfolio'),    // Инфоблок
     "IBLOCK_TYPE"                     => "content",    // Тип инфоблока
     "INCLUDE_IBLOCK_INTO_CHAIN"       => "N",    // Включать инфоблок в цепочку навигации
     "LIST_ACTIVE_DATE_FORMAT"         => "d.m.Y",    // Формат показа даты
@@ -74,7 +75,7 @@ $APPLICATION->SetPageProperty('title', 'Портфолио | We Coders');
     ],
     "SET_LAST_MODIFIED"               => "N",    // Устанавливать в заголовках ответа время модификации страницы
     "SET_STATUS_404"                  => "Y",    // Устанавливать статус 404
-    "SET_TITLE"                       => "Y",    // Устанавливать заголовок страницы
+    "SET_TITLE"                       => "N",    // Устанавливать заголовок страницы
     "SHOW_404"                        => "N",    // Показ специальной страницы
     "SORT_BY1"                        => "SORT",    // Поле для первой сортировки новостей
     "SORT_BY2"                        => "ACTIVE_FROM",    // Поле для второй сортировки новостей
@@ -89,6 +90,8 @@ $APPLICATION->SetPageProperty('title', 'Портфолио | We Coders');
     "USE_RSS"                         => "N",    // Разрешить RSS
     "USE_SEARCH"                      => "N",    // Разрешить поиск
     "USE_SHARE"                       => "N",    // Отображать панель соц. закладок
-], false); ?><?
+], false);
+?>
+<?
 require($_SERVER['DOCUMENT_ROOT'] . '/bitrix/footer.php');
 ?>

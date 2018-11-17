@@ -97,6 +97,7 @@ $APPLICATION->SetPageProperty('title', 'Digital агентство We coders');
 </section>
 
 <?php $APPLICATION->IncludeComponent("bitrix:news.list", "main_activities", [
+    'CLASS_BG_COLOR'                  => 'bg-color',
     "ACTIVE_DATE_FORMAT"              => "d.m.Y",    // Формат показа даты
     "ADD_SECTIONS_CHAIN"              => "N",    // Включать раздел в цепочку навигации
     "AJAX_MODE"                       => "N",    // Включить режим AJAX

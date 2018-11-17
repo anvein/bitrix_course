@@ -36,7 +36,30 @@ $APPLICATION->SetPageProperty("keywords", "о нас, о компании, we co
     </div>
 </section>
 
-<p>О нас текст</p>
+<? $APPLICATION->IncludeComponent("bitrix:news.list", "Reviews", [
+    "IBLOCK_TYPE"                     => 'content',
+    "IBLOCK_ID"                       => getIblockIdByCode('reviews'),
+    "NEWS_COUNT"                      => 9,
+    "SORT_BY1"                        => 'SORT',
+    "SORT_ORDER1"                     => 'ASC',
+    "FIELD_CODE"                      => ["NAME", "PREVIEW_TEXT", 'DETAIL_TEXT'],
+    "PROPERTY_CODE"                   => [],
+    "SET_TITLE"                       => 'Y',
+    "SET_LAST_MODIFIED"               => 'Y',
+    "SET_STATUS_404"                  => 'Y',
+    "SHOW_404"                        => 'N',
+    "INCLUDE_IBLOCK_INTO_CHAIN"       => 'Y',
+    "CACHE_FILTER"                    => "N",    // Кешировать при установленном фильтре
+    "CACHE_GROUPS"                    => "N",    // Учитывать права доступа
+    "CACHE_TIME"                      => "36000000",    // Время кеширования (сек.)
+    "CACHE_TYPE"                      => "N",    // Тип кеширования
+    "DISPLAY_TOP_PAGER"               => 'N',
+    "DISPLAY_BOTTOM_PAGER"            => 'N',
+    "DISPLAY_DATE"                    => 'N',
+    "DISPLAY_NAME"                    => "Y",
+    "CHECK_DATES"                     => 'Y',
+    "PARENT_SECTION_CODE"             => "o-nas",
+], false); ?>
 
 <?
 require($_SERVER['DOCUMENT_ROOT'].'/bitrix/footer.php');
