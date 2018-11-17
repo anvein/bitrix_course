@@ -13,7 +13,9 @@
 /** @var string $componentPath */
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
-?><? $ElementID = $APPLICATION->IncludeComponent("bitrix:news.detail", "PortfolioDetail", [
+?>
+
+<? $ElementID = $APPLICATION->IncludeComponent("bitrix:news.detail", "ServicesDetail", [
         "DISPLAY_DATE"              => $arParams["DISPLAY_DATE"],
         "DISPLAY_NAME"              => $arParams["DISPLAY_NAME"],
         "DISPLAY_PICTURE"           => $arParams["DISPLAY_PICTURE"],
