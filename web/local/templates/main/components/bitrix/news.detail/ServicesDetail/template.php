@@ -12,71 +12,113 @@
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
 ?>
-Деталка мазафака!
 <?php if (!empty($arResult['ID'])): ?>
-    <div class="single-portfolio-area pt-90 pb-60">
+    <section class="who-area-are pad-90" id="about_us">
+        <div class="container">
+            <?php if (!empty($arResult['PROPERTIES']['detail_title']['VALUE'])): ?>
+                <h2 class="title-1"><?= $arResult['PROPERTIES']['detail_title']['VALUE']; ?></h2>
+            <?php endif; ?>
+
+            <div class="row">
+                <?php if (!empty($arResult['DETAIL_TEXT'])): ?>
+                    <div class="col-md-7">
+                        <div class="who-we">
+                            <?= $arResult['DETAIL_TEXT']; ?>
+                        </div>
+                    </div>
+                <?php endif; ?>
+
+                <?php if (!empty($arResult['DETAIL_PICTURE']['SRC'])): ?>
+                    <div class="col-md-5">
+                        <div class="about-bg">
+                            <img src="<?= $arResult['DETAIL_PICTURE']['SRC']; ?>" alt="<?= $arResult['DETAIL_PICTURE']['ALT'] ?>" />
+                        </div>
+                    </div>
+                <?php endif; ?>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="pb-60">
         <div class="container">
             <div class="row">
-                <div class="col-md-7">
-                    <div class="portfolio-details">
-                        <h3><?= $arResult['PROPERTIES']['title_detail']['VALUE'] ?? ''; ?></h3>
-                        <?php if (!empty($arResult['PROPERTIES']['description']['VALUE'])): ?>
-                            <?php foreach ($arResult['PROPERTIES']['description']['VALUE'] as $keyValue => $propValue): ?>
+                <?php if (!empty($arResult['PROPERTIES']['faq']['VALUE'])): ?>
+                    <div class="col-md-6">
+                        <h3 class="mb-30">
+                            <? $APPLICATION->IncludeComponent("bitrix:main.include", "", [
+                                "AREA_FILE_SHOW"   => "page",
+                                "AREA_FILE_SUFFIX" => "detail_faq_title"
+                            ]); ?>
+                        </h3>
+                        <div class="brand-accordion">
+                            <div class="panel-group icon angle-icon" id="accordion" role="tablist" aria-multiselectable="true">
+                                <?php $ind = 0; ?>
+                                <?php foreach ($arResult['PROPERTIES']['faq']['VALUE'] as $faqInd => $faqVal): ?>
+                                    <div class="panel panel-default">
+                                        <?php if ($arResult['PROPERTIES']['faq']['DESCRIPTION'][$faqInd]): ?>
+                                            <div class="panel-heading" role="tab" id="headingOne">
+                                                <h4 class="panel-title">
+                                                    <a class="<?= ($ind === 0) ? '': 'collapsed'; ?>"
+                                                       role="button"
+                                                       data-toggle="collapse" data-parent="#accordion" href="#collapse<?= $faqInd; ?>" aria-expanded="true" aria-controls="collapseOne">
+                                                        <?= $arResult['PROPERTIES']['faq']['DESCRIPTION'][$faqInd]; ?>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                        <?php endif; ?>
 
-                                <?php if (!empty($arResult['PROPERTIES']['description']['DESCRIPTION'][$keyValue])): ?>
-                                    <span class="text-colort-blue">
-                                        <?= $arResult['PROPERTIES']['description']['DESCRIPTION'][$keyValue]; ?>
-                                    </span>
-                                <?php endif; ?>
+                                        <div id="collapse<?= $faqInd; ?>"
+                                             class="panel-collapse collapse <?= ($ind === 0) ? 'in': ''; ?>"
+                                             role="tabpanel"
+                                             aria-labelledby="headingOne">
+                                            <div class="panel-body">
+                                                <?= $faqVal; ?>
+                                            </div>
+                                        </div>
 
-                                <?php if (!empty($propValue)): ?>
-                                    <p><?= $propValue['TEXT']; ?></p>
-                                <?php endif; ?>
-
-                            <?php endforeach; ?>
-                        <?php endif; ?>
+                                    </div>
+                                    <?php $ind++; ?>
+                                <?php endforeach; ?>
+                            </div>
+                        </div>
                     </div>
-                </div>
+                <?php endif; ?>
 
-                <?php if (!empty($arResult['PROPERTIES']['add_info']['VALUE'])): ?>
-                    <div class="col-md-5">
-                        <div class="portfolio-meta">
-                            <ul>
-                                <?php foreach ($arResult['PROPERTIES']['add_info']['VALUE'] as $keyValue => $propValue): ?>
-                                    <li>
-                                        <span><b><?= $propValue ?? ''; ?>:</b></span> <?= $arResult['PROPERTIES']['add_info']['DESCRIPTION'][$keyValue] ?? ''; ?>
+                <div class="col-lg-6 col-md-6">
+                    <h3 class="mb-30">
+                        <? $APPLICATION->IncludeComponent("bitrix:main.include", "", [
+                            "AREA_FILE_SHOW"   => "page",
+                            "AREA_FILE_SUFFIX" => "detail_stages_title"
+                        ]); ?>
+                    </h3>
+                    <?php if (!empty($arResult['PROPERTIES']['stages']['VALUE'])): ?>
+                        <div class="my-tab">
+                            <ul class="custom-tab mb-15" role="tablist">
+                                <?php $ind = 0; ?>
+                                <?php foreach ($arResult['PROPERTIES']['stages']['VALUE'] as $keyStage => $valStage): ?>
+                                    <li role="presentation" class="<?= ($ind++ == 0) ? 'active' : ''; ?>">
+                                        <a href="#<?= $keyStage ?>" aria-controls="analytyc" role="tab" data-toggle="tab">
+                                            <?= $arResult['PROPERTIES']['stages']['DESCRIPTION'][$keyStage] ?? ''; ?>
+                                        </a>
                                     </li>
                                 <?php endforeach; ?>
                             </ul>
 
-                            <?php if ($arResult['PROPERTIES']['link']['VALUE']): ?>
-                                <a href="<?= $arResult['PROPERTIES']['link']['DESCRIPTION'] ?? ''; ?>" class="btn mt-30">
-                                    <?= $arResult['PROPERTIES']['link']['VALUE'] ?>
-                                </a>
-                            <?php endif; ?>
-                        </div>
-                    </div>
-                <?php endif; ?>
-            </div>
-        </div>
-    </div>
-    <?php if (!empty($arResult['PROPERTIES']['gallery']['VALUE'])): ?>
-        <div class="img-gallery-area pt-30 pb-60">
-            <div class="container">
-                <div class="row">
-                    <?php foreach ($arResult['PROPERTIES']['photos'] as $photo): ?>
-                        <div class="col-md-6 col-sm-4">
-                            <div class="img-gallery hover-bg-opacity mb-30">
-                                <a class="image-link" href="<?= $photo['src']; ?>">
-                                    <img src="<?= $photo['src'] ?>" alt="" /></a>
+                            <div class="tab-content">
+                                <?php $ind = 0; ?>
+                                <?php foreach ($arResult['PROPERTIES']['stages']['VALUE'] as $keyStage => $valStage): ?>
+                                    <div role="tabpanel" class="tab-pane fade in <?= ($ind++ == 0) ? 'active' : ''; ?>" id="<?= $keyStage ?>">
+                                        <p><?= $valStage; ?></p>
+                                    </div>
+                                <?php endforeach; ?>
                             </div>
                         </div>
-                    <?php endforeach; ?>
+                    <?php endif; ?>
                 </div>
             </div>
         </div>
-    <?php endif; ?>
-
+    </div>
 <?php else: ?>
     <div class="single-portfolio-area pt-90 pb-60">
         Элемент не найден
