@@ -15,7 +15,7 @@ $APPLICATION->SetPageProperty('title', 'Digital агентство We coders');
     "CACHE_FILTER"                    => "N",    // Кешировать при установленном фильтре
     "CACHE_GROUPS"                    => "N",    // Учитывать права доступа
     "CACHE_TIME"                      => "36000000",    // Время кеширования (сек.)
-    "CACHE_TYPE"                      => "N",    // Тип кеширования
+    "CACHE_TYPE"                      => "A",    // Тип кеширования
     "CHECK_DATES"                     => "Y",    // Показывать только активные на данный момент элементы
     "DETAIL_URL"                      => "",    // URL страницы детального просмотра (по умолчанию - из настроек инфоблока)
     "DISPLAY_BOTTOM_PAGER"            => "N",    // Выводить под списком
@@ -108,7 +108,7 @@ $APPLICATION->SetPageProperty('title', 'Digital агентство We coders');
     "CACHE_FILTER"                    => "N",    // Кешировать при установленном фильтре
     "CACHE_GROUPS"                    => "N",    // Учитывать права доступа
     "CACHE_TIME"                      => "36000000",    // Время кеширования (сек.)
-    "CACHE_TYPE"                      => "N",    // Тип кеширования
+    "CACHE_TYPE"                      => "A",    // Тип кеширования
     "CHECK_DATES"                     => "Y",    // Показывать только активные на данный момент элементы
     "DETAIL_URL"                      => "",    // URL страницы детального просмотра (по умолчанию - из настроек инфоблока)
     "DISPLAY_BOTTOM_PAGER"            => "N",    // Выводить под списком
@@ -167,7 +167,7 @@ $APPLICATION->SetPageProperty('title', 'Digital агентство We coders');
     "CACHE_FILTER"                    => "N",    // Кешировать при установленном фильтре
     "CACHE_GROUPS"                    => "N",    // Учитывать права доступа
     "CACHE_TIME"                      => "36000000",    // Время кеширования (сек.)
-    "CACHE_TYPE"                      => "N",    // Тип кеширования
+    "CACHE_TYPE"                      => "A",    // Тип кеширования
     "CHECK_DATES"                     => "Y",    // Показывать только активные на данный момент элементы
     "DETAIL_URL"                      => "",    // URL страницы детального просмотра (по умолчанию - из настроек инфоблока)
     "DISPLAY_BOTTOM_PAGER"            => "N",    // Выводить под списком
@@ -229,7 +229,7 @@ $APPLICATION->SetPageProperty('title', 'Digital агентство We coders');
                 "ADD_SECTIONS_CHAIN"  => "N",    // Включать раздел в цепочку навигации
                 "CACHE_GROUPS"        => "N",    // Учитывать права доступа
                 "CACHE_TIME"          => "36000000",    // Время кеширования (сек.)
-                "CACHE_TYPE"          => "N",    // Тип кеширования
+                "CACHE_TYPE"          => "A",    // Тип кеширования
                 "COUNT_ELEMENTS"      => "N",    // Показывать количество элементов в разделе
                 "IBLOCK_ID"           => getIblockIdByCode('portfolio'),    // Инфоблок
                 "IBLOCK_TYPE"         => 'content',    // Тип инфоблока
@@ -258,7 +258,7 @@ $APPLICATION->SetPageProperty('title', 'Digital агентство We coders');
                 "CACHE_FILTER"                    => "N",    // Кешировать при установленном фильтре
                 "CACHE_GROUPS"                    => "N",    // Учитывать права доступа
                 "CACHE_TIME"                      => "36000000",    // Время кеширования (сек.)
-                "CACHE_TYPE"                      => "N",    // Тип кеширования
+                "CACHE_TYPE"                      => "A",    // Тип кеширования
                 "DISPLAY_TOP_PAGER"               => 'N',
                 "DISPLAY_BOTTOM_PAGER"            => 'N',
                 "DISPLAY_DATE"                    => 'N',
@@ -286,7 +286,7 @@ $APPLICATION->SetPageProperty('title', 'Digital агентство We coders');
     "CACHE_FILTER"                    => "N",    // Кешировать при установленном фильтре
     "CACHE_GROUPS"                    => "N",    // Учитывать права доступа
     "CACHE_TIME"                      => "36000000",    // Время кеширования (сек.)
-    "CACHE_TYPE"                      => "N",    // Тип кеширования
+    "CACHE_TYPE"                      => "A",    // Тип кеширования
     "DISPLAY_TOP_PAGER"               => 'N',
     "DISPLAY_BOTTOM_PAGER"            => 'N',
     "DISPLAY_DATE"                    => 'N',
@@ -310,7 +310,7 @@ $APPLICATION->SetPageProperty('title', 'Digital агентство We coders');
     "CACHE_FILTER"                    => "N",    // Кешировать при установленном фильтре
     "CACHE_GROUPS"                    => "N",    // Учитывать права доступа
     "CACHE_TIME"                      => "36000000",    // Время кеширования (сек.)
-    "CACHE_TYPE"                      => "N",    // Тип кеширования
+    "CACHE_TYPE"                      => "A",    // Тип кеширования
     "DISPLAY_TOP_PAGER"               => 'N',
     "DISPLAY_BOTTOM_PAGER"            => 'N',
     "DISPLAY_DATE"                    => 'N',
