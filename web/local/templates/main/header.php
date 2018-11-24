@@ -184,7 +184,7 @@ use Bitrix\Main\Page\Asset;
             <div class="row z-index">
                 <div class="col-md-7 col-sm-6">
                     <div class="breadcrumb-title">
-                        <h2 class="white-text"><?= $APPLICATION->ShowTitle(false); ?></h2>
+                        <h2 class="white-text"><?php $APPLICATION->ShowTitle(false); ?></h2>
                     </div>
                 </div>
                 <div class="col-md-5 col-sm-6">
@@ -194,7 +194,7 @@ use Bitrix\Main\Page\Asset;
                                 <a href="index.html">Главная</a>
                             </li>
                             <li>
-                                <a href="#">О нас</a>
+                                <a href="#">О нас+</a>
                             </li>
                         </ol>
                     </div>

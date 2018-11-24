@@ -1,6 +1,6 @@
 <?php
 require $_SERVER['DOCUMENT_ROOT'] . '/bitrix/header.php';
-$APPLICATION->SetTitle('Что вам нужно?');
+$APPLICATION->SetTitle('Услуги');
 $APPLICATION->SetPageProperty('title', 'Услуги | We Coders');
 ?>
 

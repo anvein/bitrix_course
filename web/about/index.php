@@ -36,7 +36,8 @@ $APPLICATION->SetPageProperty("keywords", "о нас, о компании, we co
     </div>
 </section>
 
-<? $APPLICATION->IncludeComponent("bitrix:news.list", "Reviews", [
+<?php
+$APPLICATION->IncludeComponent("bitrix:news.list", "Reviews", [
     "IBLOCK_TYPE"                     => 'content',
     "IBLOCK_ID"                       => getIblockIdByCode('reviews'),
     "NEWS_COUNT"                      => 9,
@@ -44,11 +45,13 @@ $APPLICATION->SetPageProperty("keywords", "о нас, о компании, we co
     "SORT_ORDER1"                     => 'ASC',
     "FIELD_CODE"                      => ["NAME", "PREVIEW_TEXT", 'DETAIL_TEXT'],
     "PROPERTY_CODE"                   => [],
-    "SET_TITLE"                       => 'Y',
-    "SET_LAST_MODIFIED"               => 'Y',
-    "SET_STATUS_404"                  => 'Y',
+    "SET_TITLE"                       => 'N',
+    "SET_LAST_MODIFIED"               => 'N',
+    "SET_STATUS_404"                  => 'N',
     "SHOW_404"                        => 'N',
-    "INCLUDE_IBLOCK_INTO_CHAIN"       => 'Y',
+    "INCLUDE_IBLOCK_INTO_CHAIN"       => 'N',
+    'ADD_SECTIONS_CHAIN'              => 'N',
+    'SET_BROWSER_TITLE'               => 'N',
     "CACHE_FILTER"                    => "N",    // Кешировать при установленном фильтре
     "CACHE_GROUPS"                    => "N",    // Учитывать права доступа
     "CACHE_TIME"                      => "36000000",    // Время кеширования (сек.)

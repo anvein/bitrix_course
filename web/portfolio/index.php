@@ -2,6 +2,7 @@
 require($_SERVER['DOCUMENT_ROOT'] . '/bitrix/header.php');
 $APPLICATION->SetTitle("Портфолио");
 $APPLICATION->SetPageProperty('title', 'Портфолио | We Coders');
+$APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
 ?>
 <? $APPLICATION->IncludeComponent("bitrix:news", "Portfolio", [
     "ADD_ELEMENT_CHAIN"               => "Y",    // Включать название элемента в цепочку навигации
@@ -75,7 +76,7 @@ $APPLICATION->SetPageProperty('title', 'Портфолио | We Coders');
     ],
     "SET_LAST_MODIFIED"               => "N",    // Устанавливать в заголовках ответа время модификации страницы
     "SET_STATUS_404"                  => "Y",    // Устанавливать статус 404
-    "SET_TITLE"                       => "N",    // Устанавливать заголовок страницы
+    "SET_TITLE"                       => "Y",    // Устанавливать заголовок страницы
     "SHOW_404"                        => "N",    // Показ специальной страницы
     "SORT_BY1"                        => "SORT",    // Поле для первой сортировки новостей
     "SORT_BY2"                        => "ACTIVE_FROM",    // Поле для второй сортировки новостей
