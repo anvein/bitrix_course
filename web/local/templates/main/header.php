@@ -187,18 +187,14 @@ use Bitrix\Main\Page\Asset;
                         <h2 class="white-text"><?php $APPLICATION->ShowTitle(false); ?></h2>
                     </div>
                 </div>
-                <div class="col-md-5 col-sm-6">
-                    <div class="breadcrumb-menu">
-                        <ol class="breadcrumb text-right">
-                            <li>
-                                <a href="index.html">Главная</a>
-                            </li>
-                            <li>
-                                <a href="#">О нас+</a>
-                            </li>
-                        </ol>
-                    </div>
-                </div>
+                <?php $APPLICATION->IncludeComponent("bitrix:breadcrumb", "TopNavigate", Array(
+                    "PATH" => "",	// Путь, для которого будет построена навигационная цепочка (по умолчанию, текущий путь)
+                    "SITE_ID" => "s1",	// Cайт (устанавливается в случае многосайтовой версии, когда DOCUMENT_ROOT у сайтов разный)
+                    "START_FROM" => "0",	// Номер пункта, начиная с которого будет построена навигационная цепочка
+                    "COMPONENT_TEMPLATE" => ".default"
+                ),
+                    false
+                );?>
             </div>
         </div>
     </div>

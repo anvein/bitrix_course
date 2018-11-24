@@ -2,6 +2,7 @@
 require $_SERVER['DOCUMENT_ROOT'] . '/bitrix/header.php';
 $APPLICATION->SetTitle('Услуги');
 $APPLICATION->SetPageProperty('title', 'Услуги | We Coders');
+$APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
 ?>
 
 <?php $APPLICATION->IncludeComponent("bitrix:news", "Services", [
@@ -65,7 +66,7 @@ $APPLICATION->SetPageProperty('title', 'Услуги | We Coders');
     ],
     "SET_LAST_MODIFIED"         => "Y",    // Устанавливать в заголовках ответа время модификации страницы
     "SET_STATUS_404"            => "Y",    // Устанавливать статус 404
-    "SET_TITLE"                 => "N",    // Устанавливать заголовок страницы
+    "SET_TITLE"                 => "Y",    // Устанавливать заголовок страницы
     "SHOW_404"                  => "N",    // Показ специальной страницы
     "SORT_BY1"                  => "SORT",    // Поле для первой сортировки новостей
     "SORT_ORDER1"               => "ASC",    // Направление для первой сортировки новостей
