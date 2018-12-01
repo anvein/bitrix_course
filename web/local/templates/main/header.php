@@ -121,7 +121,7 @@ use Bitrix\Main\Page\Asset;
                         <!-- Меню (основное) -->
                         <? $APPLICATION->IncludeComponent("bitrix:menu", "top_menu", [
                             "ALLOW_MULTI_SELECT"    => "N",
-                            "CHILD_MENU_TYPE"       => "left",
+                            "CHILD_MENU_TYPE"       => "subtop",
                             "DELAY"                 => "N",
                             "MAX_LEVEL"             => "2",
                             "MENU_CACHE_GET_VARS"   => [],
@@ -129,7 +129,7 @@ use Bitrix\Main\Page\Asset;
                             "MENU_CACHE_TYPE"       => "N",
                             "MENU_CACHE_USE_GROUPS" => "N",
                             "ROOT_MENU_TYPE"        => "top",
-                            "USE_EXT"               => "N",
+                            "USE_EXT"               => "Y",
                             "COMPONENT_TEMPLATE"    => "top_menu",
                         ], false); ?>
 
