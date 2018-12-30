@@ -45,26 +45,14 @@ $APPLICATION->SetPageProperty('title', 'We coders | Контакты');
                         </address>
                     </div>
                 </div>
-                <div class="col-md-8">
-                    <div class="row">
-                        <form id="contact-form" class="default-form" action="#" method="post">
-                            <div class="col-md-4 col-sm-6">
-                                <input name="name" type="text" placeholder="Имя"/>
-                            </div>
-                            <div class="col-md-4 col-sm-6">
-                                <input name="email" type="email" placeholder="Email"/>
-                            </div>
-                            <div class="col-md-4 col-sm-12">
-                                <input name="subject" type="text" placeholder="Телефон"/>
-                            </div>
-                            <div class="col-md-12 col-sm-12">
-                                <textarea name="message" cols="30" rows="10" placeholder="Сообщение"></textarea>
-                                <button class="btn mt-30">Отправить</button>
-                            </div>
-                        </form>
-                        <p class="form-messege"></p>
-                    </div>
-                </div>
+                <? $APPLICATION->IncludeComponent("yacoder:main.feedback", "ContactsPageForm", [
+                    "EMAIL_TO"         => "yacoder.test@gmail.com",
+                    "EVENT_MESSAGE_ID" => ["7"],
+                    "OK_TEXT"          => "Спасибо, ваше сообщение принято.",
+                    "REQUIRED_FIELDS"  => ["NAME", "EMAIL", 'PHONE'],
+                    "USE_CAPTCHA"      => "N",
+                    "AJAX_MODE"        => "Y",
+                ]); ?>
             </div>
         </div>
     </div>
