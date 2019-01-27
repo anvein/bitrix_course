@@ -1,3 +1,0 @@
-<?
-$PERM["photogallery.xml"]["*"]="W";
-?>

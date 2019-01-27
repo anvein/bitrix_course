@@ -1,3 +1,0 @@
-<?
-$MESS["LANDING_CMP_PAR_HTML_CODE"] = "HTML Code";
-?>

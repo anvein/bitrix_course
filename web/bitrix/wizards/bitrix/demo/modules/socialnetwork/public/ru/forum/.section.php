@@ -1,6 +1,0 @@
-<?
-$sSectionName = "Форумы";
-$arDirProperties = Array(
-
-);
-?>

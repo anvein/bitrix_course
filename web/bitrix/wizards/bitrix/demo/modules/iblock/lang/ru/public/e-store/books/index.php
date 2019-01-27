@@ -1,4 +1,0 @@
-<?
-$MESS ['DEMO_IBLOCK_ESTORE_BOOKS_TITLE'] = "Каталог книг";
-$MESS ['DEMO_IBLOCK_ESTORE_BOOKS_PAGER_TITLE'] = "Книги";
-?>

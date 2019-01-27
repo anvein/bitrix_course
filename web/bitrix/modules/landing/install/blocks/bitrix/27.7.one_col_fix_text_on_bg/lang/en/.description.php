@@ -1,4 +1,0 @@
-<?
-$MESS["LANDING_BLOCK_27_7_ONE_COL_FIX_TEXT_BG_NAME_NEW"] = "Fixed length text on a color background";
-$MESS["LANDING_BLOCK_27_7_ONE_COL_FIX_TEXT_BG_NODES_LANDINGBLOCKNODE_TEXT"] = "Text";
-?>

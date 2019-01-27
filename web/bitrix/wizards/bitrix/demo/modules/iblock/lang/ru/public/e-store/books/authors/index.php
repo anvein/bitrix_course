@@ -1,4 +1,0 @@
-<?
-$MESS ['DEMO_IBLOCK_ESTORE_AUTHORS_TITLE'] = "Авторы книг";
-$MESS ['DEMO_IBLOCK_ESTORE_AUTHORS_PAGER_TITLE'] = "Авторы";
-?>

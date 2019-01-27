@@ -1,5 +1,0 @@
-<?
-$MESS ['DEMO_IBLOCK_CONTENT_FAQ_TITLE'] = "Часто задаваемые вопросы";
-$MESS ['DEMO_IBLOCK_CONTENT_FAQ_DETAIL_PAGER_TITLE'] = "Страница";
-$MESS ['DEMO_IBLOCK_CONTENT_FAQ_PAGER_TITLE'] = "Вопросы";
-?>

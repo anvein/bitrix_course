@@ -1,5 +1,0 @@
-<?
-$MESS ['DEMO_IBLOCK_CONTENT_MEDIA_TITLE'] = "Видео и аудио";
-$MESS ['DEMO_IBLOCK_CONTENT_MEDIA_VIDEO'] = "Видео";
-$MESS ['DEMO_IBLOCK_CONTENT_MEDIA_AUDIO'] = "Аудио (MP3)";
-?>

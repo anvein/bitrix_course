@@ -1,4 +1,0 @@
-<?
-$MESS["JS_UI_ACTIONPANEL_MORE_BLOCK"] = "More...";
-$MESS["JS_UI_ACTIONPANEL_IS_SELECTED"] = "Selected:";
-?>

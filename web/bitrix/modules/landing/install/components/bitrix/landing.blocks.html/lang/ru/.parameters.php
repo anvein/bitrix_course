@@ -1,2 +1,0 @@
-<?php
-$MESS['LANDING_CMP_PAR_HTML_CODE'] = 'HTML код';

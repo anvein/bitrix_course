@@ -1,3 +1,0 @@
-<?
-$MESS["LD_BLOCK_STORE_CATALOG_LIST_NAME"] = "Products";
-?>
